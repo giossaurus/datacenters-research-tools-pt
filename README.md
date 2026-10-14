@@ -84,7 +84,10 @@ access dates are recorded in the data files.
 
 ## Citation
 
-Della Dea, G. (2026). *datacenters-research-tools-pt* [Computer software].
+Della Dea, G. (2026). *datacenters-research-tools-pt* [Computer software]. Zenodo.
+https://doi.org/10.5281/zenodo.23376594
+
+The DOI above always resolves to the latest version. Citation metadata is in `CITATION.cff`.
 
 ## License
 

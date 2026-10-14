@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-TEXT_SUFFIXES = {".py", ".yaml", ".md", ".txt", ".ini"}
+TEXT_SUFFIXES = {".py", ".yaml", ".md", ".txt", ".ini", ".cff"}
 TEXT_NAMES = {".gitignore", "LICENSE"}
 FORBIDDEN = ("lab" + "404", "uf" + "ba", "cla" + "ude", "anth" + "ropic", "open" + "ai", "co" + "pilot", ".cur" + "sor")
 
