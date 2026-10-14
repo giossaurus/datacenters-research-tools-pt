@@ -1,0 +1,173 @@
+[
+ {
+  "facility_id": "allbs-lda-lx",
+  "nome": "ALLBS Data Center",
+  "operador": "ALLBS, LDA",
+  "concelho": "Odivelas",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/allbs-lda-lx/"
+  ]
+ },
+ {
+  "facility_id": "dccom-lisbon-data-center-centerserv",
+  "nome": "Lisbon Data Center",
+  "operador": "CenterServ",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "desconhecido",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacenters.com/centerserv-lisbon"
+  ]
+ },
+ {
+  "facility_id": "dotsi-lisbon",
+  "nome": "DOTSI - Lisbon",
+  "operador": "DOTSI",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/dotsi-lisbon/"
+  ]
+ },
+ {
+  "facility_id": "dccom-lisbon-data-center-leapswitch-networks-private-limited",
+  "nome": "Lisbon Data Center",
+  "operador": "LeapSwitch Networks Private Limited",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "desconhecido",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacenters.com/leapswitch-networks-private-limited-lisbon"
+  ]
+ },
+ {
+  "facility_id": "nfsi-lisbon1",
+  "nome": "nfsi Lisbon1",
+  "operador": "NFSI Internet Services",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/nfsi-lisbon1/"
+  ]
+ },
+ {
+  "facility_id": "dccom-webtuga-ls2-datacenter-webtuga",
+  "nome": "WebTuga LS2 Datacenter",
+  "operador": "WebTuga (Dream Fusion)",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacenters.com/webtuga-webtuga-ls2"
+  ]
+ },
+ {
+  "facility_id": "dccom-porto-data-center-centerserv",
+  "nome": "Porto Data Center",
+  "operador": "CenterServ",
+  "concelho": "Vila Nova de Gaia",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": "ISO 27001; ISO 9001",
+  "urls_fonte": [
+   "https://www.datacenters.com/centerserv-porto"
+  ]
+ },
+ {
+  "facility_id": "nfsi-porto-1",
+  "nome": "nfsi Porto 1",
+  "operador": "NFSI Internet Services",
+  "concelho": "Porto",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/nfsi-porto-1/"
+  ]
+ },
+ {
+  "facility_id": "cgest-dc-porto",
+  "nome": "REGISTER Porto Data Center",
+  "operador": "REGISTER S.p.A.",
+  "concelho": "Porto",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/cgest-dc-porto/"
+  ]
+ },
+ {
+  "facility_id": "webtuga-opo",
+  "nome": "WebTuga OPO",
+  "operador": "WebTuga (Dream Fusion)",
+  "concelho": "Maia",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/webtuga-opo/",
+   "https://www.datacenters.com/webtuga-webtuga-porto"
+  ]
+ }
+]

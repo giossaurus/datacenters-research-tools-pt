@@ -1,0 +1,10 @@
+nuts2,nuts_id,n_sites,n_operacional,n_em_construcao,n_desconhecido,n_com_mw,mw_operacional,pct_sites,pct_mw
+Norte,PT11,11,9,1,1,3,2.585,33.333333333333336,6.156960819340241
+Centro,PT19,3,2,0,1,1,6.8,9.090909090909092,16.196260569250924
+Oeste e Vale do Tejo,PT1D,0,0,0,0,0,0.0,0.0,0.0
+Grande Lisboa,PT1A,16,14,1,1,3,6.6,48.484848484848484,15.719899964272955
+Península de Setúbal,PT1B,2,1,1,0,0,0.0,6.0606060606060606,0.0
+Alentejo,PT1C,1,1,0,0,1,26.0,3.0303030303030303,61.92687864713588
+Algarve,PT15,0,0,0,0,0,0.0,0.0,0.0
+Região Autónoma dos Açores,PT20,0,0,0,0,0,0.0,0.0,0.0
+Região Autónoma da Madeira,PT30,0,0,0,0,0,0.0,0.0,0.0

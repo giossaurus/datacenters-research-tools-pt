@@ -1,0 +1,150 @@
+[
+ {
+  "facility_id": "sines-dc-campus",
+  "nome": "SINES DC Campus",
+  "operador": "Start Campus",
+  "concelho": "Sines",
+  "nuts2": "Alentejo",
+  "status": "operacional",
+  "n_predios": 6,
+  "mw_operacional": 26.0,
+  "mw_em_construcao": null,
+  "mw_planejado": 1060.0,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/sines-dc-sin01/",
+   "https://www.datacentermap.com/portugal/lisbon/sines-dc-sin04/",
+   "https://www.datacentermap.com/portugal/lisbon/sines-dc-campus/",
+   "https://www.datacentermap.com/portugal/lisbon/sines-dc-sin05/",
+   "https://www.datacentermap.com/portugal/lisbon/sines-dc-sin06/",
+   "https://www.datacentermap.com/portugal/lisbon/sines-dc-sin03/",
+   "https://www.datacentermap.com/portugal/lisbon/sines-dc-sin02/",
+   "https://www.datacenters.com/start-campus-sin01",
+   "https://www.datacenters.com/start-campus-sin02",
+   "https://www.datacenters.com/start-campus-sin03",
+   "https://www.datacenters.com/start-campus-sin04",
+   "https://www.datacenters.com/start-campus-sin05",
+   "https://www.datacenters.com/start-campus-sin06"
+  ]
+ },
+ {
+  "facility_id": "atlasedge-lisbon-campus",
+  "nome": "AtlasEdge Lisbon Campus",
+  "operador": "AtlasEdge",
+  "concelho": "Oeiras",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 3,
+  "mw_operacional": 5.1,
+  "mw_em_construcao": null,
+  "mw_planejado": 16.0,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/atlasedge-lis001/",
+   "https://www.datacentermap.com/portugal/lisbon/atlasedge-lis002/",
+   "https://www.datacentermap.com/portugal/lisbon/atlasedge-lisbon-campus/",
+   "https://www.datacentermap.com/portugal/lisbon/atlasedge-lis003/",
+   "https://www.datacenters.com/atlasedge-lis001-lisboa",
+   "https://www.datacenters.com/atlasedge-lis002-lisbon-dat-center",
+   "https://www.datacenters.com/atlasedge-lis003-lisbon"
+  ]
+ },
+ {
+  "facility_id": "edged-lisbon",
+  "nome": "Edged Lisbon Campus",
+  "operador": "Edged (Merlin Properties)",
+  "concelho": "Vila Franca de Xira",
+  "nuts2": "Grande Lisboa",
+  "status": "em_construcao",
+  "n_predios": 5,
+  "mw_operacional": null,
+  "mw_em_construcao": 180.0,
+  "mw_planejado": null,
+  "pue_declarado": 1.15,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/edged-lisbon/",
+   "https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis01/",
+   "https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis03/",
+   "https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis04/",
+   "https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis05/",
+   "https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis02/",
+   "https://www.datacenters.com/merlin-lisbon",
+   "https://www.datacenters.com/edged-lis01-05-bilbao"
+  ]
+ },
+ {
+  "facility_id": "carrierhouse-lisbon",
+  "nome": "Equinix LS1",
+  "operador": "Equinix",
+  "concelho": "Loures",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/carrierhouse-lisbon/",
+   "https://www.datacenters.com/equinix-ls1-lisbon"
+  ]
+ },
+ {
+  "facility_id": "equinix-ls2",
+  "nome": "Equinix LS2",
+  "operador": "Equinix",
+  "concelho": "Loures",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/equinix-ls2/"
+  ]
+ },
+ {
+  "facility_id": "oasix-lisbon",
+  "nome": "Templus Lisbon LIS01",
+  "operador": "Templus (Grupo Aire)",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": 1.5,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/oasix-lisbon/",
+   "https://www.datacenters.com/grupo-aire-oasix-lisbon",
+   "https://www.datacenters.com/templus-templus-lisboa"
+  ]
+ },
+ {
+  "facility_id": "voltekko-alcochete",
+  "nome": "VOLTEKKO Alcochete",
+  "operador": "Voltekko",
+  "concelho": "Alcochete",
+  "nuts2": "Península de Setúbal",
+  "status": "em_construcao",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": 6.0,
+  "mw_planejado": null,
+  "pue_declarado": 1.3,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/voltekko-alcochete/",
+   "https://www.datacenters.com/voltekko-voltekko-alcochete"
+  ]
+ }
+]

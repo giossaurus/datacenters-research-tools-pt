@@ -1,0 +1,693 @@
+{
+ "lote": "D_hosting",
+ "data_pesquisa": "2026-10-06",
+ "notas_metodologicas": [
+  "datacentermap.com e datacenters.com devolveram HTTP 429 durante a pesquisa. As citações desses diretórios vêm de snapshots do Wayback Machine (URLs web.archive.org indicadas em fonte_url).",
+  "As citações do PeeringDB são campos da API JSON, transcritos como 'campo: valor' separados por ' | '.",
+  "Snapshots Wayback do próprio operador (WebTuga, Cgest, rackspot/nfsi) contam como tipo_fonte 'operador'. A data do snapshot está no URL.",
+  "'controlador_final' refere-se ao operador listado (o inquilino) e não ao dono do edifício hospedeiro. O hospedeiro está em tipo_instalacao.",
+  "Status 'encerrado' nas linhas WebTuga é inferido pela retirada da lista no site do operador (confiança baixa); não há anúncio explícito."
+ ],
+ "sites": [
+  {
+   "facility_id": "allbs-lda-lx",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "propria (declarada pelo operador; escala e localização não divulgadas)",
+     "fonte_url": "https://www.allbs.pt/pt/servicos/servicos-cloud/nuvem-privada",
+     "citacao": "A Nuvem Privada da ALLBS oferece infraestrutura dedicada e totalmente gerida, alojada nos nossos datacenters próprios, para alojar dados e aplicações críticas com o máximo de segurança e controlo.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "endereco_inquilino": "n/a",
+     "endereco_registo_diretorio": "'ALLBS, LDA within Lisbon 2620-248 Ramada Portugal The exact location of this data center is not public' (datacentermap, snapshot 04/11/2024): é o código postal do escritório da ALLBS na Ramada (concelho de Odivelas)",
+     "fonte_url_diretorio": "https://web.archive.org/web/20241104134743/https://www.datacentermap.com/portugal/lisbon/allbs-lda-lx/",
+     "nota": "O operador diz ter 'datacenters próprios' (no plural) mas não dá morada, capacidade nem fotos. A localização no dataset (Odivelas) vem do escritório, não de uma morada de datacenter."
+    },
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.allbs.pt/pt/servicos/servicos-cloud/nuvem-privada",
+     "citacao": "A Nuvem Privada da ALLBS oferece infraestrutura dedicada e totalmente gerida, alojada nos nossos datacenters próprios",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "Serviço anunciado como ativo em out/2026."
+    },
+    "controlador_final": {
+     "valor": "ALLBS, LDA",
+     "fonte_url": "https://www.allbs.pt/pt/contatos",
+     "citacao": "ALLBS, LDA Lisboa LISBOA Praceta Courela do Forno Lote 18B - AT1 2620-248 Ramada",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal",
+     "fonte_url": "https://www.allbs.pt/pt/contatos",
+     "citacao": "ALLBS, LDA Lajes do Pico AÇORES Âncora Parque - Loja 2 9930-173 Lajes do Pico",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "Escritórios só em Portugal (Ramada e Lajes do Pico); sócios não identificados."
+    }
+   },
+   "nao_encontrado": [
+    "morada do(s) datacenter(s)",
+    "ano_operacao",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "Certificações: a ALLBS diz 'Inciámos em 2024 o processo de adaptação de processos e certificação em: ISO 9001 - Gestão da Qualidade ISO 27001 - Segurança da Informação' (https://www.allbs.pt/pt/empresa/certificacoes). O processo está em curso e não há certificado emitido, por isso certificacoes não foi preenchido.",
+    "Energia: a página ESG fala de 'Green IT e Energias Renováveis: Implementação de soluções tecnológicas sustentáveis e utilização de veículos elétricos.' Não diz que o datacenter usa energia renovável; energia_renovavel não preenchida.",
+    "'datacenters próprios' pode ser uma sala técnica no escritório ou uma gaiola num terceiro chamada de 'própria'. Sem morada não dá para verificar. Recomenda-se contacto direto antes de manter no inventário como datacenter."
+   ]
+  },
+  {
+   "facility_id": "dccom-lisbon-data-center-centerserv",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "cliente_em_terceiro (host não identificado)",
+     "fonte_url": "https://www.centerserv.com/web-server/portugal/lisbon/",
+     "citacao": "These directory records show listed local infrastructure but do not identify the supplier or facility assigned to a CenterServ order.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "A CenterServ diz que é dona dos servidores ('CenterServ owns the server hardware used for its cloud and dedicated hosting services in Portugal', https://www.centerserv.com/web-server/portugal/), mas não que tem edifício próprio, e diz que fornecedor e edifício só se confirmam na encomenda."
+    },
+    "status": {
+     "valor": "operacional (oferta comercial de servidores; não é uma instalação física identificada)",
+     "fonte_url": "https://www.centerserv.com/web-server/portugal/",
+     "citacao": "These locations are represented in CenterServ's current deployment inventory.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "controlador_final": {
+     "valor": "11519654 Canada Inc. (CenterServ)",
+     "fonte_url": "https://www.centerserv.com/",
+     "citacao": "11519654 Canada Inc., doing business as CenterServ account@centerserv.com · Contact & support © 2026 11519654 Canada Inc. All rights reserved.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Canadá",
+     "fonte_url": "https://www.centerserv.com/",
+     "citacao": "11519654 Canada Inc., doing business as CenterServ",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "'Canada Inc.' indica uma sociedade federal canadiana; os acionistas não são divulgados."
+    }
+   },
+   "nao_encontrado": [
+    "edifício hospedeiro",
+    "ano_operacao",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "energia_renovavel",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "A CenterServ anuncia mais de 400 localizações no mundo, incluindo Faro, Lisboa e Porto em Portugal. É um revendedor de servidores físicos e não um operador de datacenter. Esta linha deve ser tratada como presença comercial e não somada como capacidade de infraestrutura."
+   ]
+  },
+  {
+   "facility_id": "dotsi-lisbon",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "cliente_em_terceiro (host provável: ONI Telecom Lisbon Matinha)",
+     "fonte_url": "https://www.peeringdb.com/api/fac/5519",
+     "citacao": "name: dotsi - Lisbon DC01 | address1: Rua 3 da Matinha | address2: Edifício Altejo | zipcode: 1950-326 | city: Lisbon",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "diretorio",
+     "confianca": "media",
+     "endereco_inquilino": "Rua 3 da Matinha, Edifício Altejo, 1950-326 Lisboa (PeeringDB fac 5519 e rodapé de dotsi.pt: 'Visit Us Rua 3 da Matinha, Edifício Altejo Lisbon, Portugal')",
+     "endereco_host": "ONI Telecom Lisbon Matinha: 'Rua da Matinha 3', '1950-326 Lisboa' (PeeringDB fac 6877)",
+     "fonte_url_endereco_host": "https://www.peeringdb.com/api/fac/6877",
+     "nota": "Mesma rua, mesmo número e mesmo código postal do datacenter ONI Matinha. A dotsi diz que os seus equipamentos estão 'housed in all data centers where we operate' (sugere centros de terceiros). O Edifício Altejo é um edifício-datacenter multi-inquilino: em 2014 a Cgest listava 'Lisboa 2 Expo Sul Rua da Matinha, Edifício Altejo, Lisboa Up to 60 racks' (https://web.archive.org/web/20140930034126/http://www.cgest.pt/en/lisbon-datacenter.html) e o datacentermap põe o 'WebTuga LS2' no mesmo edifício. A dotsi nunca diz explicitamente 'estamos na ONI'."
+    },
+    "tipo_instalacao_evidencia_operador": {
+     "valor": "servidores em datacenters de terceiros (Lisboa e Amesterdão)",
+     "fonte_url": "https://dotsi.pt/about/",
+     "citacao": "24×7 high-performance servers and networking gear housed in all data centers where we operate, Lisbon and Amsterdam being the primary locations.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://dotsi.pt/colocation/",
+     "citacao": "Host your server in a shared cabinet connected to a shared PDU and internet switch. Choose one of our datacenters.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "Oferta comercial de colocation ativa no site (out/2026)."
+    },
+    "controlador_final": {
+     "valor": "Dotsi, Unipessoal Lda.",
+     "fonte_url": "https://www.peeringdb.com/api/fac/5519",
+     "citacao": "org_name: Dotsi, Unipessoal Lda.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "diretorio",
+     "confianca": "media"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal",
+     "fonte_url": "https://dotsi.pt/about/",
+     "citacao": "Dotsi is a Portuguese company based in Lisbon, established in the Internet industry and ever growing its operations, services and client base since 2010, when it joined GigaPIX and RIPE NCC.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Refere-se à empresa inquilina; sócios não identificados."
+    }
+   },
+   "nao_encontrado": [
+    "ano_operacao",
+    "mw_ti_instalado (instalação)",
+    "area_m2",
+    "pue",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "A dotsi anuncia 'Server cage ... Up to 20MW IT power' (https://dotsi.pt/colocation/) — é texto de marketing/capacidade do hospedeiro, não potência instalada da dotsi; não usado como mw_ti_instalado.",
+    "A home de dotsi.pt diz 'DATA CENTER SERVICES green-energy & carrier-neutral' sem mecanismo nem fonte; energia_renovavel não preenchida.",
+    "O endereço Rua 3 da Matinha/Edifício Altejo também é o 'Visit Us' (escritório) da dotsi; o PeeringDB 'dotsi - Lisbon DC01' pode ser a sala/gaiola da dotsi dentro do ONI Matinha. A dotsi também tem presença no Equinix LS1 e no 'FCCN itconic' (Prior Velho) segundo o PeeringDB (netfac net_id=4320)."
+   ]
+  },
+  {
+   "facility_id": "dccom-lisbon-data-center-leapswitch-networks-private-limited",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "cliente_em_terceiro (host em 2015: PTisp / Almouroltec; edifício atual não identificado)",
+     "fonte_url": "https://lowendbox.com/blog/leapswitch-7month-48year-1gb-ram-openvz-vps-in-portugal/",
+     "citacao": "Network information PTISP – Lisbon, Portugal Test IPv4: 94.46.12.3",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "imprensa",
+     "confianca": "baixa",
+     "nota": "Post de 12/08/2015 na LowEndBox (oferta publicada a pedido da LeapSwitch). O IP de teste 94.46.12.3 está no bloco RIPE 94.46.12.0/24, netname 'PT-ALMOUROLTEC', descr 'PTISP IP SPACE', origem AS24768. No PeeringDB, a PTisp (net 7585) está no Equinix LS1 e no Equinix LS2. A informação tem 11 anos; o host atual não está confirmado.",
+     "fonte_url_ip": "https://stat.ripe.net/data/prefix-overview/data.json?resource=94.46.12.3"
+    },
+    "tipo_instalacao_evidencia_operador": {
+     "valor": "o operador fala em 'our Lisbon data center', sem morada",
+     "fonte_url": "https://leapswitch.com/lisbon-portugal/dedicated-servers/",
+     "citacao": "Rent or buy a dedicated server in Lisbon from LeapSwitch Networks, hosted at our Lisbon data center serving Western Europe with premium Tier 1 bandwidth.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "status": {
+     "valor": "operacional (oferta comercial ativa)",
+     "fonte_url": "https://leapswitch.com/lisbon-portugal/dedicated-servers/",
+     "citacao": "Rent or buy a dedicated server in Lisbon from LeapSwitch Networks, hosted at our Lisbon data center",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "controlador_final": {
+     "valor": "Leapswitch Networks Pvt. Ltd.",
+     "fonte_url": "https://leapswitch.com/about-us.php",
+     "citacao": "Leapswitch Networks Pvt. Ltd. has been in service since 2006 providing cloud hosting, cloud virtual servers, bare-metal dedicated servers, platform-as-a-service cloud and colocation services.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Índia",
+     "fonte_url": "https://leapswitch.com/about-us.php",
+     "citacao": "Company Legal Details CIN : U30007PN2010PTC137171 PAN : AABCL8707F",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "O CIN 'U...PN...PTC' é de uma private limited company registada em Pune (Maharashtra); a sede é 'Pune HQ Office ... Kothrud, Pune - 411038'."
+    }
+   },
+   "nao_encontrado": [
+    "morada atual em Lisboa",
+    "ano_operacao",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "energia_renovavel",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "O PeeringDB da LeapSwitch (AS132335, net 21495) só lista instalações na Índia, nenhuma em Portugal.",
+    "'our Lisbon data center' é linguagem de revendedor. A única prova de hospedagem (2015) aponta para servidores na rede da PTisp. Não usar como capacidade própria."
+   ]
+  },
+  {
+   "facility_id": "nfsi-lisbon1",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "desconhecido",
+     "fonte_url": "https://web.archive.org/web/20241011153324/https://www.datacentermap.com/portugal/lisbon/nfsi-lisbon1/",
+     "citacao": "nfsi Lisbon1 nfsi telecom, lda within Lisbon 1000 Lisbon Portugal The exact location of this data center is not public, but it is located within Lisbon",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "diretorio",
+     "confianca": "alta",
+     "nota": "O endereço não é público. Sem endereço não dá para casar com um hospedeiro."
+    },
+    "controlador_final": {
+     "valor": "nfsi telecom, lda (historicamente; marca rackspot)",
+     "fonte_url": "https://web.archive.org/web/20120103092006/http://nfsi.pt/",
+     "citacao": "A rackspot é uma marca registada da nfsi telecom, que tem como objectivo de redefinir o mercado de hosting e operações de datacenter",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "Snapshot de 2012. A entidade que hoje está em nfsi.pt (Tavira, fundada em 2018) parece ser outra."
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal",
+     "fonte_url": "https://web.archive.org/web/20120103092006/http://nfsi.pt/",
+     "citacao": "© 2001 - 2012 nfsi telecom, lda. - Todos os direitos reservados.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Pelo 'lda.' e pelo domínio .pt; sócios não identificados."
+    }
+   },
+   "nao_encontrado": [
+    "status (atual)",
+    "ano_operacao",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "energia_renovavel",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "status",
+     "valor_dataset": "operacional",
+     "valor_fonte": "nfsi.pt hoje: 'Fundada em 2018, a NFSI Internet Services situa-se em Tavira', sem oferta de datacenter",
+     "fonte_url": "http://www.nfsi.pt/conteudo/sobre_a_nfsi"
+    }
+   ],
+   "ambiguidades": [
+    "Indícios fortes de que a NFSI Telecom deixou de operar: (a) o domínio nfsi.pt é hoje usado por uma 'NFSI Internet Services' de Tavira, 'Fundada em 2018', que vende ADSL/routers e não fala em datacenters; (b) o domínio da marca de datacenter 'rackspot' (da nfsi telecom) era usado em 2016 pela HostRoyale Technologies (Pune, Índia). Nenhuma fonte declara o encerramento, por isso status não preenchido.",
+    "Em 2011 a rackspot (marca da nfsi telecom) dizia operar 'three state-of-the-art datacenters located in Lisbon (Portugal), Porto (Portugal) and Madrid (Spain)'. Não nomeia os edifícios, e os números da página ('6.0MW full capacity transformation stations', geradores de 1600KVA) parecem ser dos edifícios hospedeiros; não foram usados como mw_ti_instalado.",
+    "O datacentermap ainda lista a 'nfsi telecom, lda' com 2 datacenters e sede em Linda-a-Velha (snapshot 2024). Para a NFSI, o diretório parece não ter sido atualizado."
+   ]
+  },
+  {
+   "facility_id": "dccom-webtuga-ls2-datacenter-webtuga",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "cliente_em_terceiro (host: ONI Telecom Lisbon Matinha)",
+     "fonte_url": "https://web.archive.org/web/20251229165647/https://www.webtuga.pt/home/datacenter",
+     "citacao": "Datacenter WebTuga LS2 (Matinha, Lisboa)",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "citacao_host": "Datacenters Datacenter ONI Datacenter Equinix LS1 Datacenter ONI (Matinha, Lisboa) Algumas das características principais da infra-estrutura da Datacenter da Matinha em Lisboa são:",
+     "fonte_url_host": "https://web.archive.org/web/20210304151550/https://www.webtuga.pt/home/datacenter",
+     "endereco_inquilino": "'Matinha, Lisboa' (site WebTuga); 'WebTuga LS2 Rua nº3 da Matinha - Edifício Altejo' (datacentermap, lista de vizinhos em https://web.archive.org/web/20241104134743/https://www.datacentermap.com/portugal/lisbon/allbs-lda-lx/)",
+     "endereco_host": "PeeringDB fac 6877 'ONI Telecom Lisbon Matinha': address1 'Rua da Matinha 3', zipcode '1950-326 Lisboa'",
+     "fonte_url_endereco_host": "https://www.peeringdb.com/api/fac/6877",
+     "nota": "O snapshot de mar/2021 do próprio site WebTuga chama o mesmo site de 'Datacenter ONI (Matinha, Lisboa)'; de 2022 a dez/2025 passa a chamar-se 'WebTuga LS2 (Matinha, Lisboa)'. A designação 'LS2' é da WebTuga e NÃO corresponde ao Equinix LS2."
+    },
+    "status": {
+     "valor": "encerrado",
+     "fonte_url": "https://www.webtuga.pt/home/datacenter",
+     "citacao": "Datacenters WebTuga LS1 WebTuga MD6 Datacenter WebTuga LS1 (Prior Velho, Lisboa)",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Inferência por omissão: a página atual lista só LS1 e MD6 (Madrid); o snapshot de 29/12/2025 ainda listava 'WebTuga LS1 WebTuga LS2 WebTuga OPO'. Nenhuma fonte declara explicitamente o encerramento — tratar como 'saída da presença WebTuga', ver ambiguidades."
+    },
+    "controlador_final": {
+     "valor": "Dream Fusion - IT Services, Lda (marca WebTuga)",
+     "fonte_url": "https://www.webtuga.pt/home/empresa",
+     "citacao": "A WebTuga ® é uma marca da empresa Dream Fusion - IT Services, Lda que iniciou a sua actividade no mercado das novas Tecnologias de Informação em 2008",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal",
+     "fonte_url": "https://www.webtuga.pt/home/empresa",
+     "citacao": "Nome da Empresa: Dream Fusion - IT Services, Lda NIPC: PT 508469058 Capital Social: 15 000,00€ Sede: Rua João Paulo II, nº 165 Loja AC 4750-177 Arcozelo, Barcelos Portugal",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "Sede e NIPC portugueses; o site não identifica sócios/acionistas. 'controlador_final' refere-se ao inquilino (WebTuga), não ao dono do edifício."
+    }
+   },
+   "nao_encontrado": [
+    "ano_operacao",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "energia_renovavel",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "status",
+     "valor_dataset": "operacional",
+     "valor_fonte": "não listado no site atual da WebTuga (out/2026)",
+     "fonte_url": "https://www.webtuga.pt/home/datacenter"
+    }
+   ],
+   "ambiguidades": [
+    "O status 'encerrado' é inferido pela retirada do site da lista em 2026 (entre 29/12/2025 e 10/08/2026, snapshots Wayback); pode significar migração da WebTuga e não fecho do edifício. O edifício hospedeiro (ONI Matinha) continua operacional segundo outras fontes. Recomenda-se rever se esta linha deve ser fundida/eliminada como duplicata de presença-inquilino em ONI Matinha.",
+    "datacenters.com dá o nome 'WebTuga LS2' — homónimo do Equinix LS2 (Prior Velho), mas o próprio operador localiza o LS2 na Matinha."
+   ]
+  },
+  {
+   "facility_id": "dccom-porto-data-center-centerserv",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "cliente_em_terceiro (host não identificado)",
+     "fonte_url": "https://www.centerserv.com/web-server/portugal/porto/",
+     "citacao": "The CenterServ catalog establishes the order route but not the eventual supplier or physical placement.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "status": {
+     "valor": "operacional (oferta comercial de servidores; não é uma instalação física identificada)",
+     "fonte_url": "https://www.centerserv.com/web-server/portugal/",
+     "citacao": "These locations are represented in CenterServ's current deployment inventory.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "controlador_final": {
+     "valor": "11519654 Canada Inc. (CenterServ)",
+     "fonte_url": "https://www.centerserv.com/",
+     "citacao": "11519654 Canada Inc., doing business as CenterServ account@centerserv.com · Contact & support © 2026 11519654 Canada Inc. All rights reserved.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Canadá",
+     "fonte_url": "https://www.centerserv.com/",
+     "citacao": "11519654 Canada Inc., doing business as CenterServ",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "'Canada Inc.' indica uma sociedade federal canadiana; os acionistas não são divulgados."
+    }
+   },
+   "nao_encontrado": [
+    "edifício hospedeiro",
+    "ano_operacao",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "energia_renovavel",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "concelho",
+     "valor_dataset": "Vila Nova de Gaia",
+     "valor_fonte": "datacenters.com: 'CenterServ Porto Data Center is located at Praça Foz-sociedade Imobiliaria, S.a., Avenida da Boavista, Porto, Portugal.' (Porto, não Gaia)",
+     "fonte_url": "https://web.archive.org/web/20251020172438/https://www.datacenters.com/centerserv-porto"
+    }
+   ],
+   "ambiguidades": [
+    "Certificações: o datacenters.com diz 'Certifications for this location include ISO 27001, ISO 9001, PCI DSS, SOC 2.' (snapshot 20/10/2025), mas a CenterServ não as declara e não identifica o edifício. Pertenceriam ao hospedeiro desconhecido, se existirem. Não confirmadas; o valor do dataset ('ISO 27001; ISO 9001') vem só do diretório.",
+    "A morada do datacenters.com ('Praça Foz-sociedade Imobiliaria, S.a., Avenida da Boavista') parece ser o nome de uma imobiliária/centro comercial (geocodificação automática?) e não a de um datacenter conhecido."
+   ]
+  },
+  {
+   "facility_id": "nfsi-porto-1",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "desconhecido",
+     "fonte_url": "https://web.archive.org/web/20110122094008/http://rackspot.com/en/pages/datacenters/",
+     "citacao": "Rackspot operates, nowadays, three state-of-the-art datacenters located in Lisbon (Portugal), Porto (Portugal) and Madrid (Spain)",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Snapshot de 2011. O datacentermap dá o endereço 'R. Dr. Alfredo Magalhães, 46, 4000-061 Porto' (visto só em resultados de busca; a página devolveu HTTP 429). Nenhum operador conhecido foi casado com esse endereço."
+    },
+    "controlador_final": {
+     "valor": "nfsi telecom, lda (historicamente; marca rackspot)",
+     "fonte_url": "https://web.archive.org/web/20110122094008/http://rackspot.com/en/pages/datacenters/",
+     "citacao": "© 2011 nfsi telecom Rackspot is brand from nfsi telecom",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal",
+     "fonte_url": "https://web.archive.org/web/20120103092006/http://nfsi.pt/",
+     "citacao": "© 2001 - 2012 nfsi telecom, lda. - Todos os direitos reservados.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "baixa"
+    }
+   },
+   "nao_encontrado": [
+    "status (atual)",
+    "host do endereço R. Dr. Alfredo Magalhães 46",
+    "ano_operacao",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "energia_renovavel",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "status",
+     "valor_dataset": "operacional",
+     "valor_fonte": "nfsi.pt hoje pertence a outra entidade (Tavira, 2018); rackspot.com era da HostRoyale (Índia) em 2016",
+     "fonte_url": "https://web.archive.org/web/20160420035818/http://www.rackspot.com/about-rackspot/"
+    }
+   ],
+   "ambiguidades": [
+    "Indícios fortes de que a NFSI Telecom deixou de operar: (a) o domínio nfsi.pt é hoje usado por uma 'NFSI Internet Services' de Tavira, 'Fundada em 2018', que vende ADSL/routers e não fala em datacenters; (b) o domínio da marca de datacenter 'rackspot' (da nfsi telecom) era usado em 2016 pela HostRoyale Technologies (Pune, Índia). Nenhuma fonte declara o encerramento, por isso status não preenchido.",
+    "Em 2011 a rackspot (marca da nfsi telecom) dizia operar 'three state-of-the-art datacenters located in Lisbon (Portugal), Porto (Portugal) and Madrid (Spain)'. Não nomeia os edifícios, e os números da página ('6.0MW full capacity transformation stations', geradores de 1600KVA) parecem ser dos edifícios hospedeiros; não foram usados como mw_ti_instalado.",
+    "O datacentermap ainda lista a 'nfsi telecom, lda' com 2 datacenters e sede em Linda-a-Velha (snapshot 2024). Para a NFSI, o diretório parece não ter sido atualizado.",
+    "Em 2016 a HostRoyale (Pune, Índia), já no domínio rackspot.com, listava 'Portugal: Porto, Lisboa Portugal' entre as suas localizações. Pode ser uma continuação comercial dos servidores da NFSI/rackspot, mas não há prova."
+   ]
+  },
+  {
+   "facility_id": "cgest-dc-porto",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "desconhecido",
+     "fonte_url": "https://web.archive.org/web/20140930034139/http://www.cgest.pt/en/oporto-datacenter.html",
+     "citacao": "Cgest has 1 datacenter located in the Oporto area: Porto Maia Rua das Cardosas, Maia Up to 50 racks",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "endereco_operador_historico": "Rua das Cardosas, Maia (Cgest, 2014)",
+     "endereco_diretorio": "'REGISTER S.p.A. Rua Dr Dinis Jacinto 4350-059 Porto' (datacentermap, snapshot 12/09/2024)",
+     "nota": "A Cgest chamava 'seus' tanto o Porto como o 'Lisboa 1 Telvent Carrierhouse Av. Severiano Falcão, 14, Prior Velho', que era de terceiros (hoje é a morada do Equinix LS1). 'Datacenter da Cgest' não quer dizer edifício próprio. A Rua das Cardosas (Maia) é também a rua do 'ONI MAIA DATACENTER' e do 'WebTuga OPO' no datacentermap: pode ser o mesmo edifício (não confirmado)."
+    },
+    "ano_operacao": {
+     "valor": 2008,
+     "fonte_url": "https://web.archive.org/web/20140930033950/http://www.cgest.pt/en/about-us.html",
+     "citacao": "In 2008, Cgest opens its Oporto Datacenter to better server its customers from the north of Portugal",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Ano de abertura do datacenter da Cgest no Porto. Só vale para este registo se 'cgest-dc-porto' for o mesmo site; a morada do diretório (Rua Dr Dinis Jacinto) não bate com a da Cgest (Maia)."
+    },
+    "certificacoes": {
+     "valor": "ISO 9001; ISO 27001 (declaração histórica de 2014, Cgest)",
+     "fonte_url": "https://web.archive.org/web/20140930034139/http://www.cgest.pt/en/oporto-datacenter.html",
+     "citacao": "ISO 9001 and ISO 27001 certified",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Declaração de 2014. Não se sabe se se refere à empresa ou ao edifício, nem se ainda vale."
+    },
+    "controlador_final": {
+     "valor": "Register S.p.A. → Combell NV → team.blue EquityCo S.à r.l.",
+     "fonte_url": "https://www.register.it/company/?lang=en",
+     "citacao": "Register S.p.A. is subject to direction and coordination by its sole shareholder Combell NV, a Belgian company with registered office in Skaldenstraat 121, 9042 Sint-Kruis-Winkel Belgium. The ultimate parent entity of Register S.p.a. is team.blue EquityCo S.a.r.l.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "A ligação deste datacenter à Register vem só do datacentermap: 'IBERWEB LDA was acquired by the Register Group in February 2019'. Segundo a Hg, a Register opera em Portugal com as marcas Dominios.pt, Iberweb e Amen."
+    },
+    "controlador_final_pais": {
+     "valor": "Luxemburgo (holding team.blue EquityCo S.à r.l.); grupo sediado na Bélgica (team.blue, Gent); operadora Register S.p.A. em Itália",
+     "fonte_url": "https://www.register.it/company/?lang=en",
+     "citacao": "The ultimate parent entity of Register S.p.a. is team.blue EquityCo S.a.r.l.",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "'S.a.r.l.' é a forma societária luxemburguesa (dedução pela forma jurídica). Acima disso o controlo é de private equity (a Hg detém a Register desde 2017, segundo https://hgcapital.com/portfolio/register); a estrutura atual de acionistas da team.blue não foi verificada."
+    }
+   },
+   "nao_encontrado": [
+    "status atual confirmado por fonte primária",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "energia_renovavel",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "morada",
+     "valor_operador_historico": "Rua das Cardosas, Maia (Cgest 2014)",
+     "valor_diretorio": "Rua Dr Dinis Jacinto, 4350-059 Porto (datacentermap)",
+     "fonte_url": "https://web.archive.org/web/20240912100229/https://www.datacentermap.com/portugal/porto/cgest-dc-porto/"
+    },
+    {
+     "campo": "historico_de_propriedade",
+     "valor_diretorio": "'Cgest S.A. bussiness housing unit was acquired by IBERWEB LDA in 2008' (datacentermap)",
+     "valor_operador": "'In 2012 Cgest is acquired by Claranet' (Cgest, 2014)",
+     "fonte_url": "https://web.archive.org/web/20140930033950/http://www.cgest.pt/en/about-us.html"
+    },
+    {
+     "campo": "operador",
+     "valor_dataset": "REGISTER S.p.A.",
+     "valor_fonte": "A Amen.pt (Register Group) diz que os seus serviços estão em datacenters 'com a unidade principal localizada em Reading (Reino Unido)'; a Register não reivindica um datacenter no Porto em nenhuma página consultada",
+     "fonte_url": "https://www.amen.pt/servidores/data-center/"
+    }
+   ],
+   "ambiguidades": [
+    "A identificação 'REGISTER Porto Data Center' vem do datacentermap, que guarda o texto de marketing da Cgest ('24x7x365 on-site support provided by Cgest engineers'). A cadeia Cgest → Iberweb → Register (2019) é afirmada só pelo diretório e contradiz a autodescrição da Cgest (comprada pela Claranet em 2012). Em 2016 a Cgest ainda listava 'Porto (Maia)' (https://web.archive.org/web/20161219142055/http://cgest.com/datacenters.html).",
+    "Status: cgest.com devolve hoje HTTP 404; em 2020 já mostrava a página da Dominios.pt/Claranet. Não há fonte primária que confirme o datacenter do Porto como operacional em 2026.",
+    "O dataset dá concelho 'Porto' (pela morada Rua Dr Dinis Jacinto, 4350 Porto), mas o datacenter da Cgest estava na Maia."
+   ]
+  },
+  {
+   "facility_id": "webtuga-opo",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "cliente_em_terceiro (host provável: 'ONI MAIA DATACENTER', Rua das Cardosas, Maia)",
+     "fonte_url": "https://web.archive.org/web/20250209073920/https://www.datacentermap.com/portugal/porto/webtuga-opo/",
+     "citacao": "WebTuga OPO Dream Fusion - IT Services, Lda Rua das Cardosas, Complexo Brisa 4425-510 Maia Porto, Portugal",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "diretorio",
+     "confianca": "media",
+     "citacao_host": "Distance Data Center Address 0.01 km ONI MAIA DATACENTER Rua das Cardosas Nó c/ A3 nas Antigas Portagens - Maia",
+     "fonte_url_host": "https://web.archive.org/web/20250209073920/https://www.datacentermap.com/portugal/porto/webtuga-opo/",
+     "endereco_inquilino": "Rua das Cardosas, Complexo Brisa, 4425-510 Maia (datacentermap, snapshot 09/02/2025)",
+     "endereco_host": "ONI MAIA DATACENTER, Rua das Cardosas, Nó c/ A3 nas Antigas Portagens, Maia (datacentermap: 0,01 km do registo WebTuga OPO)",
+     "nota": "O próprio site WebTuga só diz 'Datacenter WebTuga OPO (Maia, Porto)' e nunca diz que o edifício é seu. A mesma rua (Rua das Cardosas, Maia) era em 2014 o 'Oporto Datacenter' da Cgest (ver cgest-dc-porto). Casamento de endereço feito só por diretório: confiança média."
+    },
+    "tipo_instalacao_evidencia_operador": {
+     "valor": "datacenter na Maia, sem operador do edifício identificado",
+     "fonte_url": "https://web.archive.org/web/20251229165647/https://www.webtuga.pt/home/datacenter",
+     "citacao": "Datacenter WebTuga OPO (Maia, Porto)",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "status": {
+     "valor": "encerrado",
+     "fonte_url": "https://www.webtuga.pt/home/datacenter",
+     "citacao": "Datacenters WebTuga LS1 WebTuga MD6 Datacenter WebTuga LS1 (Prior Velho, Lisboa)",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Snapshot de 29/12/2025 listava 'Datacenter WebTuga OPO (Maia, Porto)'; a página atual não o lista. O encerramento não é declarado explicitamente."
+    },
+    "controlador_final": {
+     "valor": "Dream Fusion - IT Services, Lda (marca WebTuga)",
+     "fonte_url": "https://www.webtuga.pt/home/empresa",
+     "citacao": "A WebTuga ® é uma marca da empresa Dream Fusion - IT Services, Lda que iniciou a sua actividade no mercado das novas Tecnologias de Informação em 2008",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal",
+     "fonte_url": "https://www.webtuga.pt/home/empresa",
+     "citacao": "Nome da Empresa: Dream Fusion - IT Services, Lda NIPC: PT 508469058 Capital Social: 15 000,00€ Sede: Rua João Paulo II, nº 165 Loja AC 4750-177 Arcozelo, Barcelos Portugal",
+     "data_acesso": "2026-10-07",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "Sede e NIPC portugueses; o site não identifica sócios/acionistas. 'controlador_final' refere-se ao inquilino (WebTuga), não ao dono do edifício."
+    }
+   },
+   "nao_encontrado": [
+    "ano_operacao",
+    "mw_ti_instalado",
+    "area_m2",
+    "pue",
+    "energia_renovavel",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "status",
+     "valor_dataset": "operacional",
+     "valor_fonte": "não listado no site atual da WebTuga (out/2026)",
+     "fonte_url": "https://www.webtuga.pt/home/datacenter"
+    }
+   ],
+   "ambiguidades": [
+    "A WebTuga aparece no Porto/Maia desde pelo menos 2018 ('Datacenter Maia, Porto', snapshot 15/04/2018), mas o snapshot de mar/2021 lista só ONI Matinha e Equinix LS1; volta como 'WebTuga OPO (Maia, Porto)' em 2022-2025.",
+    "O status 'encerrado' é inferido porque o site deixou de o listar; pode ser só a saída da WebTuga. O edifício hospedeiro (ONI Maia) não foi verificado.",
+    "O datacentermap diz que a Dream Fusion tem sede em Abrantes, Santarém; o site da WebTuga dá a sede em Arcozelo, Barcelos (pode ser registo desatualizado no diretório)."
+   ]
+  }
+ ],
+ "achados_para_o_artigo": [
+  {
+   "achado": "Vários 'datacenters' deste lote são presenças de inquilinos em três edifícios hospedeiros. Rua 3 da Matinha/Edifício Altejo, Lisboa (ONI Matinha): dotsi DC01, WebTuga LS2 e o antigo 'Lisboa 2 Expo Sul' da Cgest. Av. Severiano Falcão 14, Prior Velho (Equinix LS1, antigo Telvent Carrierhouse): WebTuga LS1, o antigo 'Lisboa 1' da Cgest e a PTisp, que hospedava a LeapSwitch em 2015. Rua das Cardosas, Maia (ONI Maia): WebTuga OPO e o antigo datacenter da Cgest no Porto.",
+   "por_que_importa": "Somar estas linhas como instalações distintas conta o mesmo edifício (e a mesma energia) várias vezes. A infraestrutura física em Portugal está mais concentrada em poucos operadores (Equinix, ONI/Gigas, MEO) do que os diretórios sugerem.",
+   "fonte_url": "https://web.archive.org/web/20140930034126/http://www.cgest.pt/en/lisbon-datacenter.html",
+   "citacao": "Lisboa 1 Telvent Carrierhouse Av. Severiano Falcão, 14, Prior Velho Up to 100 racks Lisboa 2 Expo Sul Rua da Matinha, Edifício Altejo, Lisboa Up to 60 racks"
+  },
+  {
+   "achado": "O código 'LS2' da WebTuga não é o Equinix LS2. O próprio site da WebTuga (2022-2025) põe o 'WebTuga LS2' na Matinha (ONI), e em 2021 chamava-lhe 'Datacenter ONI (Matinha, Lisboa)'. A WebTuga usa códigos iguais aos da Equinix (LS1, MD6) para os seus racks em terceiros.",
+   "por_que_importa": "É um erro fácil ao cruzar diretórios: o registo do datacenters.com 'WebTuga LS2 Datacenter' pode ser casado por engano com o Equinix LS2 de Prior Velho.",
+   "fonte_url": "https://web.archive.org/web/20251229165647/https://www.webtuga.pt/home/datacenter",
+   "citacao": "Datacenter WebTuga LS2 (Matinha, Lisboa)"
+  },
+  {
+   "achado": "Há registos-fantasma e desatualizados nos diretórios. O domínio da NFSI Telecom (listada com 2 datacenters) é hoje de uma empresa de Tavira 'Fundada em 2018' sem datacenters. O datacenter do Porto atribuído à REGISTER S.p.A. ainda tem o texto de marketing da Cgest (comprada pela Claranet em 2012). A WebTuga retirou LS2 e OPO do site em 2026.",
+   "por_que_importa": "Inventários baseados em datacentermap/datacenters.com sobrestimam o número de instalações ativas de pequena escala. Cada linha 'operacional' de pequenos hosters precisa de verificação na fonte primária.",
+   "fonte_url": "http://www.nfsi.pt/conteudo/sobre_a_nfsi",
+   "citacao": "Fundada em 2018, a NFSI Internet Services situa-se em Tavira, na belíssima região portuguesa do Algarve, onde já temos imensos clientes."
+  },
+  {
+   "achado": "Soberania: 4 das 10 linhas 'portuguesas' deste lote é controlada a partir do estrangeiro: CenterServ (Canadá), LeapSwitch (Índia) e Register S.p.A., cuja empresa-mãe final é a team.blue EquityCo S.à r.l. (grupo belga controlado por private equity). Uma marca da Register com nome português (Amen.pt) diz que o seu datacenter principal fica em Reading, no Reino Unido.",
+   "por_que_importa": "Uma marca portuguesa, ou uma 'localização Lisboa', não garante que os dados fiquem em Portugal nem sob controlo português. Isto conta para a discussão de soberania de dados no ensino superior.",
+   "fonte_url": "https://www.amen.pt/servidores/data-center/",
+   "citacao": "Os nossos serviços são fornecidos e hospedados em vários data centers espalhados pelo mundo, com a unidade principal localizada em Reading (Reino Unido)."
+  },
+  {
+   "achado": "Os revendedores de servidores admitem que não sabem dizer em que edifício fica uma 'localização'. A CenterServ diz que fornecedor e edifício só se definem na encomenda.",
+   "por_que_importa": "Linhas como 'CenterServ Lisbon/Porto Data Center' são pontos de venda e não infraestrutura. Devem sair das contagens de capacidade ou energia e ficar só como presença comercial.",
+   "fonte_url": "https://www.centerserv.com/web-server/portugal/porto/",
+   "citacao": "The CenterServ catalog establishes the order route but not the eventual supplier or physical placement."
+  },
+  {
+   "achado": "A ONI, dona do edifício da Matinha (e, pelo nome no datacentermap, também do da Maia), que hospeda vários destes inquilinos, pertence ao grupo espanhol Gigas desde 2020.",
+   "por_que_importa": "Mesmo quando o inquilino é português (dotsi, WebTuga), o dono da infraestrutura física é estrangeiro. Isto reforça o argumento de que a infraestrutura de dados é 'escondida' e não é nacional.",
+   "fonte_url": "https://baxtel.com/data-center/oni-matinha-lisbon",
+   "citacao": "When Gigas acquired ONI in November 2020, the 2,000 m² data center hall was already operational."
+  }
+ ]
+}

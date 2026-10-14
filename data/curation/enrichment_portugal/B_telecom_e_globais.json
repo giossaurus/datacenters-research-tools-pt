@@ -1,0 +1,212 @@
+[
+ {
+  "facility_id": "dccom-portugal-telecom-covilha-altice-portugal",
+  "nome": "Portugal Telecom Covilha",
+  "operador": "Altice Portugal (MEO)",
+  "concelho": "Covilhã",
+  "nuts2": "Centro",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": 6.8,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": "ISO 14001; ISO 27001; ISO 9001",
+  "urls_fonte": [
+   "https://www.datacenters.com/altice-portugal-portugal-telecom-covilh"
+  ]
+ },
+ {
+  "facility_id": "pt-prime-carnide",
+  "nome": "MEO Carnide",
+  "operador": "Altice Portugal (MEO)",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/pt-prime-carnide/"
+  ]
+ },
+ {
+  "facility_id": "meo-ldv",
+  "nome": "MEO LDV",
+  "operador": "Altice Portugal (MEO)",
+  "concelho": "Oeiras",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/meo-ldv/",
+   "https://www.datacenters.com/altice-portugal-altice-ldv",
+   "https://www.datacenters.com/altice-portugal-portugal-telecom"
+  ]
+ },
+ {
+  "facility_id": "pt-prime-picoas",
+  "nome": "MEO Picoas",
+  "operador": "Altice Portugal (MEO)",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/pt-prime-picoas/",
+   "https://www.datacenters.com/altice-portugal-portugal-telecom-lisboa"
+  ]
+ },
+ {
+  "facility_id": "claranet-lisboa",
+  "nome": "Claranet Lisboa",
+  "operador": "Claranet",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/claranet-lisboa/",
+   "https://www.datacenters.com/claranet-lisbon"
+  ]
+ },
+ {
+  "facility_id": "dccom-portugal-data-center-kyndryl",
+  "nome": "Portugal Data Center",
+  "operador": "Kyndryl",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "desconhecido",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": "ISO 27001",
+  "urls_fonte": [
+   "https://www.datacenters.com/kyndryl-portugal"
+  ]
+ },
+ {
+  "facility_id": "matinha",
+  "nome": "Oni Datacenter Lisbon",
+  "operador": "ONI",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/matinha/",
+   "https://www.datacenters.com/oni-oni-colocation-center"
+  ]
+ },
+ {
+  "facility_id": "pt-prime-tenente-valadim",
+  "nome": "MEO Tenente Valadim",
+  "operador": "Altice Portugal (MEO)",
+  "concelho": "Porto",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/pt-prime-tenente-valadim/",
+   "https://www.datacenters.com/altice-portugal-portugal-telecom-porto"
+  ]
+ },
+ {
+  "facility_id": "claranet-porto",
+  "nome": "Claranet Porto",
+  "operador": "Claranet",
+  "concelho": "Valongo",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": 1.0,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/claranet-porto/"
+  ]
+ },
+ {
+  "facility_id": "oni-maia-datacenter",
+  "nome": "Oni Datacenter Maia",
+  "operador": "ONI",
+  "concelho": "Maia",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/oni-maia-datacenter/"
+  ]
+ },
+ {
+  "facility_id": "tata-communciations-seixal",
+  "nome": "Tata Communciations Seixal",
+  "operador": "Tata Communications",
+  "concelho": "Seixal",
+  "nuts2": "Península de Setúbal",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/tata-communciations-seixal/"
+  ]
+ },
+ {
+  "facility_id": "dccom-azores-cls-data-center-google",
+  "nome": "Azores CLS Data Center",
+  "operador": "Google",
+  "concelho": "Lagoa (Açores)",
+  "nuts2": "Região Autónoma dos Açores",
+  "status": "desconhecido",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": "ISO 27001; ISO 50001",
+  "urls_fonte": [
+   "https://www.datacenters.com/google-azores-cls"
+  ]
+ }
+]

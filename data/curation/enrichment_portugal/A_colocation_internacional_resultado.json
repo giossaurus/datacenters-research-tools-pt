@@ -1,0 +1,1455 @@
+{
+ "lote": "A_colocation_internacional",
+ "data_acesso": "2026-10-06",
+ "nota_formato": "Cada campo é um objeto com valor+proveniência; quando há mais de uma fonte de suporte, as adicionais estão em 'evidencias_adicionais'. Campos extra usados: licenciamento_ambiental, status_pin, investimento. Citações extraídas de HTML/PDF podem ter espaços normalizados. datacenterdynamics.com bloqueou acesso automático (403); quando usado, citado via republicação (BeBeez).",
+ "sites": [
+  {
+   "facility_id": "sines-dc-campus",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.startcampus.pt/start-campus-inaugurates-sin01-data-center",
+     "citacao": "Following the start of operations in Q4’24, Start Campus officially inaugurates SIN01, a 26MW data center facility in Portugal.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Operacional = apenas SIN01. SIN02 em construção; SIN03-06 planejados.",
+     "evidencias_adicionais": [
+      {
+       "valor": "SIN02 em_construcao",
+       "fonte_url": "https://www.essential-business.pt/2026/03/02/start-campus-in-e2bn-deal-to-build-microsoft-centre-in-sines/",
+       "citacao": "The construction of a second building has just begun and will be completed by 2027.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media",
+       "nota": "Essential Business citando Expresso, 02/03/2026."
+      }
+     ]
+    },
+    "ano_operacao": {
+     "valor": 2024,
+     "fonte_url": "https://www.startcampus.pt/start-campus-inaugurates-sin01-data-center",
+     "citacao": "Following the start of operations in Q4’24, Start Campus officially inaugurates SIN01, a 26MW data center facility in Portugal.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "SIN01: início de operação Q4 2024; inauguração oficial 4 abr. 2025.",
+     "evidencias_adicionais": [
+      {
+       "valor": "2024-10 (SIN01 em exploração desde outubro de 2024)",
+       "fonte_url": "https://observador.pt/2026/07/28/start-campus-tentou-troca-direta-de-capacidade-entre-redes-eletricas-de-transporte-e-distribuicao-erse-foi-contra/",
+       "citacao": "A Start Campus manteve uma potência de 25 MVA que foi usada para alimentar o primeiro edifício do complexo do data center",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media",
+       "nota": "Mesma frase do artigo continua: 'em exploração desde outubro de 2024'."
+      },
+      {
+       "valor": "2031 (conclusão prevista do campus de 6 edifícios)",
+       "fonte_url": "https://www.essential-business.pt/2026/03/02/start-campus-in-e2bn-deal-to-build-microsoft-centre-in-sines/",
+       "citacao": "The Start Campus Sines 4.0 project will have a total of six buildings and will be concluded in 2031.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media"
+      },
+      {
+       "valor": "final de 2027 (início do deployment Nscale/Rubin no 2.º edifício)",
+       "fonte_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+       "citacao": "Nscale is announcing an expansion of its collaboration with Microsoft and Start Campus with 66,000+ NVIDIA Rubin GPUs, starting in late 2027.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta",
+       "nota": "Fonte é o cliente/parceiro (Nscale), republicada pelo operador."
+      }
+     ]
+    },
+    "mw_ti_instalado": {
+     "valor": 26,
+     "unidade": "MW",
+     "fonte_url": "https://www.startcampus.pt/start-campus-inaugurates-sin01-data-center",
+     "citacao": "Following the start of operations in Q4’24, Start Campus officially inaugurates SIN01, a 26MW data center facility in Portugal.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Valor à data da inauguração (abr. 2025). O site atual do operador indica 37,5 MW para SIN01 — ver conflitos."
+    },
+    "mw_ti_planejado": {
+     "valor": 1200,
+     "unidade": "MW",
+     "fonte_url": "https://www.startcampus.pt/",
+     "citacao": "1.2 GW Total campus capacity 37,5 MW Live first facility (SIN01) 200 MW Next planned facility (SIN02)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Capacidade total do campus (6 edifícios). O operador não explicita na mesma frase se é TI ou rede; outras peças do operador falam em '1.2 GW of capacity'. A AIA avaliou no máximo 495 MW TI — ver ambiguidades."
+    },
+    "mw_rede": {
+     "valor": 1437,
+     "unidade": "MVA",
+     "fonte_url": "https://observador.pt/2026/07/28/start-campus-tentou-troca-direta-de-capacidade-entre-redes-eletricas-de-transporte-e-distribuicao-erse-foi-contra/",
+     "citacao": "o projeto da Start Campus acabou por garantir uma grande capacidade de ligação à rede de transporte — praticamente 1 Gigawatt — numa potência total obtida que ascende a 1.437 MVA.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "nota": "Unidade MVA (potência aparente), não MW. Não converter."
+    },
+    "refrigeracao": {
+     "valor": "água do mar (circuito aberto, reaproveitando a tomada de água da antiga Central Termoelétrica de Sines e água rejeitada do terminal GNL)",
+     "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+     "citacao": "O sistema de arrefecimento irá dispor de duas fontes de água: água do mar rejeitada pelo Terminal de GNL da REN Atlântico e água do mar proveniente da bacia de captação da Central Termoelétrica de Sines (CTS).",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": 16.85,
+       "unidade": "m3/s (caudal máximo de água do mar, fase SIN06)",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+       "citacao": "O caudal de água do mar esperado, necessário para assegurar a refrigeração do Data Center, será na fase de SIN06, no máximo de 16,85 m3/s.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "governo_regulador",
+       "confianca": "alta"
+      },
+      {
+       "valor": 524,
+       "unidade": "hm3/ano de água do mar (estimativa da Comissão de Avaliação sob hipótese de operação contínua)",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+       "citacao": "se for considerado um regime de exploração constituído por 24 h/dia, 30 dias/mês e 12 meses/ano, será captado um volume de cerca de 524 hm3/ano de água do mar.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "governo_regulador",
+       "confianca": "media"
+      },
+      {
+       "valor": "sem uso de água doce (alegação do operador)",
+       "fonte_url": "https://www.startcampus.pt/",
+       "citacao": "the campus is cooled through an innovative seawater system that repurposes infrastructure from a decommissioned power plant, eliminating freshwater use while optimising energy efficiency and sustainability",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": ">130 kW por rack (deployment Nscale GB300)",
+       "fonte_url": "https://lp.startcampus.pt/start-campus-hosts-eus-first-nvidia-gb300-chips-with-nscale-for-microsoft",
+       "citacao": "The deployment at Start Campus supports rack densities surpassing 130kW",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      }
+     ]
+    },
+    "area_m2": {
+     "valor": "cerca de 60 ha (área total do campus, terreno — não é white space)",
+     "unidade": "ha",
+     "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+     "citacao": "quando estiver em pleno funcionamento terá no máximo 495 MW de potência em Tecnologia de Informação (TI) e uma área total aproximada de 60 hectares.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "certificacoes": {
+     "valor": [
+      "LEED Gold BD+C v4 (SIN01)",
+      "ISO/IEC 27001",
+      "SOC 2 Type II",
+      "OCP Ready v2 Hyperscale (SIN01 e SIN02, 31/03/2025)",
+      "Tier III (TIA-942, design/conformidade declarada pelo operador)"
+     ],
+     "fonte_url": "https://www.startcampus.pt/sines",
+     "citacao": "SIN01, the first operational facility at our 1.2 GW SINES Data Campus, has achieved LEED Gold BD+C v4 certification",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "ISO/IEC 27001; SOC 2 Type II",
+       "fonte_url": "https://www.startcampus.pt/sines",
+       "citacao": "The SINES 1.2 GW Data Campus is ISO/IEC 27001 certified and has a SOC 2 Type II report",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "OCP Ready v2 Hyperscale",
+       "fonte_url": "https://www.startcampus.pt/sines",
+       "citacao": "Our SINES 1.2GW Data Campus, proudly holds the OCP Ready™ v2 Hyperscale certification for both the SIN01 and SIN02 facilities",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "Tier III (TIA)",
+       "fonte_url": "https://www.startcampus.pt/sines",
+       "citacao": "Meeting and exceeding Tier III standards as defined by the Telecommunications Industry Association (TIA), the site is concurrently maintainable",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "media",
+       "nota": "Não é certificação Uptime Institute; é declaração do operador face à norma TIA."
+      }
+     ],
+     "nota": "ISO 50001 e ISO 14001 não encontradas."
+    },
+    "controlador_final": {
+     "valor": "Davidson Kempner Capital Management — EUA; Pioneer Point Partners — Reino Unido",
+     "fonte_url": "https://www.startcampus.pt/start-campus-inaugurates-sin01-data-center",
+     "citacao": "Start Campus’ shareholders, Davidson Kempner Capital Management and Pioneer Point Partners LLP, have provided the funding to privately deliver SIN01 without subsidies, public funds or tax benefits.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "nacionalidades",
+       "fonte_url": "https://observador.pt/2023/11/10/start-campus-a-empresa-em-sines-no-meio-da-polemica-que-fez-cair-o-governo-de-antonio-costa/",
+       "citacao": "A Start Campus é uma empresa constituída em 2020 e é detida por dois gigantes da indústria financeira: os norte-americanos da Davidson Kempner e os britânicos da Pioneer Point Partners.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "alta"
+      },
+      {
+       "valor": "Davidson Kempner (2026)",
+       "fonte_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+       "citacao": "“This significant investment by Nscale accelerates the development of the SINES Data Campus. Underpinned by Davidson Kempner's continued commitment, the Start Campus platform is well positioned to scale",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta",
+       "nota": "Comunicados de 2026 (Nscale mai. 2026; EDP fev. 2026) só nomeiam Davidson Kempner como acionista — ver ambiguidades."
+      }
+     ]
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": [
+      "Nscale (neocloud, Reino Unido) — 12.600 GPUs NVIDIA GB300 em SIN01 para a Microsoft",
+      "Microsoft — anúncio de investimento de US$10 mil milhões",
+      "Nscale — 66.000+ GPUs NVIDIA Rubin a partir do final de 2027 + €465 M num 2.º edifício de 200 MW + €230 M em infraestrutura partilhada",
+      "NVIDIA (fornecedor da plataforma)"
+     ],
+     "fonte_url": "https://lp.startcampus.pt/start-campus-hosts-eus-first-nvidia-gb300-chips-with-nscale-for-microsoft",
+     "citacao": "Strategic partnership between Start Campus and Nscale to deliver 12,600 NVIDIA Blackwell Ultra GPUs at the SIN01 Data Centre in Sines, Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "Microsoft US$10 mil milhões",
+       "fonte_url": "https://www.startcampus.pt/microsoft-makes-one-of-its-largest-investments-in-europe-at-start-campus-in-portugal",
+       "citacao": "Start Campus welcomes Microsoft’s announcement to invest $10 billion in the company’s SINES data center campus.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "Nscale 2.º edifício 200 MW",
+       "fonte_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+       "citacao": "Nscale’s additional investments of €230 million in shared infrastructure and €465 million in a second 200MW building at the SINES Data Campus",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "Nscale/Rubin",
+       "fonte_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+       "citacao": "Nscale is announcing an expansion of its collaboration with Microsoft and Start Campus with 66,000+ NVIDIA Rubin GPUs, starting in late 2027.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "go-live GB300",
+       "fonte_url": "https://lp.startcampus.pt/start-campus-hosts-eus-first-nvidia-gb300-chips-with-nscale-for-microsoft",
+       "citacao": "The infrastructure and first deployment are set to be live by Q1 2026 at the SINES Data Campus.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "media",
+       "nota": "Data prevista em out. 2025; não verificada a entrada efetiva em serviço."
+      }
+     ]
+    },
+    "ligacao_academica": {
+     "valor": [
+      "NOVA IMS (Universidade NOVA de Lisboa): módulo académico, dissertações, estágios, bolsas e cátedra patrocinada pela empresa (abr. 2026)",
+      "Porto Business School: START Rise AI Challenge (abr.–mai. 2026)",
+      "FEUP e ISA/CEABN integraram a Comissão de Avaliação da AIA (RECAPE, out. 2024)",
+      "Candidatura ibérica à AI Gigafactory (EuroHPC/UE): Start Campus citada como possível localização em Sines"
+     ],
+     "fonte_url": "https://www.startcampus.pt/investing-in-the-people-behind-portugals-ai-future-with-nova-ims",
+     "citacao": "In addition, the collaboration includes scholarships for students and the creation of a company-sponsored chair.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "NOVA IMS",
+       "fonte_url": "https://www.startcampus.pt/investing-in-the-people-behind-portugals-ai-future-with-nova-ims",
+       "citacao": "Start Campus and NOVA Information Management School (NOVA IMS) have launched a collaboration aimed at helping develop specialised talent in Portugal",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "Porto Business School",
+       "fonte_url": "https://www.startcampus.pt/",
+       "citacao": "LISBON, Portugal – 22 April 2026 - Start Campus, in collaboration with Porto Business School, is launching the START Rise Challenge",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "FEUP na Comissão de Avaliação",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+       "citacao": "Instituto Superior de Agronomia / Centro de Ecologia Aplicada \"Prof. Baeta Neves\" Faculdade de Engenharia da Universidade do Porto",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "governo_regulador",
+       "confianca": "alta",
+       "nota": "Lista de entidades da Comissão de Avaliação na capa do parecer."
+      },
+      {
+       "valor": "AI Gigafactory",
+       "fonte_url": "https://eco.sapo.pt/2026/06/01/gigafabrica-de-sines-vai-ter-redundancia-em-lisboa-e-abrantes-se-vencer-portugal-recebe-6-milhoes-de-bruxelas/",
+       "citacao": "Questionado sobre se o polo português irá ficar alojado na Start Campus, Gonçalo Regalado respondeu que há “soluções como a Start Campus e alternativas adicionais em Sines”.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media"
+      }
+     ],
+     "nota": "Nenhuma ligação a FCT/FCCN/RCTS encontrada."
+    },
+    "licenciamento_ambiental": {
+     "valor": "AIA n.º 3633: DIA favorável condicionada (10/08/2023); parecer desfavorável da CA ao RECAPE (out. 2024) e proposta de não conformidade; após audiência prévia, DCAPE favorável condicionada (c. fev. 2025)",
+     "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+     "citacao": "cuja Declaração de Impacte Ambiental (DIA), favorável condicionada, foi emitida em 10/08/2023.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "parecer CA desfavorável",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+       "citacao": "considera-se que o RECAPE apresentado não possibilita a cabal verificação do cumprimento da conformidade ambiental do projeto de execução com o definido na DIA",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "governo_regulador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "proposta de não conformidade",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/aia3633%20(recape)_analisealeg202525185359.pdf",
+       "citacao": "a autoridade de AIA propôs e comunicou ao proponente uma proposta de decisão de não conformidade ambiental do projeto de execução do Data Center Sines 4.0.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "governo_regulador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "DCAPE condicionada",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/aia3633%20(recape)_analisealeg202525185359.pdf",
+       "citacao": "Face ao exposto, foi emitida decisão de conformidade ambiental do projeto de execução, condicionada ao cumprimento de um conjunto de condições ao longo das várias fases de desenvolvimento do projeto do Data Center Sines 4.0.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "governo_regulador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "área sensível ZEC",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+       "citacao": "por se localizar dentro dos limites da Zona Especial de Conservação Costa Sudoeste (PTCON0012)",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "governo_regulador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "geradores de emergência",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+       "citacao": "Serão instalados 512 geradores de emergência (20 dos quais relativos ao NEST ou SIN01) com potência total aproximada de 1,4 GWe",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "governo_regulador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "ICNF: incumprimento charco temporário (2023)",
+       "fonte_url": "https://sapo.pt/artigo/recape-do-data-center-sines-4-0-em-consulta-publica-ate-7-de-outubro-68b3a23c34aef4aa991bcdd7",
+       "citacao": "a promotora do projeto não cumpriu a obrigação de manter a “integridade do charco temporário identificado”",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media"
+      }
+     ]
+    },
+    "status_pin": {
+     "valor": "PIN — Projeto de Interesse Nacional (março 2021)",
+     "fonte_url": "https://observador.pt/2023/11/10/start-campus-a-empresa-em-sines-no-meio-da-polemica-que-fez-cair-o-governo-de-antonio-costa/",
+     "citacao": "Em março de 2021, o projeto recebeu a classificação de Projeto de Interesse Nacional (PIN)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "pue (já coberto pelo Sustainability Update 2025 — não re-pesquisado)",
+    "energia_renovavel (idem; nota: MoU com EDP de fev. 2026 apenas estabelece a EDP como 'preferred long-term partner', sem PPA divulgado)",
+    "certificacoes ISO 50001 / ISO 14001",
+    "ligacao FCT/FCCN/RCTS"
+   ],
+   "conflitos": [
+    {
+     "campo": "mw_ti_instalado (SIN01)",
+     "valores": [
+      {
+       "valor": 26,
+       "unidade": "MW",
+       "fonte_url": "https://www.startcampus.pt/start-campus-inaugurates-sin01-data-center",
+       "citacao": "Following the start of operations in Q4’24, Start Campus officially inaugurates SIN01, a 26MW data center facility in Portugal.",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": 37.5,
+       "unidade": "MW",
+       "fonte_url": "https://www.startcampus.pt/sines",
+       "citacao": "Official Opening of SINES SIN01 Data Center (37,5 MW)",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": "15 MW (NEST/SIN01, peça de AIA) / até 29 MW",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+       "citacao": "O projeto consiste na ampliação do NEST ou SIN01 com capacidade de até 29 MW de potência elétrica de consumo aos sistemas de tecnologias de informação para 495 MW (no final da fase 6).",
+       "tipo_fonte": "governo_regulador",
+       "data_acesso": "2026-10-06"
+      }
+     ],
+     "nota": "Provável expansão do SIN01 entre 2025 e 2026 (Observador 28/07/2026 refere 'intenção urgente de expansão do primeiro edifício'). O dataset tem 26 MW."
+    },
+    {
+     "campo": "capacidade do SIN02",
+     "valores": [
+      {
+       "valor": 180,
+       "unidade": "MW",
+       "fonte_url": "https://www.startcampus.pt/start-campus-inaugurates-sin01-data-center",
+       "citacao": "The construction of the next 180MW facility (SIN02) is expected to begin later in 2025",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": 200,
+       "unidade": "MW",
+       "fonte_url": "https://www.startcampus.pt/",
+       "citacao": "1.2 GW Total campus capacity 37,5 MW Live first facility (SIN01) 200 MW Next planned facility (SIN02)",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      }
+     ]
+    },
+    {
+     "campo": "mw_planejado (dataset = 1060 MW)",
+     "valores": [
+      {
+       "valor": 1200,
+       "unidade": "MW",
+       "fonte_url": "https://www.startcampus.pt/",
+       "citacao": "1.2 GW Total campus capacity",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": 495,
+       "unidade": "MW TI (máximo avaliado em AIA)",
+       "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+       "citacao": "A totalidade do Campus (NEST ou SIN01 com 15 MW + REST ou SIN02-06) quando estiver em pleno funcionamento terá no máximo 495 MW de potência em Tecnologia de Informação (TI)",
+       "tipo_fonte": "governo_regulador",
+       "data_acesso": "2026-10-06"
+      }
+     ],
+     "nota": "O valor 1060 MW do diretório não foi encontrado em fonte primária."
+    }
+   ],
+   "ambiguidades": [
+    "1,2 GW: o operador e a Nscale dizem 'fully permitted for 1.2GW', mas o procedimento de AIA (RECAPE out. 2024) avaliou no máximo 495 MW TI. Não foi encontrada nova AIA para 1,2 GW; o 'permitted' pode referir-se à capacidade de rede (≈1.437 MVA), não a licença ambiental.",
+    "mw_rede expresso em MVA (1.437 MVA total; 'praticamente 1 Gigawatt' na rede de transporte); não equivale a MW TI.",
+    "Acionistas: comunicado de abr. 2025 nomeia Davidson Kempner e Pioneer Point Partners; comunicados de 2026 só nomeiam Davidson Kempner como 'shareholder'. Não foi encontrada notícia de saída da Pioneer Point.",
+    "Data exata da DCAPE favorável condicionada não está no documento; o ficheiro de apreciação da audiência prévia tem data de modificação 05/02/2025 (nome do ficheiro '...202525...').",
+    "Evolução do plano: 2021 = NEST 15 MW + 5 edifícios de 90 MW; depois 8 edifícios de 60 MW (ECO, 2023); AIA = 495 MW TI; 2024+ = 1,2 GW. Volume de 524 hm3/ano é estimativa da CA sob hipótese de operação contínua, não valor declarado pelo proponente."
+   ]
+  },
+  {
+   "facility_id": "atlasedge-lisbon-campus",
+   "campos": {
+    "status": {
+     "valor": "operacional (LIS001); LIS002 e LIS003 planejados",
+     "fonte_url": "https://atlasedge.com/data-centres/lisbon",
+     "citacao": "LIS001 (In operation) Estrada Outurela 117a, 2790-072 Carnaxide, Grande Lisboa, Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "ano_operacao": {
+     "valor": 2025,
+     "fonte_url": "https://atlasedge.com/atlasedge-secures-e253-million-in-green-financing-for-lisbon-campus-expansion/",
+     "citacao": "LIS001 launched today, with capacity already contracted by top-tier customers and service set to go live by the end of 2025. LIS002 is in the master planning phase with Ready for Service scheduled for 2028.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "LIS001: 2025 (lançamento 28/10/2025, go-live previsto fim de 2025); LIS002: RFS 2028; LIS003: sem data."
+    },
+    "mw_ti_instalado": {
+     "valor": 5.1,
+     "unidade": "MW",
+     "fonte_url": "https://atlasedge.com/data-centres/lisbon",
+     "citacao": "With 5.1MW of power available the data centre will ensure you have the scalability of energy supply exactly when required.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "LIS001. O operador diz 'power available' sem especificar TI vs. rede."
+    },
+    "mw_ti_planejado": {
+     "valor": 30,
+     "unidade": "MW",
+     "fonte_url": "https://atlasedge.com/atlasedge-secures-e253-million-in-green-financing-for-lisbon-campus-expansion/",
+     "citacao": "The Lisbon campus will deliver 30MW across three phases.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "16 MW LIS002",
+       "fonte_url": "https://atlasedge.com/data-centres/lisbon",
+       "citacao": "With 16MW of future power available, the data centre will ensure you have the scalability of energy supply exactly when required.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "21,1 MW LIS001+LIS002",
+       "fonte_url": "https://atlasedge.com/atlasedge-secures-e253-million-in-green-financing-for-lisbon-campus-expansion/",
+       "citacao": "AtlasEdge secures €253 million green financing for LIS001 and LIS002 data centres on its Lisbon campus, delivering a combined 21.1MW capacity.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "até 40 MW condicionado à rede",
+       "fonte_url": "https://24noticias.sapo.pt/atualidade/artigos/data-centers-lisboa-e-parte-da-estrategia-europeia-diz-ceo-da-atlasedge",
+       "citacao": "a capacidade total do campus sobe para 30 MW, podendo chegar aos 40 MW",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media",
+       "nota": "CEO acrescenta: 'dependendo do que conseguirmos da empresa de energia'."
+      }
+     ]
+    },
+    "area_m2": {
+     "valor": 3162,
+     "unidade": "m2 (data centre space, LIS001)",
+     "fonte_url": "https://atlasedge.com/data-centres/lisbon",
+     "citacao": "provides over 3,162 m2 of data centre space and alternative carrier routing",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": 4356,
+       "unidade": "m2 (data centre space, LIS002)",
+       "fonte_url": "https://atlasedge.com/data-centres/lisbon",
+       "citacao": "provides over 4.356m2 of data centre space and alternative carrier routing. With 16MW of future power available",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": 10000,
+       "unidade": "m2 (terreno LIS003)",
+       "fonte_url": "https://atlasedge.com/atlasedge-secures-e253-million-in-green-financing-for-lisbon-campus-expansion/",
+       "citacao": "AtlasEdge also completes acquisition of LIS003, a 10,000 square-metre plot contiguous with LIS002, bringing total future campus capacity to 30MW.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      }
+     ]
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO 27001 (LIS001)",
+      "ISO 14001 (LIS001)",
+      "Tier 3 standard (construção, declarado pelo operador)"
+     ],
+     "fonte_url": "https://atlasedge.com/data-centres/lisbon",
+     "citacao": "Built Tier 3 standard LIS001 | LIS002 | LIS003 100% green energy LIS001 | LIS002 | LIS003 ISO 27001 certified LIS001 ISO 14001 certified LIS001",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "energia_renovavel": {
+     "valor": {
+      "alegacao": "100% green / renewable energy",
+      "mecanismo": "nao_especificado"
+     },
+     "fonte_url": "https://atlasedge.com/data-centres/lisbon",
+     "citacao": "Built for AI, HPC, and Hyperscale, it offers 100% renewable, low-cost power at scale.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "evidencias_adicionais": [
+      {
+       "valor": "meta ligada ao financiamento verde",
+       "fonte_url": "https://atlasedge.com/atlasedge-secures-e253-million-in-green-financing-for-lisbon-campus-expansion/",
+       "citacao": "Portugal’s renewable energy leadership perfectly complements the goals of this financing, which include energy efficiency and 100% renewable energy usage.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      }
+     ]
+    },
+    "controlador_final": {
+     "valor": "AtlasEdge (sede: Londres, Reino Unido) — JV Liberty Global (50% direitos de voto, 48,8% económico) + DigitalBridge (EUA; desde 30/09/2026 subsidiária controlada do SoftBank Group — Japão)",
+     "fonte_url": "https://www.sec.gov/Archives/edgar/data/0001570585/000157058526000109/lbtya-20260630.htm",
+     "citacao": "Liberty Global owns a 50 % noncontrolling voting interest in the AtlasEdge JV.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "relatorio_terceiro",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "JV Liberty Global + DigitalBridge",
+       "fonte_url": "https://atlasedge.com/atlasedge-secures-milestone-billion-financing-facility-accelerate-european-expansion/",
+       "citacao": "Formed as a joint venture between Liberty Global and DigitalBridge",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "SoftBank controla DigitalBridge",
+       "fonte_url": "https://group.softbank/en/news/press/20260930",
+       "citacao": "DigitalBridge has become a controlled subsidiary of SBG and will continue to operate as a separately managed platform, led by Marc Ganzi.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro",
+       "confianca": "alta",
+       "nota": "Comunicado do SoftBank Group (adquirente)."
+      },
+      {
+       "valor": "'British company'",
+       "fonte_url": "https://iberian.property/news/logistics/british-company-atlasedge-opens-first-of-three-data-centres-in-oeiras/",
+       "citacao": "British company AtlasEdge opens first of three data centres in Oeiras",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media"
+      }
+     ],
+     "nota": "Fonte SEC 10-Q (Liberty Global, 30/06/2026) classificada como relatorio_terceiro (relatório regulamentar do acionista)."
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "nao_nomeados (apenas 'top-tier customers')",
+     "fonte_url": "https://atlasedge.com/atlasedge-secures-e253-million-in-green-financing-for-lisbon-campus-expansion/",
+     "citacao": "LIS001 launched today, with capacity already contracted by top-tier customers",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "pue",
+    "refrigeracao",
+    "consumo_agua",
+    "mw_rede",
+    "ligacao_academica",
+    "clientes nomeados"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "5,1 MW e 16 MW descritos como 'power available'; não está claro se é carga TI ou potência contratada.",
+    "Cadeia de controlo: a participação 'DigitalBridge' em AtlasEdge é detida via fundos geridos pela DigitalBridge; a aquisição da DigitalBridge Group pelo SoftBank (30/09/2026) altera o controlo do gestor, não necessariamente a propriedade económica dos fundos.",
+    "Investimento total em Portugal: '>500 M€' (CEO) descrito como 'uma estimativa para três data centers'."
+   ]
+  },
+  {
+   "facility_id": "edged-lisbon",
+   "campos": {
+    "status": {
+     "valor": "em_construcao",
+     "fonte_url": "https://ir.merlinproperties.com/en/new-opportunity-in-data-centers/",
+     "citacao": "Lisboa-Vila Franca de Xira Campus (LIS 01 to 05 under construction, totaling 180MW, expandable to 300MW)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "ano_operacao": {
+     "valor": 2027,
+     "fonte_url": "https://www.jornaldenegocios.pt/empresas/tecnologias/detalhe/merlin-properties-e-edged-energy-arrancam-obras-de-campus-de-data-centers-de-ia-em-vila-franca-de-xira",
+     "citacao": "\"A construção do campus terá várias fases, estando previsto que a primeira unidade esteja operacional em 2027\", indicam as empresas.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "nota": "Previsão (out. 2024) para a primeira unidade; obras iniciadas em out. 2024."
+    },
+    "mw_ti_planejado": {
+     "valor": 180,
+     "unidade": "MW",
+     "fonte_url": "https://www.edged.es/lisbon",
+     "citacao": "180 MW of critical capacity spread across five connected data centers",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "300 MW longo prazo",
+       "unidade": "MW",
+       "fonte_url": "https://ir.merlinproperties.com/en/new-opportunity-in-data-centers/",
+       "citacao": "Lisboa-Vila Franca de Xira Campus (LIS 01 to 05 under construction, totaling 180MW, expandable to 300MW)",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "180 MW TI, potencial 300 MW (JLL 2026)",
+       "fonte_url": "https://noticiasdosorraia.sapo.pt/vila-franca-de-xira-ganha-peso-no-mapa-europeu-dos-centros-de-dados-com-projeto-que-pode-chegar-aos-300-mw/",
+       "citacao": "O campus deverá arrancar com uma capacidade de 180 megawatts de tecnologias de informação, tendo potencial para atingir os 300 MW",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media"
+      }
+     ],
+     "nota": "180 MW = 'critical capacity' (IT) total das 5 fases, não instalado. O dataset regista 180 MW como 'em construção'."
+    },
+    "mw_ti_instalado": {
+     "valor": 0,
+     "unidade": "MW",
+     "fonte_url": "https://ir.merlinproperties.com/en/new-opportunity-in-data-centers/",
+     "citacao": "Lisboa-Vila Franca de Xira Campus (LIS 01 to 05 under construction, totaling 180MW, expandable to 300MW)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Nenhum edifício em operação à data das fontes."
+    },
+    "pue": {
+     "valor": 1.15,
+     "fonte_url": "https://www.edged.es/news/merlin-edged-lisbon-ai-campus-earns-ocp-ready-tm-for-hyperscale-recognition-by-the-open-compute-project",
+     "citacao": "The 180 MW campus will be uniquely optimized for both energy and water efficiency and powered by 100% solar electricity. With an industry-leading annualized PUE of 1.15",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "pue_tipo": "meta_projeto",
+     "ano": 2025,
+     "evidencias_adicionais": [
+      {
+       "valor": "Portfolio Design PUE",
+       "fonte_url": "https://www.edged.es/lisbon",
+       "citacao": "Our facilities are designed to deliver industry-leading average 1.15 PUE portfolio-wide, using no water for cooling.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta",
+       "nota": "É PUE de projeto médio do portefólio Edged, não medido no site de Lisboa."
+      }
+     ]
+    },
+    "refrigeracao": {
+     "valor": "sem água (waterless): ThermalWorks, transferência de calor por glicol com chillers arrefecidos a ar na cobertura; WUE 0,00 L/kWh (projeto)",
+     "fonte_url": "https://www.edged.es/lisbon",
+     "citacao": "Water Usage Effectiveness (WUE) 0.00 liters/kWh of cooling N+1 redundancy Glycol heat transfer with rooftop air cooled chillers",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "energia_renovavel": {
+     "valor": {
+      "alegacao": "100% solar / renovável; parceria com EDP para centrais solares descentralizadas até 100 MWp + outras soluções de longo prazo para 24/7",
+      "mecanismo": "fisico (autoconsumo solar descentralizado) + nao_especificado (restante)"
+     },
+     "fonte_url": "https://eco.sapo.pt/2025/07/22/edp-e-merlin-unem-se-para-primeiro-centro-de-dados-neutro-em-carbono/",
+     "citacao": "O projeto de energia solar descentralizada que a EDP pretende desenvolver será complementado por outras soluções de fornecimento de energia a longo prazo, permitindo que a Merlin Edged tenha acesso a eletricidade renovável 24 horas por dia, 7 dias por semana.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "evidencias_adicionais": [
+      {
+       "valor": "até 100 MWp",
+       "fonte_url": "https://eco.sapo.pt/2025/07/22/edp-e-merlin-unem-se-para-primeiro-centro-de-dados-neutro-em-carbono/",
+       "citacao": "com centrais solares que podem atingir até 100 megawatts-pico",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media"
+      }
+     ]
+    },
+    "area_m2": {
+     "valor": "33.000 m2 no curto prazo + 73.000 m2 adicionais (plano de 2022; área bruta, não white space)",
+     "fonte_url": "https://www.essential-business.pt/2022/07/08/merlin-to-build-data-centre-in-lisbon/",
+     "citacao": "In Lisbon, the data centre will be built in Vila Franca de Xira and in the short term will cover 33,000m2 with a further availability of 73,000m2.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "baixa",
+     "nota": "Plano de 2022, anterior ao redimensionamento para 180 MW."
+    },
+    "certificacoes": {
+     "valor": [
+      "OCP Ready for Hyperscale (ago. 2025)",
+      "Tier III design (declarado)"
+     ],
+     "fonte_url": "https://www.edged.es/news/merlin-edged-lisbon-ai-campus-earns-ocp-ready-tm-for-hyperscale-recognition-by-the-open-compute-project",
+     "citacao": "MERLIN Edged Lisbon AI Campus Earns OCP Ready™ for Hyperscale Recognition by the Open Compute Project",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "Tier III design",
+       "fonte_url": "https://www.edged.es/lisbon",
+       "citacao": "Tier III design concurrently maintainable",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "media"
+      }
+     ]
+    },
+    "controlador_final": {
+     "valor": "Merlin Properties SOCIMI — Espanha (propriedade imobiliária) + Edged (subsidiária da Endeavour) — operador em JV",
+     "fonte_url": "https://www.edged.es/company",
+     "citacao": "Edged Spain is a subsidiary of Endeavour in collaboration with MERLIN Properties.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "Merlin Espanha",
+       "fonte_url": "https://www.edged.es/company",
+       "citacao": "MERLIN Properties SOCIMI, S.A., is the leading listed real estate company on the Iberian Peninsula, listed on the Spanish Stock Exchange (IBEX-35)",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      },
+      {
+       "valor": "estrutura JV",
+       "fonte_url": "https://www.essential-business.pt/2022/07/08/merlin-to-build-data-centre-in-lisbon/",
+       "citacao": "The spaces will be run in a joint venture between Edged Energy, a subsidiary of Endeavour, with Merlin responsible for building and maintaining these new data centre property assets.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media"
+      }
+     ]
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "nao_nomeados",
+     "fonte_url": "https://www.edged.es/news/merlin-edged-lisbon-ai-campus-earns-ocp-ready-tm-for-hyperscale-recognition-by-the-open-compute-project",
+     "citacao": "New campus for AI research and high-speed computing will lead the way in energy efficiency and sustainability with 100% renewable solar energy.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "Posicionamento 'AI campus' sem clientes nomeados."
+    }
+   },
+   "nao_encontrado": [
+    "mw_rede",
+    "licenciamento_ambiental/AIA (só referência de imprensa a licença de construção, fonte inacessível)",
+    "status_pin",
+    "ligacao_academica",
+    "clientes nomeados",
+    "ISO 50001/14001"
+   ],
+   "conflitos": [
+    {
+     "campo": "capacidade inicial",
+     "valores": [
+      {
+       "valor": 180,
+       "unidade": "MW",
+       "fonte_url": "https://ir.merlinproperties.com/en/new-opportunity-in-data-centers/",
+       "citacao": "Lisboa-Vila Franca de Xira Campus (LIS 01 to 05 under construction, totaling 180MW, expandable to 300MW)",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": 36,
+       "unidade": "MW (capacidade inicial após redução)",
+       "fonte_url": "https://vidaimobiliaria.com/noticias/mercados/merlin-anuncia-corte-na-capacidade-prevista-para-data-center-em-lisboa/",
+       "citacao": "A empresa espanhola decidiu reduzir a capacidade inicial do data center que vai construir em Lisboa, passando dos 108 megawatts inicialmente previstos para apenas 36 MW",
+       "tipo_fonte": "imprensa",
+       "data_acesso": "2026-10-06"
+      }
+     ],
+     "nota": "Redução anunciada em mai. 2025 devido à regra norte-americana de exportação de chips de IA (AI Diffusion Rule). Fontes de operador posteriores (ago. 2025; 2026) continuam a falar em 180 MW totais — não esclarecem a fase inicial."
+    }
+   ],
+   "ambiguidades": [
+    "Pais de origem da Endeavour/Edged não declarado explicitamente nas fontes acessadas (o site edged.us apresenta-se como 'Edged U.S.', mas não declara sede). Confirmar manualmente.",
+    "PUE 1.15 é PUE de projeto médio do portefólio (Edged), não específico nem medido em Lisboa.",
+    "'100% solar electricity' (operador) vs. parceria EDP com solar descentralizado até 100 MWp complementado por 'outras soluções' (imprensa): mecanismo do restante não especificado."
+   ]
+  },
+  {
+   "facility_id": "carrierhouse-lisbon",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+     "citacao": "Avenida Severiano Falcao, 14 Prior Velho 2685 378 Lisbon Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Página ativa do IBX LS1 no site da Equinix."
+    },
+    "ano_operacao": {
+     "valor": "2000 (edifício/operação original); Equinix desde 2017",
+     "fonte_url": "https://econews.pt/2025/03/05/american-equinix-plans-third-data-centre-in-lisbon/",
+     "citacao": "“We started our operation in Lisbon in 2000, with our first building”, called LS1.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "evidencias_adicionais": [
+      {
+       "valor": 2017,
+       "fonte_url": "https://bebeez.eu/2025/06/05/equinix-launches-second-portuguese-data-center-in-lisbon/",
+       "citacao": "Equinix acquired the site from Itconic in 2017",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "alta",
+       "nota": "Republicação de DCD (datacenterdynamics.com bloqueado a acesso automático)."
+      }
+     ]
+    },
+    "area_m2": {
+     "valor": 1487,
+     "unidade": "m2 (colocation space)",
+     "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+     "citacao": "16,006 Square feet (ft²)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "A tabela de especificações do operador indica 'Colocation Space 1,487 m2 (16,006 ft2)'."
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO 14001",
+      "ISO 50001",
+      "ISO 27001",
+      "ISO 22301",
+      "ISO 45001",
+      "ISO 9001",
+      "PCI DSS",
+      "SOC 1 Type II",
+      "SOC 2 Type II",
+      "Cyber Essentials",
+      "Climate Neutral Data Centre Pact"
+     ],
+     "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+     "citacao": "Climate Neutral Data Centre Pact Cyber Essentials ISO 14001 ISO 22301 ISO 27001 ISO 45001 ISO 50001 ISO 9001 PCI DSS SOC 1 Type II SOC 2 Type II",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "Lista na página do IBX; pode ser lista corporativa e não certificado específico do site — verificar."
+    },
+    "energia_renovavel": {
+     "valor": {
+      "alegacao": "2025: Garantias de Origem mistas incluídas pelo fornecedor",
+      "mecanismo": "garantias_origem"
+     },
+     "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+     "citacao": "Sustainability 2025: Supplier bundled mixed GoOs from Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "PPA solar Sonnedix (corporativo, Portugal)",
+       "fonte_url": "https://bebeez.eu/2025/06/05/equinix-launches-second-portuguese-data-center-in-lisbon/",
+       "citacao": "Equinix signed a solar PPA in Portugal with Sonnedix in 2023.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "media",
+       "nota": "Não se afirma que o PPA abastece especificamente LS1."
+      }
+     ]
+    },
+    "refrigeracao": {
+     "valor": "free cooling; contenção de corredores quente/frio",
+     "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+     "citacao": "Free Cooling LED Lighting Hot/Cold Aisle Containment",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "Equinix, Inc. — EUA",
+     "fonte_url": "https://www.essential-business.pt/2025/05/02/us-company-equinix-invests-e50-million-in-new-data-centre-in-portugal/",
+     "citacao": "The US company Equinix, a digital infrastructure company enabling digital leaders to harness a platform to bring together and interconnect foundational infrastructures",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "consumo_agua",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "area_m2",
+     "valores": [
+      {
+       "valor": 1487,
+       "unidade": "m2",
+       "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+       "citacao": "16,006 Square feet (ft²)",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": 1475,
+       "unidade": "m2",
+       "fonte_url": "https://bebeez.eu/2025/06/05/equinix-launches-second-portuguese-data-center-in-lisbon/",
+       "citacao": "consists of one building with 16,000 sq ft (1,475 sqm) of colocation space",
+       "tipo_fonte": "imprensa",
+       "data_acesso": "2026-10-06"
+      }
+     ],
+     "nota": "Diferença de arredondamento; preferir operador."
+    }
+   ],
+   "ambiguidades": [
+    "Concelho: a morada é 'Prior Velho ... Lisbon', mas Prior Velho pertence ao concelho de Loures (o dataset já tem Loures).",
+    "Ano de operação: '2000' é declaração do diretor da Equinix Portugal sobre o primeiro edifício; a Equinix só adquiriu o site em 2017 (via Itconic/Telvent-Carrierhouse)."
+   ]
+  },
+  {
+   "facility_id": "equinix-ls2",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://bebeez.eu/2025/06/05/equinix-launches-second-portuguese-data-center-in-lisbon/",
+     "citacao": "Equinix has launched its second data center in Lisbon, Portugal.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "nota": "Republicação BeBeez de DCD, 05/06/2025."
+    },
+    "ano_operacao": {
+     "valor": 2025,
+     "fonte_url": "https://econews.pt/2025/03/05/american-equinix-plans-third-data-centre-in-lisbon/",
+     "citacao": "this centre will be ready for service in June this year",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "nota": "Artigo de 05/03/2025; lançamento noticiado em 05/06/2025."
+    },
+    "area_m2": {
+     "valor": 2050,
+     "unidade": "m2 (colocation space)",
+     "fonte_url": "https://bebeez.eu/2025/06/05/equinix-launches-second-portuguese-data-center-in-lisbon/",
+     "citacao": "the new data center has 2,050 sqm (22,065 sq ft) of co-location space spread over three floors.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "evidencias_adicionais": [
+      {
+       "valor": "625 racks iniciais",
+       "fonte_url": "https://bebeez.eu/2025/06/05/equinix-launches-second-portuguese-data-center-in-lisbon/",
+       "citacao": "The facility will initially offer 625 racks.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa",
+       "confianca": "alta"
+      }
+     ],
+     "nota": "A página do operador não mostra a área ('This data can’t be displayed right now')."
+    },
+    "energia_renovavel": {
+     "valor": {
+      "alegacao": "2025: Garantias de Origem mistas incluídas pelo fornecedor",
+      "mecanismo": "garantias_origem"
+     },
+     "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls2",
+     "citacao": "Sustainability 2025: Supplier bundled mixed GoOs from Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "investimento": {
+     "valor": "~€50 M iniciais; ~€100 M total estimado",
+     "fonte_url": "https://bebeez.eu/2025/06/05/equinix-launches-second-portuguese-data-center-in-lisbon/",
+     "citacao": "With an initial investment of approximately €50 million ($57.1m) and an estimated total of €100 million ($114.2m)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "Equinix, Inc. — EUA",
+     "fonte_url": "https://www.essential-business.pt/2025/05/02/us-company-equinix-invests-e50-million-in-new-data-centre-in-portugal/",
+     "citacao": "The US company Equinix, a digital infrastructure company enabling digital leaders to harness a platform to bring together and interconnect foundational infrastructures",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "refrigeracao",
+    "certificacoes (página LS2 não lista)",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "investimento de €100 M",
+     "valores": [
+      {
+       "valor": "€100 M = LS2 com todas as fases",
+       "fonte_url": "https://econews.pt/2025/03/05/american-equinix-plans-third-data-centre-in-lisbon/",
+       "citacao": "in an investment that will amount to 100 million euros if “all phases” are taken into account",
+       "tipo_fonte": "imprensa",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": "€100 M = terceiro data center (LS3, 2027)",
+       "fonte_url": "https://www.essential-business.pt/2025/05/02/us-company-equinix-invests-e50-million-in-new-data-centre-in-portugal/",
+       "citacao": "is currently working on its third data centre for the Lisbon region which should be completed in 2027 with an investment of €100 million",
+       "tipo_fonte": "imprensa",
+       "data_acesso": "2026-10-06"
+      }
+     ],
+     "nota": "ECO News diz que a Equinix ainda não tem estimativa para LS3; Essential Business parece ter atribuído o valor ao LS3."
+    }
+   ],
+   "ambiguidades": [
+    "LS3 planeado para a região de Lisboa (2027, calendário 'flexível') — não está no dataset."
+   ]
+  },
+  {
+   "facility_id": "oasix-lisbon",
+   "campos": {
+    "status": {
+     "valor": "operacional (adquirido pela Templus ao Grupo Aire em jan. 2026)",
+     "fonte_url": "https://www.corresponsables.com/actualidad/templus-entra-en-portugal-y-amplia-su-red-de-centros-de-datos-en-espana-tras-adquirir-activos-de-grupo-aire/",
+     "citacao": "Templus ha dado un nuevo paso en su estrategia de expansión europea con la adquisición de los centros de datos que Grupo Aire operaba en Lisboa, Madrid y Valencia",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "nota": "Corresponsables reproduz comunicado da Templus (13/01/2026)."
+    },
+    "mw_ti_instalado": {
+     "valor": 1.5,
+     "unidade": "MW",
+     "fonte_url": "https://templus.com/data-centers/lisboa-lis01/",
+     "citacao": "Superficie IT 500 m² Total power 1,5 MW Arquitectura Carrier neutral Nivel Tier III Ready Certificados ISO Energía 100% renovable",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media",
+     "nota": "'Total power' — não especifica TI vs. total."
+    },
+    "area_m2": {
+     "valor": 500,
+     "unidade": "m2 (IT)",
+     "fonte_url": "https://templus.com/data-centers/lisboa-lis01/",
+     "citacao": "Cuenta con más de 500 m² IT y 3 MW de capacidad en un entorno carrier-neutral.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "certificacoes": {
+     "valor": [
+      "Tier III Ready (declarado)",
+      "'Certificados ISO' (normas não especificadas)"
+     ],
+     "fonte_url": "https://templus.com/data-centers/lisboa-lis01/",
+     "citacao": "Superficie IT 500 m² Total power 1,5 MW Arquitectura Carrier neutral Nivel Tier III Ready Certificados ISO Energía 100% renovable",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "baixa"
+    },
+    "energia_renovavel": {
+     "valor": {
+      "alegacao": "100% renovável",
+      "mecanismo": "nao_especificado"
+     },
+     "fonte_url": "https://templus.com/esg/",
+     "citacao": "La operación de nuestros data centers se abastece con electricidad de origen renovable, de acuerdo con los contratos y mecanismos aplicables en cada país.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "controlador_final": {
+     "valor": "Templus — plataforma de ICG (gestora de ativos alternativos) e Teras Capital",
+     "fonte_url": "https://www.sdxcentral.com/news/icg-and-teras-launch-data-center-platform-templus/",
+     "citacao": "Alternative asset manager ICG and investment firm Teras Capital last week announced the launching of Templus, a new €300 million ($326m) data center platform targeting Southern Europe.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "nota": "Fonte de mai. 2024; não encontrada alteração posterior de acionistas."
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "nao_nomeados; Grupo Aire mantém gestão dos seus clientes como parceiro estratégico",
+     "fonte_url": "https://www.corresponsables.com/actualidad/templus-entra-en-portugal-y-amplia-su-red-de-centros-de-datos-en-espana-tras-adquirir-activos-de-grupo-aire/",
+     "citacao": "Grupo Aire mantiene la gestión de sus clientes en estas instalaciones y pasa a convertirse en socio estratégico de Templus",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "ano_operacao",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "refrigeracao",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "capacidade LIS01",
+     "valores": [
+      {
+       "valor": 1.5,
+       "unidade": "MW (Total power)",
+       "fonte_url": "https://templus.com/data-centers/lisboa-lis01/",
+       "citacao": "Superficie IT 500 m² Total power 1,5 MW",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": 3,
+       "unidade": "MW ('capacidad')",
+       "fonte_url": "https://templus.com/data-centers/lisboa-lis01/",
+       "citacao": "Cuenta con más de 500 m² IT y 3 MW de capacidad en un entorno carrier-neutral.",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      }
+     ],
+     "nota": "Contradição interna na mesma página do operador (possivelmente atual vs. potencial)."
+    }
+   ],
+   "ambiguidades": [
+    "País de ICG (Intermediate Capital Group, Reino Unido) e Teras Capital (Espanha) não está explícito na citação; confirmar manualmente.",
+    "Operador do dataset 'Templus (Grupo Aire)': desde jan. 2026 o proprietário é a Templus; o Grupo Aire (OASIX) é parceiro comercial."
+   ]
+  },
+  {
+   "facility_id": "voltekko-alcochete",
+   "campos": {
+    "status": {
+     "valor": "em_construcao",
+     "fonte_url": "https://baxtel.com/data-center/voltekko-alcochete",
+     "citacao": "Under Construction New facility under construction",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "ano_operacao": {
+     "valor": 2026,
+     "fonte_url": "https://baxtel.com/data-center/voltekko-alcochete",
+     "citacao": "This purpose-built facility is slated to open in the third quarter of 2026.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa",
+     "nota": "Previsão (Q3 2026); entrada em serviço não confirmada em fonte primária."
+    },
+    "mw_ti_planejado": {
+     "valor": 6.0,
+     "unidade": "MW",
+     "fonte_url": "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal",
+     "citacao": "A 2,400m² IT surface area, 6.0 MW IT power capacity, and an average density of 3kw/m².",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta",
+     "nota": "AICEP (agência governamental) republica comunicado do promotor."
+    },
+    "area_m2": {
+     "valor": 2400,
+     "unidade": "m2 (IT surface)",
+     "fonte_url": "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal",
+     "citacao": "A 2,400m² IT surface area, 6.0 MW IT power capacity, and an average density of 3kw/m².",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "pue": {
+     "valor": "<1.3",
+     "fonte_url": "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal",
+     "citacao": "Tier III+ certification for sovereign, eco-friendly, high-performance data centers, with a PUE (Power Usage Effectiveness) of less than 1.3 and powered by renewable energy, utilizing waste heat, and water-efficient.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta",
+     "pue_tipo": "meta_projeto",
+     "ano": 2024
+    },
+    "energia_renovavel": {
+     "valor": {
+      "alegacao": "powered by renewable energy",
+      "mecanismo": "nao_especificado"
+     },
+     "fonte_url": "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal",
+     "citacao": "Colocation services and connectivity with hyperscalers, ensuring 24/7 maximum security and renewable energy usage.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "media"
+    },
+    "refrigeracao": {
+     "valor": "free cooling + direct liquid cooling (DLC) + imersão consoante cliente; reaproveitamento de calor; WUE 'próximo de zero' (grupo)",
+     "fonte_url": "https://www.voltekko.com/pt/",
+     "citacao": "apresentam um PUE inferior a 1,2 e um WUE próximo de zero",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Afirmação genérica do grupo, não específica de Alcochete."
+    },
+    "certificacoes": {
+     "valor": "Tier III+ (meta de projeto, não certificado emitido)",
+     "fonte_url": "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal",
+     "citacao": "Tier III+ certification for sovereign, eco-friendly, high-performance data centers",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "media"
+    },
+    "controlador_final": {
+     "valor": "Voltekko SAS (Paris) — França; co-detida pela Ekovolt / Pont Digital Infrastructure (Paris); investidor/parceiro Reed (Groupe Société Générale)",
+     "fonte_url": "https://offshoresource.com/business-wire/ekovolt-welcomes-eric-scotto-co-founder-of-akuo-energy-as-a-shareholder-and-rebrands-as-pont-digital-infrastructure/",
+     "citacao": "Ekovolt, a holding company focused on the development and investment in next-generation data centre infrastructure, and co-owner of Voltekko, a Southern European data centre development platform",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "evidencias_adicionais": [
+      {
+       "valor": "Reed – Société Générale",
+       "fonte_url": "https://www.voltekko.com/pt/",
+       "citacao": "A Reed – Groupe Société Générale é uma sociedade de investimento especializada em infraestruturas tecnológicas de elevado impacto.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "media"
+      },
+      {
+       "valor": "Sede Paris",
+       "fonte_url": "https://www.voltekko.com/pt/",
+       "citacao": "75005 Paris SAS au capital de 9 300 100 €",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador",
+       "confianca": "alta"
+      }
+     ]
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "nao_nomeados (apenas 'connectivity with hyperscalers')",
+     "fonte_url": "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal",
+     "citacao": "Colocation services and connectivity with hyperscalers",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_rede (há referência em diretório a 12.000 kVA, não verificada)",
+    "consumo_agua (valor)",
+    "ligacao_academica",
+    "licenciamento"
+   ],
+   "conflitos": [
+    {
+     "campo": "pue",
+     "valores": [
+      {
+       "valor": "<1.3 (Alcochete)",
+       "fonte_url": "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal",
+       "citacao": "with a PUE (Power Usage Effectiveness) of less than 1.3",
+       "tipo_fonte": "governo_regulador",
+       "data_acesso": "2026-10-06"
+      },
+      {
+       "valor": "<1.2 (meta genérica do grupo)",
+       "fonte_url": "https://www.voltekko.com/pt/",
+       "citacao": "apresentam um PUE inferior a 1,2 e um WUE próximo de zero",
+       "tipo_fonte": "operador",
+       "data_acesso": "2026-10-06"
+      }
+     ]
+    }
+   ],
+   "ambiguidades": [
+    "O site atual da Voltekko (FR/PT) não menciona Alcochete e posiciona-se como 'data centers IA-ready français et souverains'; não foi possível confirmar se o projeto de Alcochete continua ativo ou entrou em serviço em 2026.",
+    "PUE do dataset (1.3) corresponde à meta de projeto de 2024, não a valor medido."
+   ]
+  }
+ ],
+ "achados_para_o_artigo": [
+  {
+   "achado": "A APA propôs inicialmente a NÃO conformidade ambiental do projeto de execução do campus de Sines (SIN02-06): a Comissão de Avaliação emitiu parecer desfavorável ao RECAPE (out. 2024); a decisão só foi revertida para DCAPE favorável condicionada após audiência prévia do promotor.",
+   "por_que_importa": "Mostra fricção real entre a expansão de infraestrutura de IA e a regulação ambiental (sobreiros, ZEC Costa Sudoeste), contrariando a narrativa de projeto 'consensual'.",
+   "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/aia3633%20(recape)_analisealeg202525185359.pdf",
+   "citacao": "a autoridade de AIA propôs e comunicou ao proponente uma proposta de decisão de não conformidade ambiental do projeto de execução do Data Center Sines 4.0."
+  },
+  {
+   "achado": "Lacuna entre capacidade avaliada em AIA (máx. 495 MW TI) e capacidade anunciada como 'fully permitted' (1,2 GW) para o campus de Sines.",
+   "por_que_importa": "Sugere que a capacidade comercializada para IA (Nscale/Microsoft) excede o perímetro avaliado ambientalmente; questão de transparência e de eventual nova AIA.",
+   "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+   "citacao": "A totalidade do Campus (NEST ou SIN01 com 15 MW + REST ou SIN02-06) quando estiver em pleno funcionamento terá no máximo 495 MW de potência em Tecnologia de Informação (TI)"
+  },
+  {
+   "achado": "Escala hídrica e de combustão do campus de Sines: caudal máximo de água do mar de 16,85 m3/s e 512 geradores de emergência com ~1,4 GWe, enquadrados no RJAIA como instalação de combustão ≥300 MW.",
+   "por_que_importa": "O 'WUE 0' do operador refere-se a água doce; a pegada hídrica marinha e a capacidade fóssil de backup são invisíveis nas métricas de marketing.",
+   "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+   "citacao": "Serão instalados 512 geradores de emergência (20 dos quais relativos ao NEST ou SIN01) com potência total aproximada de 1,4 GWe"
+  },
+  {
+   "achado": "A AdSA (concessionária pública de água industrial) contestou a aprovação do RECAPE por causa do uso privativo das infraestruturas de captação de água do mar da antiga central da EDP, cujo título de utilização tinha caducado.",
+   "por_que_importa": "Conflito de uso de recurso público (infraestrutura hídrica marinha) entre interesse público regional e um data center privado.",
+   "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+   "citacao": "verifica-se que a EDP P não dispõe de título de utilização de recursos hídricos, dado que aquele que dispunha caducou"
+  },
+  {
+   "achado": "Restrições norte-americanas à exportação de chips de IA (regra de Biden, jan. 2025) levaram a Merlin a cortar a capacidade inicial do campus de Vila Franca de Xira de 108 MW para 36 MW e a transferir 72 MW para Madrid.",
+   "por_que_importa": "Evidência direta de que a soberania tecnológica portuguesa em IA depende de política de exportação dos EUA; Portugal ficou fora da lista de aliados de nível 1 enquanto Espanha não.",
+   "fonte_url": "https://eco.sapo.pt/2025/07/22/edp-e-merlin-unem-se-para-primeiro-centro-de-dados-neutro-em-carbono/",
+   "citacao": "“Tirámos 72 MW que iríamos instalar em Portugal e acrescentámos 78 MW aos ativos localizados em Madrid”, explicou o gestor, justificando com as restrições que os EUA previam aplicar à compra de chips em Portugal a partir de maio"
+  },
+  {
+   "achado": "A maior implantação de GPUs de IA em Portugal (12.600 GB300 + 66.000+ Rubin) é de um neocloud britânico (Nscale) para um hyperscaler norte-americano (Microsoft), num campus detido por fundo norte-americano (Davidson Kempner).",
+   "por_que_importa": "Toda a cadeia de controlo da capacidade de IA em Sines é estrangeira, embora o discurso fale em 'sovereign AI' europeia.",
+   "fonte_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+   "citacao": "Nscale’s additional investments of €230 million in shared infrastructure and €465 million in a second 200MW building at the SINES Data Campus"
+  },
+  {
+   "achado": "O promotor de Sines afirma não ter recebido subsídios, fundos públicos ou benefícios fiscais para o SIN01, mas o projeto tem estatuto PIN (mar. 2021) e beneficiou de procedimento excecional de atribuição de capacidade de rede (Operação Influencer; 'diploma bar aberto').",
+   "por_que_importa": "Apoio público não-financeiro (PIN, prioridade de rede ~1.437 MVA) é uma forma de subsídio implícito relevante para a análise de política pública.",
+   "fonte_url": "https://observador.pt/2026/07/28/start-campus-tentou-troca-direta-de-capacidade-entre-redes-eletricas-de-transporte-e-distribuicao-erse-foi-contra/",
+   "citacao": "as diligências feitas pelo promotor do centro de dados de Sines, direta ou indiretamente, junto do Governo liderado por António Costa para garantir acesso à eletricidade e às redes elétricas foram um dos temas apanhados na Operação Influencer."
+  },
+  {
+   "achado": "A ERSE emitiu parecer negativo a um pedido da Start Campus (fev. 2025) para trocar 12,5 MVA da rede de transporte por capacidade na rede de distribuição para expandir urgentemente o SIN01.",
+   "por_que_importa": "Mostra a pressão dos data centers de IA sobre a rede elétrica e o papel do regulador como travão.",
+   "fonte_url": "https://observador.pt/2026/07/28/start-campus-tentou-troca-direta-de-capacidade-entre-redes-eletricas-de-transporte-e-distribuicao-erse-foi-contra/",
+   "citacao": "A solicitação chegou à Direção-Geral de Energia e Geologia (DGEG) no início de 2025, que não se opôs, mas viria a esbarrar num parecer negativo da Entidade Reguladora dos Serviços Energéticos (ERSE)."
+  },
+  {
+   "achado": "Ensino superior: a Start Campus financia uma cátedra, bolsas e um módulo académico na NOVA IMS (abr. 2026) e um desafio de startups de IA com a Porto Business School.",
+   "por_que_importa": "Ligação direta entre infraestrutura de IA de capital estrangeiro e currículo/investigação no ensino superior português — tema central do artigo.",
+   "fonte_url": "https://www.startcampus.pt/investing-in-the-people-behind-portugals-ai-future-with-nova-ims",
+   "citacao": "In addition, the collaboration includes scholarships for students and the creation of a company-sponsored chair."
+  },
+  {
+   "achado": "Docentes/instituições de ensino superior (FEUP; ISA/CEABN) integraram a Comissão de Avaliação da AIA do campus de Sines.",
+   "por_que_importa": "Papel das universidades como peritos na regulação ambiental da infraestrutura de IA (ligação académica de sentido inverso).",
+   "fonte_url": "https://siaia.apambiente.pt/AIADOC/RECAPE564/parecer_recape_aia363320241113135846.pdf",
+   "citacao": "Instituto Superior de Agronomia / Centro de Ecologia Aplicada \"Prof. Baeta Neves\" Faculdade de Engenharia da Universidade do Porto"
+  },
+  {
+   "achado": "Candidatura ibérica à AI Gigafactory europeia (EuroHPC): 6 mil milhões € para Portugal, com Sines como polo principal e redundância em Lisboa e Abrantes; Start Campus citada como possível anfitrião.",
+   "por_que_importa": "Possível ponte entre a infraestrutura privada estrangeira e computação científica/pública europeia (EuroHPC).",
+   "fonte_url": "https://eco.sapo.pt/2026/06/01/gigafabrica-de-sines-vai-ter-redundancia-em-lisboa-e-abrantes-se-vencer-portugal-recebe-6-milhoes-de-bruxelas/",
+   "citacao": "Questionado sobre se o polo português irá ficar alojado na Start Campus, Gonçalo Regalado respondeu que há “soluções como a Start Campus e alternativas adicionais em Sines”."
+  },
+  {
+   "achado": "AtlasEdge (Carnaxide) passou a ter um acionista indireto japonês: a DigitalBridge, co-controladora da JV com a Liberty Global, tornou-se subsidiária controlada do SoftBank Group a 30/09/2026.",
+   "por_que_importa": "Mudanças de controlo na cadeia de propriedade ocorrem fora de Portugal e sem escrutínio local — relevante para soberania.",
+   "fonte_url": "https://group.softbank/en/news/press/20260930",
+   "citacao": "DigitalBridge has become a controlled subsidiary of SBG and will continue to operate as a separately managed platform, led by Marc Ganzi."
+  },
+  {
+   "achado": "Atraso e mudança de escala em Sines: em 2023 o projeto acumulava três anos de atraso face ao calendário original e o primeiro edifício era descrito pelo próprio promotor como 'projeto-piloto'.",
+   "por_que_importa": "Gap entre capacidade anunciada e entregue; o plano passou de 15+5×90 MW para 495 MW (AIA) e depois 1,2 GW.",
+   "fonte_url": "https://eco.sapo.pt/especiais/com-tres-anos-de-atraso-mega-data-center-da-start-campus-ainda-nao-passou-de-projeto-piloto/",
+   "citacao": "Com a primeira fase do projeto quase concluída, mas acumulando três anos de atraso face ao calendário original"
+  },
+  {
+   "achado": "Equinix LS1/LS2 declaram energia renovável em 2025 via Garantias de Origem mistas incluídas pelo fornecedor (não PPA físico), apesar de a Equinix ter um PPA solar corporativo com a Sonnedix em Portugal.",
+   "por_que_importa": "Distinção GoO vs. PPA é central para avaliar alegações de '100% renovável' dos data centers.",
+   "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+   "citacao": "Sustainability 2025: Supplier bundled mixed GoOs from Portugal"
+  }
+ ]
+}

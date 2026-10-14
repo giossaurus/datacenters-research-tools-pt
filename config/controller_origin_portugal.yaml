@@ -1,0 +1,81 @@
+# País e natureza do controlador final de cada operador (Tabela 1 dos Results de Portugal).
+#
+# Regra: controlador final = acionista com mais de 25% do capital ou dos votos (limiar de beneficiário
+# efetivo da Diretiva (UE) 2015/849); sem nenhum acima do limiar, vale o país da sede da empresa.
+# Fonte de cada entrada: colunas controlador_final / controlador_final_fonte de
+# data/processed/facilities_enriched_portugal.csv (enriquecimento web com proveniência por campo).
+#
+# categoria: publico_pt | privado_pt | estrangeiro
+# pais: ISO 3166-1 alfa-2
+
+Start Campus:
+  pais: US
+  categoria: estrangeiro
+  nota: "Davidson Kempner Capital Management (EUA), com Pioneer Point Partners (Reino Unido)"
+Altice Portugal (MEO):
+  pais: LU
+  categoria: estrangeiro
+  nota: "grupo Altice (Luxemburgo); venda do site da Covilhã à Asterion (Espanha) anunciada, fecho não confirmado"
+Ar Telecom:
+  pais: ES
+  categoria: estrangeiro
+  nota: "Aire Networks (Grupo Aire) desde 2021"
+IP Telecom:
+  pais: PT
+  categoria: publico_pt
+  nota: "Infraestruturas de Portugal, S.A. — Estado acionista único"
+ALLBS, LDA:
+  pais: PT
+  categoria: privado_pt
+AtlasEdge:
+  pais: GB
+  categoria: estrangeiro
+  nota: "sede em Londres; JV Liberty Global + DigitalBridge, sem acionista acima de 50%"
+Claranet:
+  pais: GB
+  categoria: estrangeiro
+Edged (Merlin Properties):
+  pais: ES
+  categoria: estrangeiro
+  nota: "imóvel da Merlin Properties (Espanha); operação em JV com a Edged (Endeavour)"
+Equinix:
+  pais: US
+  categoria: estrangeiro
+FCT-FCCN:
+  pais: PT
+  categoria: publico_pt
+Kyndryl:
+  pais: US
+  categoria: estrangeiro
+LeapSwitch Networks Private Limited:
+  pais: IN
+  categoria: estrangeiro
+NFSI Internet Services:
+  pais: PT
+  categoria: privado_pt
+ONI:
+  pais: ES
+  categoria: estrangeiro
+  nota: "Gigas Hosting (Espanha) desde 2020"
+Templus (Grupo Aire):
+  pais: GB
+  categoria: estrangeiro
+  nota: "plataforma da ICG (gestora britânica), com a Teras Capital"
+REGISTER S.p.A.:
+  pais: LU
+  categoria: estrangeiro
+  nota: "holding team.blue EquityCo (Luxemburgo); grupo sediado na Bélgica; operadora italiana"
+REN Telecom:
+  pais: PT
+  categoria: privado_pt
+  nota: "REN cotada em Lisboa; maior acionista State Grid (China) com 25,0%, não acima do limiar"
+RNCA:
+  pais: PT
+  categoria: publico_pt
+  nota: "promotor: FCT"
+Tata Communications:
+  pais: IN
+  categoria: estrangeiro
+Voltekko:
+  pais: FR
+  categoria: estrangeiro

@@ -1,0 +1,188 @@
+# Portugal: mapeamento distritos/concelhos → regiões NUTS II (nomenclatura 2024).
+#
+# Fonte de referência geográfica: DGT/CAOP (Direção-Geral do Território).
+# Nota 2024: a antiga "Lisboa e Vale do Tejo" foi desmembrada em:
+#   - Grande Lisboa
+#   - Península de Setúbal
+#   - Oeste e Vale do Tejo
+#
+# ESTRUTURA:
+#   city_to_admin  → chave = source_city no CSV (nome em config.cities[].name ou
+#                    nome devolvido pelo datacentermap.com) → valor = código de distrito
+#   admin_to_region → código de distrito → região NUTS II
+#
+# Apague ou comente linhas que não queira incluir na análise.
+# Coordenadas por distrito são informativas (o código lê lat/lon do CSV, não deste ficheiro).
+
+label_admin: "Distrito"
+
+city_to_admin:
+
+  # ── NORTE ────────────────────────────────────────────────
+  # Distrito do Porto  (lat 41.1621, lon -8.6220)
+  Porto: POR
+  Vila Nova de Gaia: POR
+  Matosinhos: POR
+  Maia: POR
+
+  # Distrito de Braga  (lat 41.5503, lon -8.4200)
+  Braga: BRA
+  Guimarães: BRA
+  Vila Nova de Famalicão: BRA
+  Barcelos: BRA
+
+  # Distrito de Viana do Castelo  (lat 41.7000, lon -8.8333)
+  Viana do Castelo: VCT
+
+  # Distrito de Vila Real  (lat 41.2958, lon -7.7461)
+  Vila Real: VRL
+
+  # Distrito de Bragança  (lat 41.8058, lon -6.7572)
+  Bragança: BGC
+
+  # ── CENTRO ───────────────────────────────────────────────
+  # Distrito de Aveiro  (lat 40.6413, lon -8.6500)
+  Aveiro: AVE
+
+  # Distrito de Coimbra  (lat 40.2028, lon -8.4139)
+  Coimbra: COI
+  Figueira da Foz: COI
+
+  # Distrito de Leiria  (lat 39.7500, lon -8.8000)
+  Leiria: LEI
+
+  # Distrito de Viseu  (lat 40.6667, lon -7.9167)
+  Viseu: VIS
+
+  # Distrito da Guarda  (lat 40.5364, lon -7.2683)
+  Guarda: GRD
+
+  # Distrito de Castelo Branco  (lat 39.8167, lon -7.5000)
+  Castelo Branco: CBR
+  Covilhã: CBR
+
+  # ── GRANDE LISBOA ────────────────────────────────────────
+  # Distrito de Lisboa  (lat 38.7253, lon -9.1500)
+  Lisboa: LIS
+  Sintra: LIS
+  Cascais: LIS
+  Loures: LIS
+  Amadora: LIS
+  Odivelas: LIS
+  Vila Franca de Xira: LIS
+
+  # ── OESTE E VALE DO TEJO ─────────────────────────────────
+  # Distrito de Santarém  (lat 39.2339, lon -8.6861)
+  Santarém: SAN
+
+  # ── PENÍNSULA DE SETÚBAL ─────────────────────────────────
+  # Distrito de Setúbal  (lat 38.5244, lon -8.8931)
+  Setúbal: SET
+  Almada: SET
+  Barreiro: SET
+  Seixal: SET
+
+  # ── ALENTEJO ─────────────────────────────────────────────
+  # Distrito de Évora  (lat 38.5667, lon -7.9000)
+  Évora: EVO
+
+  # Distrito de Beja  (lat 38.0167, lon -7.8667)
+  Beja: BEJ
+
+  # Distrito de Portalegre  (lat 39.2933, lon -7.4322)
+  Portalegre: PTG
+
+  # ── ALGARVE ──────────────────────────────────────────────
+  # Distrito de Faro  (lat 37.0161, lon -7.9350)
+  Faro: FAR
+  Loulé: FAR
+  Portimão: FAR
+  Olhão: FAR
+  Albufeira: FAR
+
+  # ── REGIÕES AUTÓNOMAS ────────────────────────────────────
+  # Madeira  (lat 32.6500, lon -16.9083)
+  Funchal: FUN
+  # Açores  (lat 37.7411, lon -25.6806)
+  Ponta Delgada: PDL
+
+  # ── VARIANTES SEM ACENTO (source_city ou city do scraper) ──
+  Setubal: SET
+  Evora: EVO
+  Santarem: SAN
+  Braganca: BGC
+  Guimaraes: BRA
+  Covilha: CBR
+  Vila Nova de Famalicao: BRA
+  Loule: FAR
+  Portimao: FAR
+  Olhao: FAR
+  Lisbon: LIS
+
+
+admin_to_region:
+
+  # Norte (NUTS II)
+  POR: Norte
+  BRA: Norte
+  VCT: Norte
+  VRL: Norte
+  BGC: Norte
+
+  # Centro (NUTS II)
+  AVE: Centro
+  COI: Centro
+  LEI: Centro
+  VIS: Centro
+  GRD: Centro
+  CBR: Centro
+
+  # Grande Lisboa (NUTS II 2024)
+  LIS: Grande Lisboa
+
+  # Oeste e Vale do Tejo (NUTS II 2024)
+  SAN: Oeste e Vale do Tejo
+
+  # Península de Setúbal (NUTS II 2024)
+  SET: Península de Setúbal
+
+  # Alentejo (NUTS II)
+  EVO: Alentejo
+  BEJ: Alentejo
+  PTG: Alentejo
+
+  # Algarve (NUTS II)
+  FAR: Algarve
+
+  # Regiões Autónomas
+  FUN: Região Autónoma da Madeira
+  PDL: Região Autónoma dos Açores
+
+
+# Nomes de exibição opcionais: sobrepõem source_city nos gráficos.
+# Útil quando o slug de coleta difere do nome de apresentação desejado.
+# Exemplos:
+#   ponta-delgada: Ponta Delgada
+#   vng: Vila Nova de Gaia
+city_display_names:
+  lisbon: Lisboa
+  Lisbon: Lisboa
+  setubal: Setúbal
+  Setubal: Setúbal
+  evora: Évora
+  Evora: Évora
+  santarem: Santarém
+  Santarem: Santarém
+  braganca: Bragança
+  Braganca: Bragança
+  guimaraes: Guimarães
+  Guimaraes: Guimarães
+  covilha: Covilhã
+  Covilha: Covilhã
+  loule: Loulé
+  Loule: Loulé
+  portimao: Portimão
+  Portimao: Portimão
+  olhao: Olhão
+  Olhao: Olhão
+  ponta-delgada: Ponta Delgada

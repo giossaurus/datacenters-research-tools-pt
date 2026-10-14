@@ -1,0 +1,76 @@
+# operator_sources_portugal.yaml: sites oficiais dos operadores para o coletor de documentos públicos
+# (scripts/automated/fetch_operator_documents.py).
+#
+# Só documentos publicados intencionalmente pelos operadores (datasheets, folders, relatórios ESG,
+# comunicados). O coletor respeita robots.txt, não autentica e fica dentro de `allow_prefixes`.
+#
+#   base            → raiz do site (host usado como limite do crawl)
+#   allow_prefixes  → caminhos permitidos (default: "/")
+#   seeds           → caminhos extras para iniciar o crawl
+#
+# v0 (06/10/2026): operadores que concentram a capacidade mapeada + nós públicos ligados ao case study.
+
+operators:
+  - id: start-campus
+    name: Start Campus
+    base: https://www.startcampus.pt
+
+  - id: edged
+    name: Edged Energy
+    base: https://www.edgedenergy.com
+
+  - id: atlasedge
+    name: AtlasEdge
+    base: https://atlasedge.com
+
+  - id: equinix
+    name: Equinix
+    base: https://www.equinix.com
+    allow_prefixes:
+      - /data-centers/europe-colocation/portugal-colocation/
+    seeds:
+      - /data-centers/europe-colocation/portugal-colocation/lisbon-data-centers
+
+  - id: meo
+    name: Altice Portugal / MEO
+    base: https://www.meo.pt
+    allow_prefixes:
+      - /empresas
+
+  - id: fccn
+    name: FCT-FCCN
+    base: https://www.fccn.pt
+
+  - id: rnca
+    name: Rede Nacional de Computação Avançada (RNCA)
+    base: https://rnca.fccn.pt
+
+  - id: nscale
+    name: Nscale
+    base: https://www.nscale.com
+
+keywords:
+  - data-center
+  - datacenter
+  - data-centre
+  - centro-de-dados
+  - sustainab
+  - sustentab
+  - esg
+  - csrd
+  - relatorio
+  - report
+  - datasheet
+  - brochure
+  - folheto
+  - spec
+  - sines
+  - lisbon
+  - lisboa
+  - campus
+  - pue
+  - energy
+  - energia
+  - colocation
+  - deucalion
+  - supercomput

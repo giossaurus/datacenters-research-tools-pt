@@ -1,0 +1,149 @@
+# curation_portugal.yaml: regras de curadoria do dataset PT (scripts/pipeline/curate_facilities.py)
+#
+# R1  unidade = instalação (site): prédios de campus (parent/dcchildren na fonte) viram atributo do site
+# R2  clientes/revendedores dentro de outra instalação não contam como data centre
+# R3  status pelo `stage` do perfil datacentermap: 0 planejado · 1 em construção · 2 operacional
+# R4  duplicatas entre fontes: mesmo operador canônico + distância <= same_operator_km
+# R5  localização pelas coordenadas (concelho via GeoAPI) → NUTS II 2024; nunca pelo mercado do site
+#
+# Decisões não deriváveis automaticamente ficam em `overrides`, sempre com `motivo`.
+
+same_operator_km: 10.0      # R4: geocodificação do datacenters.com erra até ~6 km (ex.: Sines)
+coincident_km: 0.25         # R2: outro operador no mesmo endereço
+
+# Nome do operador (como aparece nas fontes) → operador canônico
+aliases:
+  Altice Portugal: Altice Portugal (MEO)
+  MEO: Altice Portugal (MEO)
+  Edged: Edged (Merlin Properties)
+  Edged Energy: Edged (Merlin Properties)
+  Merlin: Edged (Merlin Properties)        # owner declarado no perfil edged-lisbon
+  AtlasEdge Data Centers: AtlasEdge
+  ONI: ONI
+  Onitelecom: ONI
+  Webtuga: WebTuga (Dream Fusion)
+  "Dream Fusion - IT Services, Lda": WebTuga (Dream Fusion)
+  FCCN: FCT-FCCN
+  VOLTEKKO: Voltekko
+  Templus: Templus (Grupo Aire)
+  Grupo Aire: Templus (Grupo Aire)
+  National Advanced Computing Network: RNCA
+  RENTELECOM: REN Telecom
+
+# Decisões explícitas por registro. Chave: "<fonte>:<id>" (dcmap → link do perfil; dccom → id numérico).
+#   papel: cliente_colocation | duplicata | site
+#   host / facility: link do site datacentermap a que o registro pertence
+overrides:
+  "dcmap:webtuga-ls1":
+    papel: cliente_colocation
+    host: equinix-ls2
+    motivo: "R2 — mesmas coordenadas do Equinix LS2 (86 m); operador de hosting sem capacidade declarada"
+  "dccom:LS1 Lisbon Data Center|Equinix":
+    papel: duplicata
+    facility: carrierhouse-lisbon
+    motivo: "R4 — mesmo operador; código LS1 = Carrierhouse/Equinix LS1 no datacentermap"
+  "dccom:Lisboa|Ar Telecom":
+    papel: cliente_colocation
+    host: oasix-lisbon
+    motivo: "R2 — mesmo endereço do OASIX (Templus), 150 m"
+  "dccom:Sines – Start Campus|Nscale":
+    papel: cliente_colocation
+    host: sines-dc-campus
+    motivo: "R2 — o próprio registro se identifica como instalação no campus da Start Campus"
+
+  # Lote D (enriquecimento web, 07/10): R2 com anfitrião identificado e confiança alta/média
+  "dcmap:dotsi-lisbon":
+    papel: cliente_colocation
+    host: matinha
+    motivo: "R2 — PeeringDB: dotsi DC01 na Rua 3 da Matinha, Ed. Altejo, 1950-326 = ONI Matinha (enriquecimento D, confiança média)"
+  "dccom:WebTuga LS2 Datacenter|Webtuga":
+    papel: cliente_colocation
+    host: matinha
+    motivo: "R2 — o site da WebTuga chama LS2 de 'Datacenter ONI (Matinha, Lisboa)'; não é o Equinix LS2 (enriquecimento D, confiança alta)"
+  "dcmap:webtuga-opo":
+    papel: cliente_colocation
+    host: oni-maia-datacenter
+    motivo: "R2 — datacentermap: Rua das Cardosas, Maia, a 0,01 km do ONI Maia Datacenter (enriquecimento D, confiança média)"
+  "dccom:WebTuga Porto|Webtuga":
+    papel: cliente_colocation
+    host: oni-maia-datacenter
+    motivo: "R2 — mesmo registro que dcmap:webtuga-opo, inquilina no ONI Maia (enriquecimento D, confiança média)"
+
+  # Decisão do Giovanni (07/10): revendedores sem prédio próprio declarado saem da contagem
+  "dccom:Lisbon Data Center|CenterServ":
+    papel: excluido
+    motivo: "R2 — a própria CenterServ diz que fornecedor e prédio só são definidos na encomenda: ponto de venda, não instalação (enriquecimento D)"
+  "dccom:Porto Data Center|CenterServ":
+    papel: excluido
+    motivo: "R2 — a própria CenterServ diz que fornecedor e prédio só são definidos na encomenda: ponto de venda, não instalação (enriquecimento D)"
+
+  # Decisão do Giovanni (07/10): estação de amarração de cabos não é data centre de computação
+  "dccom:Azores CLS Data Center|Google":
+    papel: excluido
+    motivo: "Escopo — estação de amarração dos cabos Nuvem/Sol (em construção), infraestrutura de conectividade e não de computação; citada no texto como a presença física do Google em PT (enriquecimento B)"
+
+  # Decisão do Giovanni (07/10): status pela imprensa mais recente (o diretório dizia planejado)
+  "dcmap:rnca-guimares":
+    stage: 1
+    motivo: "R3 — Centro de Dados do CNCA (FCT, Azurém/UMinho, 5,1 M€ PRR) em construção pela dst, conclusão prevista para set/2026 (Observador, 04/05/2026); RNCA 2025 registra desvios de prazo"
+
+# Concelho (GeoAPI) → NUTS II 2024 (INE; Lisboa e Vale do Tejo desmembrada em 2024) {referência a citar}
+nuts2:
+  Lisboa: Grande Lisboa
+  Oeiras: Grande Lisboa
+  Loures: Grande Lisboa
+  Odivelas: Grande Lisboa
+  Amadora: Grande Lisboa
+  Sintra: Grande Lisboa
+  Cascais: Grande Lisboa
+  Vila Franca de Xira: Grande Lisboa
+  Mafra: Grande Lisboa
+  Seixal: Península de Setúbal
+  Alcochete: Península de Setúbal
+  Almada: Península de Setúbal
+  Barreiro: Península de Setúbal
+  Montijo: Península de Setúbal
+  Palmela: Península de Setúbal
+  Setúbal: Península de Setúbal
+  Sines: Alentejo
+  Porto: Norte
+  Maia: Norte
+  Matosinhos: Norte
+  Valongo: Norte
+  Vila Nova de Gaia: Norte
+  Gondomar: Norte
+  Vila Nova de Famalicão: Norte
+  Guimarães: Norte
+  Braga: Norte
+  Viseu: Centro
+  Tondela: Centro
+  Covilhã: Centro
+  Abrantes: Oeste e Vale do Tejo
+  Ponta Delgada: Região Autónoma dos Açores
+  Angra do Heroísmo: Região Autónoma dos Açores
+  Praia da Vitória: Região Autónoma dos Açores
+  Horta: Região Autónoma dos Açores
+  Lagoa (Açores): Região Autónoma dos Açores
+
+# Registros sem coordenadas → concelho pelo nome da cidade na fonte
+concelho_por_cidade:
+  Lisbon: Lisboa
+  Lisboa: Lisboa
+  Porto: Porto
+
+# Nominatim (zoom 10) às vezes devolve a cidade/localidade em vez do município → correção explícita
+concelho_correcoes:
+  Ermesinde: Valongo
+
+# Localização corrigida por site quando a coordenada da fonte contradiz o endereço da própria fonte
+localizacao_correcoes:
+  dccom-azores-cls-data-center-google:
+    concelho: Lagoa (Açores)
+    motivo: "coordenada do datacenters.com cai em Tondela; endereço na fonte = Rua da Alagoa, 9560-421 (Lagoa, São Miguel)"
+
+# Sites mantidos na contagem, mas com evidência fraca de serem inquilinos/extintos → nota de sensibilidade no texto
+# (decisão do Giovanni, 07/10; enriquecimento D, confiança baixa)
+sensibilidade_evidencia_fraca:
+  dccom-lisbon-data-center-leapswitch-networks-private-limited: "possível inquilino na PTisp/Equinix (anúncio de 2015)"
+  nfsi-lisbon1: "empresa possivelmente extinta (domínio hoje é de outra firma)"
+  nfsi-porto-1: "empresa possivelmente extinta (domínio hoje é de outra firma)"

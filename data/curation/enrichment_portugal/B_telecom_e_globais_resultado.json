@@ -1,0 +1,1213 @@
+{
+ "lote": "B_telecom_e_globais",
+ "data_acesso": "2026-10-06",
+ "notas_metodologicas": [
+  "datacentermap.com e datacenters.com devolveram HTTP 429. As fichas do datacentermap foram lidas através de cópias arquivadas no Wayback Machine (web.archive.org), cujos URLs estão indicados em fonte_url, com a data do snapshot no próprio URL.",
+  "Os 'MW' de diretórios e de imprensa nunca qualificam TI vs rede; quando a qualificação falta, isso fica registado em ambiguidades.",
+  "Citações em inglês ou espanhol mantidas no idioma original."
+ ],
+ "sites": [
+  {
+   "facility_id": "dccom-portugal-telecom-covilha-altice-portugal",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://eco.sapo.pt/2025/11/28/asterion-compra-centro-de-dados-da-altice-na-covilha-por-120-milhoes-euros/",
+     "citacao": "o centro de dados da Covilhã conta atualmente com 6,8 megawatts (MW) de capacidade instalada e um ‘design’ modular que permite uma expansão significativa.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "ano_operacao": {
+     "valor": 2013,
+     "nota": "Confirmado por ECO 2017: 'Ou o caso da PT, agora Altice, que em 2013 escolheu inaugurar o seu Data Center na Covilhã' (https://eco.sapo.pt/2017/06/14/ubi-quando-a-universidade-atrai-gente-para-o-interior/). Expansão em 2018.",
+     "fonte_url": "https://bebeez.eu/2025/12/02/asterion-acquires-covilha-data-center-from-altice-portugal/",
+     "citacao": "Opened in 2013 and expanded in 2018 , it is certified Tier III by Uptime.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "mw_ti_instalado": {
+     "valor": 6.8,
+     "unidade": "MW",
+     "nota": "Valor do comunicado da Asterion (via Lusa/ECO); confirmado por Clifford Chance ('6.8 MW of installed capacity'). A fonte NÃO qualifica se é MW de TI ou MW totais/elétricos — ver ambiguidades. Bate com o diretório datacenters.com.",
+     "fonte_url": "https://eco.sapo.pt/2025/11/28/asterion-compra-centro-de-dados-da-altice-na-covilha-por-120-milhoes-euros/",
+     "citacao": "o centro de dados da Covilhã conta atualmente com 6,8 megawatts (MW) de capacidade instalada e um ‘design’ modular que permite uma expansão significativa.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media"
+    },
+    "pue": {
+     "valor": 1.25,
+     "pue_tipo": "nao_especificado",
+     "ano": null,
+     "nota": "Sem ano nem metodologia; a certificação Uptime refere-se ao Tier, não ao PUE. Conflita com PUE médio de projeto 1.2 (ver conflitos).",
+     "fonte_url": "https://en.meo.pt/business/solutions/cloud-datacenter/data-centers/covilha",
+     "citacao": "With a Power Usage Effectiveness (PUE) ratio of 1.25, certified by the Uptime Institute as Tier III and Leed Platinum, it highlights its level of performance, security and availability.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "energia_renovavel": {
+     "valor": "100% renovável (alegação do operador); inclui central fotovoltaica no local",
+     "mecanismo": "nao_especificado",
+     "nota": "O operador não diz se é PPA, garantias de origem ou produção física; a central FV no local é física mas sem dimensão indicada. Página PT: 'Infraestrutura alimentada em 100% por fontes de energias renováveis.'",
+     "fonte_url": "https://en.meo.pt/business/solutions/cloud-datacenter/data-centers/covilha",
+     "citacao": "Infrastructure powered 100% by renewable energy sources.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "refrigeracao": {
+     "valor": "Air Free Cooling (arrefecimento por ar exterior)",
+     "agua": "Sem número de consumo de água. Imprensa: fosso em torno do edifício alimentado por recolha de água da chuva (https://bebeez.eu/2025/12/02/asterion-acquires-covilha-data-center-from-altice-portugal/: 'The moat is fed by a rainwater collection system').",
+     "fonte_url": "https://www.meo.pt/empresas/solucoes/cloud-datacenter/data-centers/covilha",
+     "citacao": "Central fotovoltaica, com sistema de arrefecimento Air Free Cooling e sistemas de controlo e monitorização avançados.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "area_m2": {
+     "valor": {
+      "total_campus": 75500,
+      "salas_TI": 12000
+     },
+     "tipo_area": "75.500 m² = área total do campus; 12.000 m² = 24 salas TI (equivalente a white space/colocation, segundo bebeez: '12,000 sqm ... of colocation space across 24 data halls')",
+     "fonte_url": "https://www.meo.pt/empresas/solucoes/cloud-datacenter/data-centers/covilha",
+     "citacao": "com um total de 75.500m² de área [...] A infraestrutura conta com 24 salas TI com 12.000m² de espaço amplo",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "certificacoes": {
+     "valor": [
+      "Uptime Institute Tier III",
+      "LEED Platinum"
+     ],
+     "nota": "A projetista Quark refere Tier III Design (22 mai) e LEED Gold para os edifícios do DC / Platinum para o edifício de apoio — ver conflitos. ISO 9001/14001 do input não foram confirmados para este site; diretório datacentermap indica 'Tier 3 ISO27001'.",
+     "fonte_url": "https://www.meo.pt/empresas/solucoes/cloud-datacenter/data-centers/covilha",
+     "citacao": "certificado pelo Uptime Institute como Tier III e Leed Platinum",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "Asterion Industrial Partners (Espanha), via Mezan / Asterion Infrastructure Fund III — aquisição à Altice Portugal por 120 M€ anunciada em 28/11/2025; AdC decidiu não oposição em 15/01/2026. Fecho (previsto 1.º trim. 2026) não confirmado nas fontes consultadas; antes: Altice Portugal (grupo Altice, Luxemburgo/Patrick Drahi)",
+     "pais": "Espanha (Madrid)",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://www.idealista.pt/news/node/72828",
+       "citacao": "Empresa espanhola compra centro de dados na Covilhã por 120 milhões",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      },
+      {
+       "fonte_url": "https://eco.sapo.pt/2026/01/15/concorrencia-aprova-aquisicao-do-centro-de-dados-da-covilha-pela-mezan/",
+       "citacao": "adotou uma decisão de não oposição à compra da PT Data Center pela Mezan",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      },
+      {
+       "fonte_url": "https://eco.sapo.pt/2025/11/28/asterion-compra-centro-de-dados-da-altice-na-covilha-por-120-milhoes-euros/",
+       "citacao": "A conclusão da operação, sujeita às aprovações regulatórias pertinentes, está previsto para o primeiro trimestre de 2026.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      },
+      {
+       "fonte_url": "https://bebeez.eu/2025/12/02/asterion-acquires-covilha-data-center-from-altice-portugal/",
+       "citacao": "The €120 million ($140m) transaction, structured as a carve-out, is being executed through Asterion Infrastructure Fund III. The deal is expected to close in Q1 2026.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ],
+     "fonte_url": "https://eco.sapo.pt/2026/01/15/concorrencia-aprova-aquisicao-do-centro-de-dados-da-covilha-pela-mezan/",
+     "citacao": "Mezan é controlada pela Asterion Industrial Partners",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "Nenhum cliente de IA/hyperscaler nomeado publicamente. Cliente âncora: Altice Portugal (contrato de serviços de longo prazo). O ativo é comercializado para treino e inferência de IA na Europa.",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://www.cliffordchance.com/news/news/2025/12/clifford-chance-advises-asterion-on-the-acquisition-of-the-covilha.html",
+       "citacao": "As part of the transaction, Altice Portugal will continue as an anchor tenant of the data centre under a long-term Master Service Agreement.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      },
+      {
+       "fonte_url": "https://eco.sapo.pt/2025/11/28/asterion-compra-centro-de-dados-da-altice-na-covilha-por-120-milhoes-euros/",
+       "citacao": "pode atender tanto o mercado português, como os operadores europeus da área de inteligência artificial (IA) que necessita de infraestrutura de computação de alto desempenho",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ],
+     "fonte_url": "https://econews.pt/2025/12/30/asterion-notifies-competition-authority-of-purchase-of-meo-data-centre-in-covilha/",
+     "citacao": "It can also support the training of artificial intelligence (AI) models across Europe, as well as low-latency AI inference from the Iberian Peninsula and latency-insensitive AI inference in the rest of Europe",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_rede (há subestação AT própria e 'fornecimento eletrificado garantido' nos terrenos adjacentes, mas sem valor em MW)",
+    "consumo de água (nenhum valor publicado)",
+    "pue medido com ano",
+    "mecanismo de compra da energia renovável",
+    "ligacao_academica (protocolo PT–UBI sobre centro de competências em cloud aparece só num resumo de pesquisa; não verificado em fonte primária)",
+    "clientes hyperscaler/IA nomeados",
+    "confirmação pública do fecho da aquisição pela Asterion"
+   ],
+   "conflitos": [
+    {
+     "campo": "mw_ti_planejado / potencial de expansão",
+     "fonte_a": {
+      "fonte_url": "https://eco.sapo.pt/2025/11/28/asterion-compra-centro-de-dados-da-altice-na-covilha-por-120-milhoes-euros/",
+      "citacao": "O centro permite adicionar até 75 MW através de novos módulos integrados no campus existente e dispõe da possibilidade de atingir aproximadamente 175 MW em terrenos adjacentes que já contam com fornecimento eletrificado garantido.",
+      "tipo_fonte": "imprensa",
+      "data_acesso": "2026-10-06"
+     },
+     "fonte_b": {
+      "fonte_url": "https://www.cliffordchance.com/news/news/2025/12/clifford-chance-advises-asterion-on-the-acquisition-of-the-covilha.html",
+      "citacao": "The Covilhã Campus is a representative data centre with 6.8 MW of installed capacity, and with architectural potential, available land and secured electricity supply to accommodate an expansion of up to 175 MW.",
+      "tipo_fonte": "relatorio_terceiro",
+      "data_acesso": "2026-10-06"
+     },
+     "nota": "ECO/Lusa sugere +75 MW no campus e ~175 MW em terrenos adjacentes (leitura possível: até ~250 MW); Clifford Chance fala em expansão total até 175 MW. Nenhuma fonte diz se são MW de TI ou de rede. Não registado como mw_ti_planejado."
+    },
+    {
+     "campo": "pue",
+     "fonte_a": {
+      "fonte_url": "https://en.meo.pt/business/solutions/cloud-datacenter/data-centers/covilha",
+      "citacao": "With a Power Usage Effectiveness (PUE) ratio of 1.25",
+      "tipo_fonte": "operador",
+      "data_acesso": "2026-10-06"
+     },
+     "fonte_b": {
+      "fonte_url": "https://quarkts.com/?p=4778",
+      "citacao": "the design emphasizes the energy efficiency of the facility with an average PUE of 1.2",
+      "tipo_fonte": "relatorio_terceiro",
+      "data_acesso": "2026-10-06"
+     },
+     "nota": "1.2 = PUE médio de projeto (meta_projeto, empresa de engenharia projetista); 1.25 = valor do operador sem tipo/ano."
+    },
+    {
+     "campo": "certificacoes (LEED)",
+     "fonte_a": {
+      "fonte_url": "https://www.meo.pt/empresas/solucoes/cloud-datacenter/data-centers/covilha",
+      "citacao": "certificado pelo Uptime Institute como Tier III e Leed Platinum",
+      "tipo_fonte": "operador",
+      "data_acesso": "2026-10-06"
+     },
+     "fonte_b": {
+      "fonte_url": "https://quarkts.com/?p=4778",
+      "citacao": "LEED Gold for the Data Center buildings and LEED Platinum for the support building",
+      "tipo_fonte": "relatorio_terceiro",
+      "data_acesso": "2026-10-06"
+     },
+     "nota": "A Quark também fala em Tier III Design Certification (não Constructed Facility). A página da Quark tem data de publicação 22/05/2014, mas diz 'due to open in September', o que é coerente com 2013 — data da página provavelmente errada."
+    }
+   ],
+   "ambiguidades": [
+    "6,8 MW 'capacidade instalada': as fontes não dizem se é capacidade de TI, carga elétrica total ou potência contratada.",
+    "Controlador em transição: AdC não se opôs (15/01/2026), mas não encontrei comunicado de fecho; confirmar se a Asterion/Mezan já é proprietária em 2026-10.",
+    "Energia '100% renovável' sem mecanismo; há FV no local (física) de dimensão desconhecida.",
+    "Os 'Tier III' e 'Leed Platinum' citados pelo operador podem referir-se a certificações de projeto (Design) e a edifícios diferentes do campus."
+   ]
+  },
+  {
+   "facility_id": "pt-prime-carnide",
+   "campos": {
+    "status": {
+     "valor": "operacional (segundo diretório; sem confirmação do operador)",
+     "fonte_url": "https://web.archive.org/web/20250217171014/https://www.datacentermap.com/portugal/lisbon/pt-prime-carnide/",
+     "citacao": "MEO Carnide MEO R. Maria Veleda 1 1500-024 Carnide Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "ano_operacao": {
+     "valor": 2000,
+     "fonte_url": "https://web.archive.org/web/20250217171014/https://www.datacentermap.com/portugal/lisbon/pt-prime-carnide/",
+     "citacao": "When was it established? 2000 What size is it? 300m2",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "area_m2": {
+     "valor": 300,
+     "tipo_area": "não especificado (provavelmente sala técnica)",
+     "fonte_url": "https://web.archive.org/web/20250217171014/https://www.datacentermap.com/portugal/lisbon/pt-prime-carnide/",
+     "citacao": "When was it established? 2000 What size is it? 300m2",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "refrigeracao": {
+     "valor": "piso técnico elevado (raised floor) + ar condicionado",
+     "fonte_url": "https://web.archive.org/web/20250217171014/https://www.datacentermap.com/portugal/lisbon/pt-prime-carnide/",
+     "citacao": "Is it based on raised floors or overhead cooling? Yes (raised floors)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "controlador_final": {
+     "valor": "Altice Portugal / MEO, controlada pela Altice International (grupo Altice, sediado no Luxemburgo; fundador e acionista controlador Patrick Drahi, franco-israelita)",
+     "pais": "Luxemburgo (holding Altice); controlador pessoa física: Patrick Drahi (França/Israel)",
+     "fonte_url": "https://econews.pt/2026/05/13/altice-converts-e2-5bn-of-meo-debt-into-equity/",
+     "citacao": "Altice International, which controls Altice Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://en.wikipedia.org/wiki/Altice",
+       "citacao": "Luxembourg-based multinational telecommunications and mass media company...founded and headed by the French-Israeli billionaire businessman Patrick Drahi",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      },
+      {
+       "fonte_url": "https://www.essential-business.pt/2024/08/30/altice-international-holds-off-on-altice-portugal-sale/",
+       "citacao": "Revenues netted from the recent sale of assets such as Teads and its position in BT have given the company’s owner Patrick Drahi a respite to not sell all of Altice Portugal.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ]
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel (específica do site)",
+    "consumo de água",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica",
+    "qualquer menção ao site Carnide em página do operador"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "O texto do diretório é antigo (fala em 'PT Prime' e 'four locations'); o operador só fala genericamente em centros de dados em 'Lisbon, Porto, the Azores, Madeira and Covilhã' com '17,000m2 of technical rooms' no total (https://en.meo.pt/business/solutions/cloud-datacenter/data-centers/network). Não há confirmação de que Carnide continue ativo como DC comercial."
+   ]
+  },
+  {
+   "facility_id": "meo-ldv",
+   "campos": {
+    "status": {
+     "valor": "operacional (centro de interligação de redes internacionais, lançado em 2023)",
+     "nota": "Título do comunicado (out/2023): 'Altice Portugal invests 3 million euros in new International Network Interconnection Center'.",
+     "fonte_url": "https://en.institutional.meo.pt/media/press/2023/october/altice-portugal-investe-3-milhoes-de-euros-em-novo-centro-de-interligacao-de-redes-internacionais",
+     "citacao": "This investment of more than 3 million euros, co-financed by the European Union",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "ano_operacao": {
+     "valor": 2023,
+     "nota": "Ano inferido da data do comunicado no URL (2023/october); o texto não dá data de entrada em serviço.",
+     "fonte_url": "https://en.institutional.meo.pt/media/press/2023/october/altice-portugal-investe-3-milhoes-de-euros-em-novo-centro-de-interligacao-de-redes-internacionais",
+     "citacao": "Altice Portugal invests 3 million euros in new International Network Interconnection Center",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "area_m2": {
+     "valor": {
+      "campus_total": 11000,
+      "edificio": 3000
+     },
+     "tipo_area": "área de campus e de edifício; não é white space",
+     "fonte_url": "https://en.institutional.meo.pt/media/press/2023/october/altice-portugal-investe-3-milhoes-de-euros-em-novo-centro-de-interligacao-de-redes-internacionais",
+     "citacao": "The Altice Center, which is part of a campus that occupies a total area of 11,000 square meters, consists of a 3,000 square meter building.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "energia_renovavel": {
+     "valor": "100% renovável",
+     "mecanismo": "nao_especificado",
+     "fonte_url": "https://en.institutional.meo.pt/media/press/2023/october/altice-portugal-investe-3-milhoes-de-euros-em-novo-centro-de-interligacao-de-redes-internacionais",
+     "citacao": "The new space is powered by 100% renewable energy.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "controlador_final": {
+     "valor": "Altice Portugal / MEO, controlada pela Altice International (grupo Altice, sediado no Luxemburgo; fundador e acionista controlador Patrick Drahi, franco-israelita)",
+     "pais": "Luxemburgo (holding Altice); controlador pessoa física: Patrick Drahi (França/Israel)",
+     "fonte_url": "https://econews.pt/2026/05/13/altice-converts-e2-5bn-of-meo-debt-into-equity/",
+     "citacao": "Altice International, which controls Altice Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://en.wikipedia.org/wiki/Altice",
+       "citacao": "Luxembourg-based multinational telecommunications and mass media company...founded and headed by the French-Israeli billionaire businessman Patrick Drahi",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      },
+      {
+       "fonte_url": "https://www.essential-business.pt/2024/08/30/altice-international-holds-off-on-altice-portugal-sale/",
+       "citacao": "Revenues netted from the recent sale of assets such as Teads and its position in BT have given the company’s owner Patrick Drahi a respite to not sell all of Altice Portugal.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ]
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "refrigeracao",
+    "consumo de água",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "O operador descreve LdV como centro de interligação neutro de redes internacionais (antigo centro da Marconi, próximo das estações de cabos de Carcavelos, Seixal e Sesimbra), não como data centre de colocation clássico.",
+    "O comunicado cita a proximidade do 'Prior Velho Data Center' da Altice, que não está no nosso inventário."
+   ]
+  },
+  {
+   "facility_id": "pt-prime-picoas",
+   "campos": {
+    "status": {
+     "valor": "operacional (segundo diretório)",
+     "fonte_url": "https://baxtel.com/data-center/meo-picoas",
+     "citacao": "Fully operational facility",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "ano_operacao": {
+     "valor": 2006,
+     "nota": "Baxtel também indica 'Year Built: 2006'.",
+     "fonte_url": "https://web.archive.org/web/20250513101257/https://www.datacentermap.com/portugal/lisbon/pt-prime-picoas/",
+     "citacao": "When was it established? 2006 What size is it? 2000m2",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "area_m2": {
+     "valor": 2000,
+     "tipo_area": "não especificado",
+     "fonte_url": "https://web.archive.org/web/20250513101257/https://www.datacentermap.com/portugal/lisbon/pt-prime-picoas/",
+     "citacao": "When was it established? 2006 What size is it? 2000m2",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "certificacoes": {
+     "valor": "Tier IV (autodeclarado no diretório; sem certificação Uptime verificada)",
+     "fonte_url": "https://web.archive.org/web/20250513101257/https://www.datacentermap.com/portugal/lisbon/pt-prime-picoas/",
+     "citacao": "What tier class is it? IV How much power is available? 230",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "refrigeracao": {
+     "valor": "piso técnico elevado + ar condicionado",
+     "fonte_url": "https://web.archive.org/web/20250513101257/https://www.datacentermap.com/portugal/lisbon/pt-prime-picoas/",
+     "citacao": "Is it based on raised floors or overhead cooling? Yes (raised floors)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "controlador_final": {
+     "valor": "Altice Portugal / MEO, controlada pela Altice International (grupo Altice, sediado no Luxemburgo; fundador e acionista controlador Patrick Drahi, franco-israelita)",
+     "pais": "Luxemburgo (holding Altice); controlador pessoa física: Patrick Drahi (França/Israel)",
+     "fonte_url": "https://econews.pt/2026/05/13/altice-converts-e2-5bn-of-meo-debt-into-equity/",
+     "citacao": "Altice International, which controls Altice Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://en.wikipedia.org/wiki/Altice",
+       "citacao": "Luxembourg-based multinational telecommunications and mass media company...founded and headed by the French-Israeli billionaire businessman Patrick Drahi",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      },
+      {
+       "fonte_url": "https://www.essential-business.pt/2024/08/30/altice-international-holds-off-on-altice-portugal-sale/",
+       "citacao": "Revenues netted from the recent sale of assets such as Teads and its position in BT have given the company’s owner Patrick Drahi a respite to not sell all of Altice Portugal.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ]
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "consumo de água",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "'How much power is available? 230' — sem unidade; muito provavelmente 230 V (tensão), NÃO kW/MW. Não usar como capacidade.",
+    "'Tier IV' é autodeclarado num formulário de diretório; não encontrei registo de certificação Uptime para Picoas."
+   ]
+  },
+  {
+   "facility_id": "claranet-lisboa",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.claranet.pt/sobre-nos/",
+     "citacao": "2 Escritórios (Lisboa e Porto) +€200M de Faturação anual 2 Datacenters (Lisboa e Porto)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "refrigeracao": {
+     "valor": "HVAC N+1 (ar condicionado), 21 °C ± 5 °C, HR 30–70%",
+     "fonte_url": "https://web.archive.org/web/20241102235225/https://www.datacentermap.com/portugal/lisbon/claranet-lisboa/",
+     "citacao": "The building includes an HVAC air conditioning system, to maintain an optimum operating environment for electronics. The N+1 system maintains a constant temperature of 21°C (± 5°C) and relative humidity of 30%-70%.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "controlador_final": {
+     "valor": "Claranet Group (Reino Unido, fundada em Londres em 1996 por Charles Nasser); minoritária da Tikehau Capital (França) desde 2017",
+     "pais": "Reino Unido",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://en.wikipedia.org/wiki/Claranet",
+       "citacao": "In 2017, Tikehau Capital invested a £80 million minority stake in Claranet.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      }
+     ],
+     "nota": "Estrutura acionista atual não confirmada em fonte primária.",
+     "fonte_url": "https://www.claranet.pt/sobre-nos/",
+     "citacao": "1996 Estabelecimento em Londres como Internet Service Provider (ISP), pioneira em acesso pré-pago à Internet",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "Parceria (não inquilino): Claranet Portugal declara 6 designações Microsoft Solution Partner",
+     "nota": "É parceria comercial de revenda/serviços Microsoft, não um hyperscaler alojado no DC.",
+     "fonte_url": "https://www.claranet.pt/sobre-nos/",
+     "citacao": "6 Microsoft Solution Partner designations +200 Engenheiros Cloud certificados",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    }
+   },
+   "nao_encontrado": [
+    "ano_operacao",
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "consumo de água",
+    "certificacoes (específicas do site)",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "localizacao",
+     "fonte_a": {
+      "fonte_url": "https://web.archive.org/web/20241102235225/https://www.datacentermap.com/portugal/lisbon/claranet-lisboa/",
+      "citacao": "Claranet - Lisboa Claranet Portugal Av. Severiano Falcao, 16 1998-014 Lisboa Portugal",
+      "tipo_fonte": "diretorio",
+      "data_acesso": "2026-10-06"
+     },
+     "fonte_b": {
+      "fonte_url": "https://web.archive.org/web/20251017165023/https://www.datacenters.com/claranet-lisbon",
+      "citacao": "Claranet Lisbon Data Center Unicorn Factory Lisboa - Beato Innovation District, Rua da Manutenção 71, Lisbon, Portugal",
+      "tipo_fonte": "diretorio",
+      "data_acesso": "2026-10-06"
+     },
+     "nota": "O endereço do Beato coincide com o escritório da Claranet (ECO 2021: 'Claranet investe 5 milhões e instala-se no Hub Criativo do Beato'); o de Severiano Falcão 16 é vizinho do Equinix LS1 (Severiano Falcão 14, segundo o próprio datacentermap). Possível sala em edifício de terceiros."
+    }
+   ],
+   "ambiguidades": [
+    "Área de 300 m² aparece em resumos de pesquisa atribuídos ao datacentermap, mas não está na versão arquivada consultada; não registada.",
+    "A página do datacenters.com tem texto genérico ('optimized power usage effectiveness (PUE)') sem valores; não usar."
+   ]
+  },
+  {
+   "facility_id": "dccom-portugal-data-center-kyndryl",
+   "campos": {
+    "controlador_final": {
+     "valor": "Kyndryl Holdings, Inc. (NYSE: KD), spin-off da IBM em 2021",
+     "pais": "EUA (empresa cotada na NYSE; o país da sede não está na citação — ver ambiguidades)",
+     "fonte_url": "https://www.kyndryl.com/br/pt/about-us/news/2023/03/cloud-services-for-asset-finance-company",
+     "citacao": "Kyndryl (NYSE: KD) is the world’s largest IT infrastructure services provider, serving thousands of enterprise customers in more than 60 countries.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO 27001",
+      "SOC 2"
+     ],
+     "nota": "Texto de diretório genérico; não confirmado pelo operador.",
+     "fonte_url": "https://web.archive.org/web/20250619182344/https://www.datacenters.com/kyndryl-portugal",
+     "citacao": "Certifications for this location include ISO 27001, SOC 2.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    }
+   },
+   "nao_encontrado": [
+    "status (nenhuma fonte do operador confirma um data centre próprio da Kyndryl em Lisboa)",
+    "ano_operacao",
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel (só texto genérico de diretório)",
+    "refrigeracao",
+    "consumo de água",
+    "area_m2",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "O datacenters.com situa este 'data center' em 'Maleo Offices Oriente, R. Mar da China, 1990-203 Lisboa' — um edifício de escritórios. O texto ('Powered by renewable energy sources, including solar and wind power') parece genérico. Existência da instalação não verificada; sugerimos marcar como 'a verificar' ou excluir.",
+    "O operador fala em 'data center services' e 'private cloud infrastructure ... in Portugal' para a BNP Paribas Leasing Solutions (https://www.kyndryl.com/br/pt/about-us/news/2023/03/cloud-services-for-asset-finance-company, 16/03/2023), sem dizer onde fica a infraestrutura.",
+    "Forbes PT (2024) descreve 5 centros de delivery (Porto, Viseu, Tomar, Portalegre, Lisboa), que são centros de serviços e não data centres: 'temos 5 centros de delivery – Porto, Viseu, Tomar, Portalegre e Lisboa' (https://www.forbespt.com/kyndyl-portugal-a-herdeira-da-ibm-que-joga-na-primeira-liga-mundial).",
+    "País de origem EUA: a Kyndryl tem sede em Nova Iorque segundo arquivos SEC/Wikipedia vistos em resultados de pesquisa, mas não citei isso verbatim."
+   ]
+  },
+  {
+   "facility_id": "matinha",
+   "campos": {
+    "status": {
+     "valor": "operacional, em expansão (investimento de 5 M€ anunciado em fev/2026)",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://www.oni.pt/pt/oni-colocation-center-housing-hosting-e-backup-centralizado/",
+       "citacao": "Agora o seu centro de dados em Lisboa, com 0 € de custo de espaço. Aproveite a nossa promoção de inauguração",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador"
+      }
+     ],
+     "fonte_url": "https://eco.sapo.pt/2026/02/20/espanhola-gigas-investe-cinco-milhoes-para-expandir-data-center-em-lisboa/",
+     "citacao": "um investimento de cinco milhões de euros no centro de dados da Matinha",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "area_m2": {
+     "valor": 2000,
+     "tipo_area": "não especificado (total ou técnica); diretório: 'Datacenter with 2000m2, more than 500 rack cabinets'",
+     "fonte_url": "https://pplware.sapo.pt/internet/oni-com-blockchain-cada-kw-dos-datacenters-sera-certificado/",
+     "citacao": "o data center de Lisboa (Matinha), um dos maiores do país com mais de 2000m2",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media"
+    },
+    "energia_renovavel": {
+     "valor": "100% renovável com garantias de origem (EEGO) rastreadas por blockchain; contrato de 5 anos com a Acciona Energia (2021)",
+     "mecanismo": "garantias_origem",
+     "ano": 2021,
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://www.oni.pt/pt/oni-colocation-center-housing-hosting-e-backup-centralizado/",
+       "citacao": "Utilizamos energia 100% renovável , certificada através da tecnologia Greenchain, com o objetivo de minimizar a nossa pegada ecológica.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador"
+      }
+     ],
+     "fonte_url": "https://pplware.sapo.pt/internet/oni-com-blockchain-cada-kw-dos-datacenters-sera-certificado/",
+     "citacao": "cada kW utilizado nos seus data centers seja certificado com garantias de origem 100% renovável, emitidas pela EEGO e rastreado através da tecnologia blockchain",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "refrigeracao": {
+     "valor": "Água gelada + gás refrigerante; 6 dry coolers (6 x 270 kW) e 3 chillers (3 x 514 kW), N+1",
+     "agua": "Sistema de água gelada (circuito); nenhum valor de consumo de água publicado.",
+     "nota": "Potência de frio, não potência de TI; não converter em MW de TI.",
+     "fonte_url": "https://web.archive.org/web/20241204094714/https://www.datacentermap.com/portugal/lisbon/matinha/",
+     "citacao": "Redundant Cooling System (Cooled Water and Refrigerant Gas) [...] 6 x Dry Coolers Cooling Capacity: 6 x 270kW 3 x Chillers Cooling Capacity: 3 x 514kW NOTE: Currently in N+1 typology",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "media"
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO 9001",
+      "ISO 14001",
+      "ISO 27001",
+      "ISO 45001",
+      "Credenciação NATO (marca Nacional, grau Secreto)"
+     ],
+     "nota": "Certificações ao nível da empresa (Sistema de Gestão Integrada), não necessariamente por site. Não há ISO 50001.",
+     "fonte_url": "https://www.oni.pt/pt/certificacoes/",
+     "citacao": "Qualidade (ISO 9001) , Ambiente (ISO 14001), Segurança e Saúde no Trabalho (ISO 45001) e Segurança de Informação (ISO 27001). De destacar, ainda, a nossa credenciação da NATO, em que a Oni se encontra credenciada na marca Nacional, no grau Secreto",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "Gigas Hosting, S.A. (Espanha; cotada no BME Growth), dona da ONI desde nov/2020. Maior acionista a 31/12/2025: Grupo Inveready 31,77% (GAEA Inversión 31,23%)",
+     "pais": "Espanha",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://en.wikipedia.org/wiki/Oni_Telecom",
+       "citacao": "Spanish technology company Gigas",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      },
+      {
+       "fonte_url": "https://eco.sapo.pt/2026/02/20/espanhola-gigas-investe-cinco-milhoes-para-expandir-data-center-em-lisboa/",
+       "citacao": "Espanhola Gigas investe cinco milhões para expandir data center em Lisboa",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ],
+     "fonte_url": "https://apiweb.bolsasymercados.es/Market/MTFDocuments/OtraInfRelevante/2026/02/05093_OtraInfRelev_20260227.pdf",
+     "citacao": "GRUPO INVEREADY ¹ 31,77 - GAEA Inversión, S.C.R., S.A. 31,23 [...] En Alcobendas, Madrid, a 27 de febrero de 2026",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "Parceria (não inquilino): ONI é Mobility Partner da Microsoft",
+     "fonte_url": "https://www.oni.pt/pt/certificacoes/",
+     "citacao": "A Oni é também Mobility Partner da Microsoft, que beneficia os seus clientes ao poder utilizar com todas as garantias, as licenças já adquiridas à Microsoft na sua Cloud",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    }
+   },
+   "nao_encontrado": [
+    "ano_operacao (resumos de pesquisa citam 2019 via Baxtel, não verificado)",
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "consumo de água",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "vendedor da ONI à Gigas (histórico do controlo)",
+     "fonte_a": {
+      "fonte_url": "https://en.wikipedia.org/wiki/Oni_Telecom",
+      "citacao": "Apax France and Fortino Capital",
+      "tipo_fonte": "relatorio_terceiro",
+      "data_acesso": "2026-10-06"
+     },
+     "fonte_b": {
+      "fonte_url": "https://www.leadersleague.com/en/news/spain-s-gigas-acquires-portuguese-telecommunications-company-oni-for-e40m",
+      "citacao": "ONI, which until now belonged to MásMóvil",
+      "tipo_fonte": "imprensa",
+      "data_acesso": "2026-10-06"
+     },
+     "nota": "Não afeta o controlador atual (Gigas)."
+    }
+   ],
+   "ambiguidades": [
+    "Geradores de 800 kVA e 1250 kVA (diretório: '2 Electric Generators of 800 kVA and 1250 kVA') são potência de backup, não MW de TI nem de rede.",
+    "Resumos de pesquisa citam '2,050 m² em três pisos, 625 racks' (provavelmente Baxtel); não verificado verbatim.",
+    "ONI diz 'Data Center com características Tier III' — não é certificação Uptime.",
+    "Investimentos: 3 M€ anunciados em nov/2023 (Forbes PT: 'o datacenter da Oni na Matinha passa a contar com mais espaço físico, um reforço das capacidades elétrica, tecnológica e de refrigeração') e 5 M€ em fev/2026; podem sobrepor-se."
+   ]
+  },
+  {
+   "facility_id": "pt-prime-tenente-valadim",
+   "campos": {
+    "status": {
+     "valor": "operacional (segundo diretório; sem confirmação do operador)",
+     "fonte_url": "https://web.archive.org/web/2025/https://www.datacentermap.com/portugal/porto/pt-prime-tenente-valadim/",
+     "citacao": "MEO Tenente Valadim MEO R. de Joao de Deus 636 4100-366 Tenente Valadim Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "ano_operacao": {
+     "valor": 2004,
+     "fonte_url": "https://web.archive.org/web/2025/https://www.datacentermap.com/portugal/porto/pt-prime-tenente-valadim/",
+     "citacao": "When was it established? 2004 What size is it? 400m2",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "area_m2": {
+     "valor": 400,
+     "tipo_area": "não especificado",
+     "fonte_url": "https://web.archive.org/web/2025/https://www.datacentermap.com/portugal/porto/pt-prime-tenente-valadim/",
+     "citacao": "When was it established? 2004 What size is it? 400m2",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "certificacoes": {
+     "valor": "Tier III (autodeclarado no diretório)",
+     "fonte_url": "https://web.archive.org/web/2025/https://www.datacentermap.com/portugal/porto/pt-prime-tenente-valadim/",
+     "citacao": "What tier class is it? III How much power is available? 230",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "refrigeracao": {
+     "valor": "piso técnico elevado + ar condicionado",
+     "fonte_url": "https://web.archive.org/web/2025/https://www.datacentermap.com/portugal/porto/pt-prime-tenente-valadim/",
+     "citacao": "Is it based on raised floors or overhead cooling? Yes (raised floors)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "controlador_final": {
+     "valor": "Altice Portugal / MEO, controlada pela Altice International (grupo Altice, sediado no Luxemburgo; fundador e acionista controlador Patrick Drahi, franco-israelita)",
+     "pais": "Luxemburgo (holding Altice); controlador pessoa física: Patrick Drahi (França/Israel)",
+     "fonte_url": "https://econews.pt/2026/05/13/altice-converts-e2-5bn-of-meo-debt-into-equity/",
+     "citacao": "Altice International, which controls Altice Portugal",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://en.wikipedia.org/wiki/Altice",
+       "citacao": "Luxembourg-based multinational telecommunications and mass media company...founded and headed by the French-Israeli billionaire businessman Patrick Drahi",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      },
+      {
+       "fonte_url": "https://www.essential-business.pt/2024/08/30/altice-international-holds-off-on-altice-portugal-sale/",
+       "citacao": "Revenues netted from the recent sale of assets such as Teads and its position in BT have given the company’s owner Patrick Drahi a respite to not sell all of Altice Portugal.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ]
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "consumo de água",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "'How much power is available? 230' sem unidade — quase certamente 230 V; resumos automáticos de pesquisa traduzem como '230 kW', o que é uma inferência errada. Não usar.",
+    "Tier III autodeclarado; sem registo Uptime encontrado."
+   ]
+  },
+  {
+   "facility_id": "claranet-porto",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.claranet.pt/sobre-nos/",
+     "citacao": "2 Escritórios (Lisboa e Porto) +€200M de Faturação anual 2 Datacenters (Lisboa e Porto)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "refrigeracao": {
+     "valor": "HVAC N+1 (ar condicionado), 21 °C ± 5 °C, HR 30–70%",
+     "fonte_url": "https://web.archive.org/web/20240908172457/https://www.datacentermap.com/portugal/porto/claranet-porto/",
+     "citacao": "The building includes an HVAC air conditioning system, to maintain an optimum operating environment for electronics. The N+1 system maintains a constant temperature of 21°C (± 5°C) and relative humidity of 30%-70%.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "controlador_final": {
+     "valor": "Claranet Group (Reino Unido, fundada em Londres em 1996 por Charles Nasser); minoritária da Tikehau Capital (França) desde 2017",
+     "pais": "Reino Unido",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://en.wikipedia.org/wiki/Claranet",
+       "citacao": "In 2017, Tikehau Capital invested a £80 million minority stake in Claranet.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      }
+     ],
+     "nota": "Estrutura acionista atual não confirmada em fonte primária.",
+     "fonte_url": "https://www.claranet.pt/sobre-nos/",
+     "citacao": "1996 Estabelecimento em Londres como Internet Service Provider (ISP), pioneira em acesso pré-pago à Internet",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "Parceria (não inquilino): Claranet Portugal declara 6 designações Microsoft Solution Partner",
+     "nota": "É parceria comercial de revenda/serviços Microsoft, não um hyperscaler alojado no DC.",
+     "fonte_url": "https://www.claranet.pt/sobre-nos/",
+     "citacao": "6 Microsoft Solution Partner designations +200 Engenheiros Cloud certificados",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    }
+   },
+   "nao_encontrado": [
+    "ano_operacao",
+    "mw_ti_instalado (o 1,0 MW do input não aparece na versão arquivada de set/2024 da página datacentermap; não verificado)",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "consumo de água",
+    "area_m2 (150 m² só em resumo de pesquisa, não verificado)",
+    "certificacoes",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "localizacao",
+     "fonte_a": {
+      "fonte_url": "https://web.archive.org/web/20240908172457/https://www.datacentermap.com/portugal/porto/claranet-porto/",
+      "citacao": "Claranet - Porto Claranet Portugal Rua das Agras Novas 46 4445-283 Ermesinde Portugal",
+      "tipo_fonte": "diretorio",
+      "data_acesso": "2026-10-06"
+     },
+     "fonte_b": {
+      "fonte_url": "https://web.archive.org/web/20240524134313/https://www.datacentermap.com/portugal/porto/oni-maia-datacenter/",
+      "citacao": "0.02 km Claranet - Porto Rua das Cardosas, Complexo Brisa, Maia",
+      "tipo_fonte": "diretorio",
+      "data_acesso": "2026-10-06"
+     },
+     "nota": "O mesmo diretório dá dois endereços (Ermesinde/Valongo e Maia, Complexo Brisa, ao lado do ONI Maia)."
+    }
+   ],
+   "ambiguidades": [
+    "O endereço Rua das Agras Novas 46, Ermesinde aparece no mesmo diretório também como 'REN Ermesinde' (https://web.archive.org/web/20250221125727/https://www.datacentermap.com/portugal/covilha/meo-covilha/: '138.32 km REN Ermesinde Rua das Agras Novas, 46'). A sala da Claranet pode estar alojada num edifício da REN (operador da rede elétrica nacional). Não confirmado.",
+    "mw_operacional = 1.0 no input: origem não verificável (datacentermap devolveu HTTP 429; a versão arquivada não tem este campo)."
+   ]
+  },
+  {
+   "facility_id": "oni-maia-datacenter",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://www.oni.pt/pt/oni-colocation-center-housing-hosting-e-backup-centralizado/",
+       "citacao": "Interligação com Data Center do Porto para serviços de Backup e Disaster Recovery",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador"
+      }
+     ],
+     "fonte_url": "https://pplware.sapo.pt/internet/oni-com-blockchain-cada-kw-dos-datacenters-sera-certificado/",
+     "citacao": "o datacenter da Maia, dedicado aos clientes empresariais localizados no Norte do país",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media"
+    },
+    "area_m2": {
+     "valor": 80,
+     "tipo_area": "sala técnica (útil)",
+     "capacidade_racks": 30,
+     "fonte_url": "https://web.archive.org/web/20240524134313/https://www.datacentermap.com/portugal/porto/oni-maia-datacenter/",
+     "citacao": "Area = 80m² . Useful height = 2.80m . Technical flooring = 45cm height",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "media"
+    },
+    "refrigeracao": {
+     "valor": "Ar condicionado redundante com UTAPs N+1",
+     "fonte_url": "https://web.archive.org/web/20240524134313/https://www.datacentermap.com/portugal/porto/oni-maia-datacenter/",
+     "citacao": "Redundant air conditioning with UTAPs N+1",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "media"
+    },
+    "energia_renovavel": {
+     "valor": "100% renovável com garantias de origem (EEGO) rastreadas por blockchain; contrato de 5 anos com a Acciona Energia (2021)",
+     "mecanismo": "garantias_origem",
+     "ano": 2021,
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://www.oni.pt/pt/oni-colocation-center-housing-hosting-e-backup-centralizado/",
+       "citacao": "Utilizamos energia 100% renovável , certificada através da tecnologia Greenchain, com o objetivo de minimizar a nossa pegada ecológica.",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "operador"
+      }
+     ],
+     "fonte_url": "https://pplware.sapo.pt/internet/oni-com-blockchain-cada-kw-dos-datacenters-sera-certificado/",
+     "citacao": "cada kW utilizado nos seus data centers seja certificado com garantias de origem 100% renovável, emitidas pela EEGO e rastreado através da tecnologia blockchain",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO 9001",
+      "ISO 14001",
+      "ISO 27001",
+      "ISO 45001",
+      "Credenciação NATO (marca Nacional, grau Secreto)"
+     ],
+     "nota": "Certificações ao nível da empresa (Sistema de Gestão Integrada), não necessariamente por site. Não há ISO 50001.",
+     "fonte_url": "https://www.oni.pt/pt/certificacoes/",
+     "citacao": "Qualidade (ISO 9001) , Ambiente (ISO 14001), Segurança e Saúde no Trabalho (ISO 45001) e Segurança de Informação (ISO 27001). De destacar, ainda, a nossa credenciação da NATO, em que a Oni se encontra credenciada na marca Nacional, no grau Secreto",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "Gigas Hosting, S.A. (Espanha; cotada no BME Growth), dona da ONI desde nov/2020. Maior acionista a 31/12/2025: Grupo Inveready 31,77% (GAEA Inversión 31,23%)",
+     "pais": "Espanha",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://en.wikipedia.org/wiki/Oni_Telecom",
+       "citacao": "Spanish technology company Gigas",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "relatorio_terceiro"
+      },
+      {
+       "fonte_url": "https://eco.sapo.pt/2026/02/20/espanhola-gigas-investe-cinco-milhoes-para-expandir-data-center-em-lisboa/",
+       "citacao": "Espanhola Gigas investe cinco milhões para expandir data center em Lisboa",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ],
+     "fonte_url": "https://apiweb.bolsasymercados.es/Market/MTFDocuments/OtraInfRelevante/2026/02/05093_OtraInfRelev_20260227.pdf",
+     "citacao": "GRUPO INVEREADY ¹ 31,77 - GAEA Inversión, S.C.R., S.A. 31,23 [...] En Alcobendas, Madrid, a 27 de febrero de 2026",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "Parceria (não inquilino): ONI é Mobility Partner da Microsoft",
+     "fonte_url": "https://www.oni.pt/pt/certificacoes/",
+     "citacao": "A Oni é também Mobility Partner da Microsoft, que beneficia os seus clientes ao poder utilizar com todas as garantias, as licenças já adquiridas à Microsoft na sua Cloud",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    }
+   },
+   "nao_encontrado": [
+    "ano_operacao",
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "consumo de água",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "O operador chama-lhe 'Data Center do Porto'; o diretório situa-o na Maia (Rua das Cardosas, antigas portagens / Complexo Brisa).",
+    "Instalação muito pequena (80 m², 30 racks): é sala técnica/edge, não um DC de escala."
+   ]
+  },
+  {
+   "facility_id": "tata-communciations-seixal",
+   "campos": {
+    "controlador_final": {
+     "valor": "Tata Communications Ltd (Índia), controlada pelo grupo Tata (Tata Sons, via Panatone Finvest); o Estado indiano saiu do capital em 2021",
+     "pais": "Índia",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://www.outlookbusiness.com/equity/govt-to-sell-1612-stake-in-tata-comm-through-ofs-rest-to-tata-sons-arm-6423",
+       "citacao": "Immediately after the OFS, the government shall sell the remaining equity shares held by it in the company to Panatone",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "imprensa"
+      }
+     ],
+     "fonte_url": "https://web.archive.org/web/20250521121455/https://www.datacentermap.com/portugal/lisbon/tata-communciations-seixal/",
+     "citacao": "Tata Communications Data Center Operator at Tata Communciations Seixal Av. Q.ta de Valadares Headquartered in Mumbai , India",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "media"
+    }
+   },
+   "nao_encontrado": [
+    "status (operacional só segundo Baxtel: 'Fully operational facility')",
+    "ano_operacao",
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "consumo de água",
+    "area_m2",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "tipo de instalação",
+     "fonte_a": {
+      "fonte_url": "https://baxtel.com/data-center/tata-portugal-seixal",
+      "citacao": "Fully operational facility",
+      "tipo_fonte": "diretorio",
+      "data_acesso": "2026-10-06",
+      "nota": "Baxtel classifica-a como data centre de colocation"
+     },
+     "fonte_b": {
+      "fonte_url": "https://en.wikipedia.org/wiki/VSNL_Western_Europe",
+      "citacao": "Seixal, District of Setúbal, Portugal",
+      "tipo_fonte": "relatorio_terceiro",
+      "data_acesso": "2026-10-06",
+      "nota": "Seixal é ponto de amarração do cabo VSNL/TGN Western Europe (Tata)"
+     },
+     "nota": "Muito provavelmente uma estação de amarração de cabo submarino (CLS) com algum espaço de colocation, e não um data centre de computação. O comunicado da Altice sobre LdV também refere 'submarine cable stations in Carcavelos, Seixal and Sesimbra'."
+    }
+   ],
+   "ambiguidades": [
+    "O datacentermap não traz especificações ('Please visit the website of Tata Communications for further details'). Sugere-se reclassificar como CLS ou marcar como 'tipo a verificar'."
+   ]
+  },
+  {
+   "facility_id": "dccom-azores-cls-data-center-google",
+   "campos": {
+    "status": {
+     "valor": "em_construcao",
+     "fonte_complementar": [
+      {
+       "fonte_url": "https://web.archive.org/web/20260109132253/https://baxtel.com/data-center/google-azores-cls",
+       "citacao": "Under Construction New facility under construction",
+       "data_acesso": "2026-10-06",
+       "tipo_fonte": "diretorio"
+      }
+     ],
+     "fonte_url": "https://web.archive.org/web/20260201191047/https://www.datacenterdynamics.com/en/news/google-to-develop-new-cable-landing-stations-in-azores-and-hawaii-for-upcoming-subsea-cable-systems/",
+     "citacao": "Google is building a data center and cable landing station in Lagoa on São Miguel island in the Azores to house its Nuvem and Sol cables.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media"
+    },
+    "ano_operacao": {
+     "valor": 2027,
+     "nota": "Ano previsto, não confirmado pela Google.",
+     "fonte_url": "https://web.archive.org/web/20260109132253/https://baxtel.com/data-center/google-azores-cls",
+     "citacao": "Google: Azores CLS Year Built: 2027",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "baixa"
+    },
+    "area_m2": {
+     "valor": 15000,
+     "tipo_area": "não especificado (pode ser a área do lote 32B e não a área construída)",
+     "fonte_url": "https://web.archive.org/web/20260201191047/https://www.datacenterdynamics.com/en/news/google-to-develop-new-cable-landing-stations-in-azores-and-hawaii-for-upcoming-subsea-cable-systems/",
+     "citacao": "Located at Lot 32B in the Tecnoparque da Lagoa industrial park, construction on the 10MW, 15,000 sqm (161,459 sq ft) facility is reportedly already underway.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "baixa"
+    },
+    "controlador_final": {
+     "valor": "Google (Alphabet Inc.)",
+     "pais": "EUA (não citado verbatim)",
+     "fonte_url": "https://web.archive.org/web/20260201191047/https://www.datacenterdynamics.com/en/news/google-to-develop-new-cable-landing-stations-in-azores-and-hawaii-for-upcoming-subsea-cable-systems/",
+     "citacao": "Google is building a data center and cable landing station in Lagoa on São Miguel island in the Azores",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "clientes_ia_hyperscalers": {
+     "valor": "A instalação é da própria Google (hyperscaler); serve os cabos Nuvem (EUA–Bermudas–Açores–Sines) e Sol (EUA–Bermudas–Açores–Espanha)",
+     "fonte_url": "https://web.archive.org/web/20260201191047/https://www.datacenterdynamics.com/en/news/google-to-develop-new-cable-landing-stations-in-azores-and-hawaii-for-upcoming-subsea-cable-systems/",
+     "citacao": "Announced in 2023, Nuvem is set to connect Portugal, Bermuda, and the United States. The Sol cable will connect Spain to the US via the Azores and Bermuda.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_rede (o '10MW' não é qualificado)",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "consumo de água",
+    "certificacoes (o 'ISO 27001; ISO 50001' do input vem do datacenters.com, que não consegui consultar; provavelmente certificações corporativas da Google)",
+    "ligacao_academica",
+    "comunicado oficial da Google sobre o edifício de Lagoa"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "DATA CENTRE OU CLS? O nome no diretório já diz 'CLS' e o Baxtel chama-lhe 'a new cable landing station'. A DCD diz 'a data center and cable landing station'. Análise local: 'The facility in Lagoa appears to be focused primarily on routing and managing data moving across the Atlantic rather than housing endless rows of cloud servers.' (https://notesfromanatlanticisle.substack.com/p/the-next-atlantic-crossing). Recomendação: classificar como CLS (infraestrutura de conectividade), não como DC de computação/cloud.",
+    "'10MW' (DCD, citando o Portuguese American Journal, 'reportedly'): não se sabe se é TI, rede ou potência elétrica total. Não registado como mw_ti_planejado.",
+    "A Google não tem região Google Cloud em Portugal em nenhuma fonte consultada; a presença física conhecida são CLS (Sines, Lagoa) e cabos (Nuvem, Equiano)."
+   ]
+  }
+ ],
+ "achados_para_o_artigo": [
+  {
+   "achado": "O maior data centre de Portugal (Covilhã) foi vendido pela Altice Portugal ao fundo espanhol de infraestruturas Asterion Industrial Partners (via Mezan / Asterion Infrastructure Fund III) por 120 M€. A Autoridade da Concorrência não se opôs em 15/01/2026. O ativo é posicionado para treino e inferência de IA na Europa, e o comunicado diz que pode passar de 6,8 MW instalados para dezenas ou centenas de MW.",
+   "por_que_importa": "Mostra a financeirização e a desnacionalização do controlo da infraestrutura digital mais emblemática do país (o antigo projeto de bandeira da PT). A capacidade passa de uma telco controlada a partir do Luxemburgo para um fundo de private equity espanhol orientado para clientes de IA europeus. É um caso central para a discussão de soberania tecnológica.",
+   "fonte_url": "https://econews.pt/2025/12/30/asterion-notifies-competition-authority-of-purchase-of-meo-data-centre-in-covilha/",
+   "citacao": "It can also support the training of artificial intelligence (AI) models across Europe, as well as low-latency AI inference from the Iberian Peninsula and latency-insensitive AI inference in the rest of Europe"
+  },
+  {
+   "achado": "Microsoft: nenhuma fonte encontrada anuncia uma região Azure em Portugal. A presença física anunciada é como inquilina/investidora: 10 mil M USD em Sines, com Start Campus, Nscale e NVIDIA, para instalar 12.600 GPUs (Web Summit, 11/11/2025). A Microsoft não aparece como operadora nos diretórios porque a infraestrutura é de terceiros.",
+   "por_que_importa": "Esta é a 'infraestrutura escondida': a maior capacidade de IA do país fica sob uma marca de terceiros (Start Campus/Nscale) e não aparece nos diretórios sob o nome Microsoft. As universidades portuguesas que usam Microsoft 365/Azure processam dados em regiões fora de Portugal, enquanto o hardware de IA da Microsoft em Portugal fica em Sines.",
+   "fonte_url": "https://www.bnnbloomberg.ca/business/2025/11/11/microsoft-plans-to-invest-us10-billion-in-portuguese-ai-data-hub/",
+   "citacao": "Microsoft plans to invest US$10 billion in artificial intelligence infrastructure at a data centre in Portugal's port city of Sines"
+  },
+  {
+   "achado": "AWS: não há região AWS em Portugal. Há uma Local Zone 'Lisbon, Portugal' (eusc-de-east-1-lis-1a) com estado 'Announced', cuja região-mãe é a AWS European Sovereign Cloud (Alemanha). O primeiro ponto AWS Direct Connect em Portugal abriu em mar/2025 no Equinix LS1.",
+   "por_que_importa": "A 'nuvem soberana europeia' da AWS chega a Portugal como extensão de uma região alemã. Isto ilustra uma soberania de nível europeu, e não nacional, operada por um hyperscaler dos EUA.",
+   "fonte_url": "https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/",
+   "citacao": "Lisbon, Portugal Zone Name: eusc-de-east-1-lis-1a Parent Region: AWS European Sovereign Cloud (Germany)"
+  },
+  {
+   "achado": "AWS Direct Connect: o primeiro ponto em Portugal fica num DC de colocation de capital norte-americano (Equinix LS1).",
+   "por_que_importa": "O acesso privado à cloud a partir de Portugal (incluindo, potencialmente, o da RCTS/FCCN) passa por infraestrutura de terceiros estrangeiros.",
+   "fonte_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/aws-direct-connect-location-lisbon-portugal/",
+   "citacao": "the first AWS Direct Connect location within Portugal"
+  },
+  {
+   "achado": "Google nos Açores (Lagoa): o 'Azores CLS Data Center' é uma estação de amarração de cabos (Nuvem e Sol), descrita como '10MW, 15,000 sqm' e ainda em construção. O cabo Nuvem amarrou em Sines em jul/2026. Não há região Google Cloud em Portugal.",
+   "por_que_importa": "Evita contar uma CLS como DC de computação no inventário. Mostra também que a presença da Google em Portugal é sobretudo de conectividade transatlântica (Portugal como 'porta atlântica'), não de computação.",
+   "fonte_url": "https://www.thestar.com.my/tech/tech-news/2026/07/21/google-connects-new-transatlantic-cable-between-portugal-and-the-us",
+   "citacao": "Portugal's Atlantic coastline positions it as a prime hub for intercontinental subsea cables, helping to turn the country into a magnet for AI-driven data centres."
+  },
+  {
+   "achado": "A ONI (DCs da Matinha e da Maia) é detida pela espanhola Gigas Hosting (maior acionista: Grupo Inveready, 31,77%). Tem credenciação NATO de grau 'Secreto' e reclama energia 100% renovável através de garantias de origem rastreadas por blockchain, não por fornecimento físico.",
+   "por_que_importa": "Uma infraestrutura com credenciação de segurança nacional é controlada por capital estrangeiro (Espanha). O 'verde' é contabilístico (certificados de origem), o que é relevante para a transparência ambiental.",
+   "fonte_url": "https://www.oni.pt/pt/certificacoes/",
+   "citacao": "De destacar, ainda, a nossa credenciação da NATO, em que a Oni se encontra credenciada na marca Nacional, no grau Secreto"
+  },
+  {
+   "achado": "Transparência ambiental fraca em todo o lote. Nenhum dos 12 sites publica consumo de água. Só a Covilhã publica PUE (1,25, sem ano nem metodologia), contra um PUE médio de projeto de 1,2 indicado pela projetista. As alegações '100% renovável' (Covilhã, LdV, ONI) nunca dizem o mecanismo, exceto a ONI (garantias de origem).",
+   "por_que_importa": "Sustenta empiricamente o argumento de 'infraestrutura ambiental escondida': os dados necessários para avaliar a pegada (MW de TI, PUE medido, água) não são públicos.",
+   "fonte_url": "https://en.meo.pt/business/solutions/cloud-datacenter/data-centers/covilha",
+   "citacao": "With a Power Usage Effectiveness (PUE) ratio of 1.25, certified by the Uptime Institute as Tier III and Leed Platinum, it highlights its level of performance, security and availability."
+  },
+  {
+   "achado": "Engenharia financeira na Altice: Patrick Drahi retirou a Altice Portugal do perímetro de garantias dos credores (dez/2025), vendeu o DC da Covilhã e converteu 2,5 mil M€ de dívida intragrupo da MEO em capital (mai/2026). A MEO anunciou também o despedimento de cerca de 1.200 trabalhadores (jun/2026, resumo de pesquisa).",
+   "por_que_importa": "Os DCs da MEO (Picoas, Carnide, Tenente Valadim, LdV) pertencem a um grupo endividado que está a monetizar ativos de infraestrutura. Há risco de novas vendas a fundos estrangeiros.",
+   "fonte_url": "https://econews.pt/2025/12/03/patrick-drahi-removes-altice-portugal-from-creditors-reach/",
+   "citacao": "In Portugal, he has just sold the data centre in Covilhã for €120 million"
+  },
+  {
+   "achado": "Qualidade dos diretórios: as fichas do datacenters.com para a Kyndryl ('Portugal Data Center') e a Claranet Lisboa apontam para moradas de escritórios (Maleo Offices Oriente; Unicorn Factory Beato), com texto genérico ('Powered by renewable energy sources, including solar and wind power'). O datacentermap tem campos autodeclarados ('Tier IV' em Picoas; potência '230' sem unidade, provavelmente volts).",
+   "por_que_importa": "É uma nota metodológica para o artigo: os diretórios comerciais inflacionam o inventário e as características. A instalação da Kyndryl não pôde ser verificada como data centre.",
+   "fonte_url": "https://web.archive.org/web/20250619182344/https://www.datacenters.com/kyndryl-portugal",
+   "citacao": "Kyndryl Portugal Data Center is located at Maleo Offices Oriente, R. Mar da China, 1990-203 Lisboa, Portugal"
+  },
+  {
+   "achado": "A Kyndryl (EUA, spin-off da IBM) assinou em 2023 um acordo para projetar, implementar e gerir a segurança de TI e as redes de dados do projeto SINES da Start Campus (495 MW), o mesmo campus onde a Microsoft/Nscale vão instalar GPUs.",
+   "por_que_importa": "Também a camada de operação e segurança do maior campus de IA do país é assegurada por uma empresa norte-americana.",
+   "fonte_url": "https://thetechcapital.com/kyndryl-joins-development-of-495mw-mega-data-centre-in-portugal/",
+   "citacao": "Kyndryl and Portuguese data centre developer Start Campus have signed an agreement for Kyndryl to provide design, implementation, and management of IT security and data network services for Start Campus's 495MW SINES Project operations."
+  },
+  {
+   "achado": "Covilhã e ensino superior: a imprensa associa a escolha da Covilhã pela PT em 2013 ao ecossistema da Universidade da Beira Interior (UBI), com um compromisso de 1.400 postos de trabalho. Não encontrei em fonte primária o alegado protocolo PT–UBI para um centro de competências em cloud.",
+   "por_que_importa": "É a única pista de ligação académica no lote; vale a pena verificar nos arquivos da UBI e da PT de 2013.",
+   "fonte_url": "https://eco.sapo.pt/2017/06/14/ubi-quando-a-universidade-atrai-gente-para-o-interior/",
+   "citacao": "Ou o caso da PT, agora Altice, que em 2013 escolheu inaugurar o seu Data Center na Covilhã, com o compromisso de criar 1400 postos de trabalho na região."
+  }
+ ]
+}

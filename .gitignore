@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+
+# Local caches (GISCO boundaries, Nominatim responses)
+data/cache/
+
+# Raw HTML from the directories and third-party PDFs are not redistributed
+data/raw/datacentermap/*
+data/raw/datacenters/*
+!data/raw/datacentermap/.gitkeep
+!data/raw/datacenters/.gitkeep
+data/documents/
+
+# Collection database
+data/collections.db
+

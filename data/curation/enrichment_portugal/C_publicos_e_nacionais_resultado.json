@@ -1,0 +1,1159 @@
+{
+ "lote": "C_publicos_e_nacionais",
+ "data_pesquisa": "2026-10-06",
+ "notas_metodologicas": [
+  "datacentermap.com, datacenters.com, datacenterdynamics.com e idealista.pt devolveram HTTP 403/429 durante a pesquisa. Valores que dependem só dessas fontes ficaram em 'ambiguidades'.",
+  "As citações de páginas HTML foram extraídas do texto com espaços normalizados. As citações do PeeringDB são campos JSON da API.",
+  "Os campos com o prefixo deucalion_* em rnca-guimares respondem às perguntas-chave do lote: o Deucalion não é uma instalação separada no dataset."
+ ],
+ "sites": [
+  {
+   "facility_id": "ar-telecom-viseu",
+   "campos": {
+    "controlador_final": {
+     "valor": "Aire Networks (Grupo Aire), Espanha — adquiriu a Ar Telecom no início de 2021",
+     "fonte_url": "https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/",
+     "citacao": "Spanish firm Aire Networks acquired the company in early 2021.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Espanha (privado)",
+     "fonte_url": "https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/",
+     "citacao": "Spanish firm Aire Networks acquired the company in early 2021.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "modelo_ocupacao": {
+     "valor": "Espaço arrendado a operadores locais (não é datacenter próprio), segundo a imprensa em 2021",
+     "fonte_url": "https://thetechcapital.com/portuguese-telco-joins-national-data-centre-expansion-drive-with-new-lisbon-facility/",
+     "citacao": "Ar Telecom, which has until now leased data centre space from local operators in Lisbon, Porto and Viseu including Equinix (NASDAQ: EQIX)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media"
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO 9001",
+      "ISO/IEC 20000",
+      "ISO/IEC 27001",
+      "ISO 14001"
+     ],
+     "fonte_url": "https://ar.pt/certificacoes/",
+     "citacao": "As certificações ISO 9001, ISO/IEC 20000, ISO/IEC 27001 e ISO 14001 que a Ar detém",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Certificações da empresa; nada indica que cubram o espaço em Porto/Viseu."
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "uso_agua",
+    "area_m2",
+    "ano_operacao",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica",
+    "status (confirmação de 2025-2026)"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "Status atual incerto: o site do operador (ar.pt, 2026) lista os data centers próprios da Ar e, em Portugal, só aparece Lisboa: 'Estamos presentes em mais de 20 centros neutros, oito dos quais próprios, localizados em Alicante, Madrid, Málaga, Valência, Lisboa, Toledo, Saragoça e Canárias' (https://ar.pt/ar-cloud/colocation/; espaços normalizados). Porto e Viseu não aparecem nem como sites próprios nem com morada.",
+    "Em jan/2023 a SDxCentral escrevia 'Ar operates three data centers in Portugal in Lison, Porto, and Viseu' (https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/), mas a The Tech Capital (2021) diz que esses espaços eram arrendados a operadores locais. É provável que seja um PoP/colocação dentro de um datacenter de terceiros, e não uma instalação separada: risco de dupla contagem com outro registo do dataset. Não verificado.",
+    "Hipótese a verificar à mão, não sustentada por fonte primária: os diretórios dão a morada da Ar Porto como 'Largo da Estação', o que pode coincidir com instalações ferroviárias da IP Telecom. Nenhuma fonte encontrada liga os dois explicitamente."
+   ]
+  },
+  {
+   "facility_id": "dccom-viseu-data-center-ip-telecom",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.iptelecom.pt",
+     "citacao": "3 Data Centers – Lisboa, Porto e Viseu – ligados e geridos de forma exclusiva e redundante, contando com disponibilidade mensal de 99,99%.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "funcao_rede_ferroviaria": {
+     "valor": "Datacenter da IP Telecom que suporta telecomunicações da exploração ferroviária, além do mercado empresarial",
+     "fonte_url": "https://infraestruturasdeportugal.pt/pt-pt/rede-telecomunicacoes",
+     "citacao": "Gere três Datacenters (Lisboa, Porto e Viseu), ligados entre si e geridos de forma única e redundante, de forma a garantir elevadas performances de disponibilidade, segurança e fiabilidade intrínsecos às telecomunicações de suporte à exploração ferroviária",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "operador_detido_por": {
+     "valor": "IP Telecom - Serviços de Telecomunicações, S.A., 100% detida pela Infraestruturas de Portugal, S.A.",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/empresa/sobre-nos",
+     "citacao": "A operar em Portugal desde o ano 2000, é detida a 100% pela Infraestruturas de Portugal, S.A..",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "Estado Português (acionista único da Infraestruturas de Portugal, S.A.)",
+     "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+     "citacao": "A IP, cujo único acionista é o Estado Português, está sujeita à tutela do Ministério das Infraestruturas e Habitação e do Ministério das Finanças.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal (setor público empresarial)",
+     "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+     "citacao": "A IP, cujo único acionista é o Estado Português, está sujeita à tutela do Ministério das Infraestruturas e Habitação e do Ministério das Finanças.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO/IEC 27001 (âmbito inclui os datacenters de Lisboa, Porto e Viseu)",
+      "ISO 9001 (empresa)",
+      "ISO/IEC 20000-1 (empresa)"
+     ],
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/empresa/sobre-nos/licenciamento-e-certificacoes",
+     "citacao": "O Sistema de Gestão da Segurança da Informação da IP Telecom encontra-se implementado nos processos operacionais e aplicacionais de suporte dos serviços de Cloud Solutions, Housing e Hosting que suportam os datacenters em Lisboa, Porto e Viseu",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "ISO 9001 e ISO 20000 são certificações da empresa; o âmbito específico por site só está explícito para a ISO/IEC 27001. Ver também https://www.iptelecom.pt/pt-pt/empresa/sobre-nos: 'A IP Telecom é uma empresa certificada ISO 9001, ISO 27001 e ISO 20000'."
+    },
+    "padrao_projeto_declarado": {
+     "valor": "Autodeclaração de cumprimento de requisitos do Uptime Institute (sem Tier nem certificação indicados)",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/servicos/ipt-cloud-datacenter",
+     "citacao": "Os Datacenters da IP Telecom cumprem os requisitos propostos pelo Uptime Institute, garantindo o seu elevado nível de desempenho, segurança e disponibilidade.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Não é uma certificação Tier; não registar como certificação."
+    },
+    "argumento_soberania_dados": {
+     "valor": "Oferta comercial com garantia de permanência dos dados em Portugal",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/servicos/ipt-cloud-datacenter",
+     "citacao": "é garantido ao cliente a permanência dos seus dados em Portugal, com o compromisso de elevados níveis de serviço contratado (SLAs).",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "uso_agua",
+    "area_m2",
+    "ano_operacao (do site; a empresa opera desde 2000)",
+    "endereco_do_site (fontes oficiais não indicam morada do datacenter)",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "Não foi encontrada divulgação pública da IP Telecom ao abrigo do DL 84/2024 (relato de centros de dados da Diretiva (UE) 2023/1791), ao contrário da REN Telecom; não se sabe se algum dos 3 sites atinge o limiar de reporte. Não inferir potência.",
+    "Diretórios (datacenters.com) não puderam ser lidos (HTTP 429) para confirmar morada/certificações listadas no dataset."
+   ]
+  },
+  {
+   "facility_id": "gigapix-lisbon",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "Sala técnica / site do ponto de troca de tráfego GigaPIX (Internet Exchange Point), no campus do LNEC; não é um datacenter de colocation comercial",
+     "fonte_url": "https://gigapix.pt/en/sites/",
+     "citacao": "Datacenter SE03 : Campus do Laboratório Nacional de Engenharia Civil Avenida do Brasil n.º101 Edifício Manuel Rocha, Piso 1 1700-066 Lisboa",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "o_que_e_gigapix": {
+     "valor": "IXP neutro e sem fins lucrativos, gerido e operado pela FCT|FCCN",
+     "fonte_url": "https://gigapix.pt/en/index/",
+     "citacao": "GigaPIX is a not-for-profit Portuguese Internet Exchange Point managed and operated by FCT|FCCN.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://gigapix.pt/en/sites/",
+     "citacao": "Datacenter SE03 : Campus do Laboratório Nacional de Engenharia Civil Avenida do Brasil n.º101 Edifício Manuel Rocha, Piso 1 1700-066 Lisboa",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Listado como site GigaPIX ativo em 2026."
+    },
+    "papel_rcts": {
+     "valor": "Um dos objetivos do GigaPIX é servir a comunidade RCTS (rede académica nacional)",
+     "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+     "citacao": "Outros dos objetivos é facilitar o fornecimento de serviços com elevada qualidade de conectividade à comunidade RCTS (Rede Ciência, Tecnologia e Sociedade).",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "capacidade_portas": {
+     "valor": "Portas de 10 a 100 Gbps (GigaPIX no seu conjunto, não só este site)",
+     "unidade": "Gbps",
+     "fonte_url": "https://gigapix.pt/en/about-us/",
+     "citacao": "Currently GigaPIX interconnects dozens of networks in its premises in Lisbon and Sines with speeds from 10Gbps to 100Gbps.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "proprietario_edificio": {
+     "valor": "PeeringDB atribui a instalação 'FCCN Lisbon - SE03' à organização LNEC (laboratório do Estado)",
+     "fonte_url": "https://www.peeringdb.com/api/fac/458",
+     "citacao": "\"name\": \"FCCN Lisbon - SE03\", \"org_name\": \"National Laboratory of Civil Engineering (LNEC)\"",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "media",
+     "nota": "Citação extraída dos campos JSON da API do PeeringDB."
+    },
+    "controlador_final": {
+     "valor": "FCT – Fundação para a Ciência e a Tecnologia, I.P. (unidade FCCN), opera o IXP; o edifício fica no campus do LNEC",
+     "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+     "citacao": "O GigaPIX é o Ponto de Troca de Tráfego (Internet Exchange Point) promovido e operado pela FCT, através da sua Unidade FCCN.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal (instituto público)",
+     "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+     "citacao": "O GigaPIX é o Ponto de Troca de Tráfego (Internet Exchange Point) promovido e operado pela FCT, através da sua Unidade FCCN.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "ligacao_academica": {
+     "valor": "Operado pela FCCN, que gere a RCTS (rede das instituições de ensino superior e de investigação)",
+     "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+     "citacao": "A Computação Científica Nacional - FCCN é a unidade da FCT – Fundação para a Ciência e a Tecnologia, que tem como missão principal o planeamento e gestão da RCTS – Rede Ciência, Tecnologia e Sociedade.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "ano_operacao_gigapix": {
+     "valor": "1995 (PIX; o nome GigaPIX surge em 2001). A data de abertura do SE03 não é indicada",
+     "fonte_url": "https://gigapix.pt/en/about-us/",
+     "citacao": "GigaPIX is an evolution of the PIX ( Portuguese Internet eXchange ) that started in October 1995. The name change was performed in 2001",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "uso_agua",
+    "area_m2",
+    "certificacoes",
+    "ano_operacao do SE03",
+    "clientes_ia_hyperscalers"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "O mesmo campus do LNEC (Av. do Brasil 101) aloja também o SE06 (GigaPIX LAN 1, inaugurado em maio de 2014) e o centro INCD-A ('INCD-A @ LNEC em Lisboa HPC / HTC / Cloud / Federação 6000 CPU cores 5 Petabytes 100 Gbps', https://indico.fccn.pt/event/29/sessions/379/attachments/540/1039/20240416_JornadasFCCN2024-RNCA_vf.pdf). Nenhuma fonte diz em que sala (SE03/SE06) fica o INCD-A.",
+    "O site GigaPIX contradiz-se: 'About us' diz 'present in four locations – three in Lisbon and one in Sines', enquanto 'Sites' e 'index' listam cinco (SE03, SE06, Equinix Prior Velho, MEO-LDV, Start Campus SIN01). A página 'About' parece não ter sido atualizada após a ativação do MEO-LDV em set/2026.",
+    "Segundo as notas do PeeringDB, a LAN 1 está no 'Lisbon SE06 Datacenter (LAN 1) and Equinix in Prior Velho' (https://www.peeringdb.com/api/ix/72). O SE03 aparece ligado às duas LANs na tabela ixfac."
+   ]
+  },
+  {
+   "facility_id": "dccom-lisbon-data-center-ip-telecom",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.iptelecom.pt",
+     "citacao": "3 Data Centers – Lisboa, Porto e Viseu – ligados e geridos de forma exclusiva e redundante, contando com disponibilidade mensal de 99,99%.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "funcao_rede_ferroviaria": {
+     "valor": "Datacenter da IP Telecom que suporta telecomunicações da exploração ferroviária, além do mercado empresarial",
+     "fonte_url": "https://infraestruturasdeportugal.pt/pt-pt/rede-telecomunicacoes",
+     "citacao": "Gere três Datacenters (Lisboa, Porto e Viseu), ligados entre si e geridos de forma única e redundante, de forma a garantir elevadas performances de disponibilidade, segurança e fiabilidade intrínsecos às telecomunicações de suporte à exploração ferroviária",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "operador_detido_por": {
+     "valor": "IP Telecom - Serviços de Telecomunicações, S.A., 100% detida pela Infraestruturas de Portugal, S.A.",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/empresa/sobre-nos",
+     "citacao": "A operar em Portugal desde o ano 2000, é detida a 100% pela Infraestruturas de Portugal, S.A..",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "Estado Português (acionista único da Infraestruturas de Portugal, S.A.)",
+     "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+     "citacao": "A IP, cujo único acionista é o Estado Português, está sujeita à tutela do Ministério das Infraestruturas e Habitação e do Ministério das Finanças.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal (setor público empresarial)",
+     "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+     "citacao": "A IP, cujo único acionista é o Estado Português, está sujeita à tutela do Ministério das Infraestruturas e Habitação e do Ministério das Finanças.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO/IEC 27001 (âmbito inclui os datacenters de Lisboa, Porto e Viseu)",
+      "ISO 9001 (empresa)",
+      "ISO/IEC 20000-1 (empresa)"
+     ],
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/empresa/sobre-nos/licenciamento-e-certificacoes",
+     "citacao": "O Sistema de Gestão da Segurança da Informação da IP Telecom encontra-se implementado nos processos operacionais e aplicacionais de suporte dos serviços de Cloud Solutions, Housing e Hosting que suportam os datacenters em Lisboa, Porto e Viseu",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "ISO 9001 e ISO 20000 são certificações da empresa; o âmbito específico por site só está explícito para a ISO/IEC 27001. Ver também https://www.iptelecom.pt/pt-pt/empresa/sobre-nos: 'A IP Telecom é uma empresa certificada ISO 9001, ISO 27001 e ISO 20000'."
+    },
+    "padrao_projeto_declarado": {
+     "valor": "Autodeclaração de cumprimento de requisitos do Uptime Institute (sem Tier nem certificação indicados)",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/servicos/ipt-cloud-datacenter",
+     "citacao": "Os Datacenters da IP Telecom cumprem os requisitos propostos pelo Uptime Institute, garantindo o seu elevado nível de desempenho, segurança e disponibilidade.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Não é uma certificação Tier; não registar como certificação."
+    },
+    "argumento_soberania_dados": {
+     "valor": "Oferta comercial com garantia de permanência dos dados em Portugal",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/servicos/ipt-cloud-datacenter",
+     "citacao": "é garantido ao cliente a permanência dos seus dados em Portugal, com o compromisso de elevados níveis de serviço contratado (SLAs).",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "uso_agua",
+    "area_m2",
+    "ano_operacao (do site; a empresa opera desde 2000)",
+    "endereco_do_site (fontes oficiais não indicam morada do datacenter)",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "Não foi encontrada divulgação pública da IP Telecom ao abrigo do DL 84/2024 (relato de centros de dados da Diretiva (UE) 2023/1791), ao contrário da REN Telecom; não se sabe se algum dos 3 sites atinge o limiar de reporte. Não inferir potência.",
+    "Diretórios (datacenters.com) não puderam ser lidos (HTTP 429) para confirmar morada/certificações listadas no dataset."
+   ]
+  },
+  {
+   "facility_id": "ar-telecom-porto",
+   "campos": {
+    "controlador_final": {
+     "valor": "Aire Networks (Grupo Aire), Espanha — adquiriu a Ar Telecom no início de 2021",
+     "fonte_url": "https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/",
+     "citacao": "Spanish firm Aire Networks acquired the company in early 2021.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Espanha (privado)",
+     "fonte_url": "https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/",
+     "citacao": "Spanish firm Aire Networks acquired the company in early 2021.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "modelo_ocupacao": {
+     "valor": "Espaço arrendado a operadores locais (não é datacenter próprio), segundo a imprensa em 2021",
+     "fonte_url": "https://thetechcapital.com/portuguese-telco-joins-national-data-centre-expansion-drive-with-new-lisbon-facility/",
+     "citacao": "Ar Telecom, which has until now leased data centre space from local operators in Lisbon, Porto and Viseu including Equinix (NASDAQ: EQIX)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media"
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO 9001",
+      "ISO/IEC 20000",
+      "ISO/IEC 27001",
+      "ISO 14001"
+     ],
+     "fonte_url": "https://ar.pt/certificacoes/",
+     "citacao": "As certificações ISO 9001, ISO/IEC 20000, ISO/IEC 27001 e ISO 14001 que a Ar detém",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Certificações da empresa; nada indica que cubram o espaço em Porto/Viseu."
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "uso_agua",
+    "area_m2",
+    "ano_operacao",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica",
+    "status (confirmação de 2025-2026)"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "Status atual incerto: o site do operador (ar.pt, 2026) lista os data centers próprios da Ar e, em Portugal, só aparece Lisboa: 'Estamos presentes em mais de 20 centros neutros, oito dos quais próprios, localizados em Alicante, Madrid, Málaga, Valência, Lisboa, Toledo, Saragoça e Canárias' (https://ar.pt/ar-cloud/colocation/; espaços normalizados). Porto e Viseu não aparecem nem como sites próprios nem com morada.",
+    "Em jan/2023 a SDxCentral escrevia 'Ar operates three data centers in Portugal in Lison, Porto, and Viseu' (https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/), mas a The Tech Capital (2021) diz que esses espaços eram arrendados a operadores locais. É provável que seja um PoP/colocação dentro de um datacenter de terceiros, e não uma instalação separada: risco de dupla contagem com outro registo do dataset. Não verificado.",
+    "Hipótese a verificar à mão, não sustentada por fonte primária: os diretórios dão a morada da Ar Porto como 'Largo da Estação', o que pode coincidir com instalações ferroviárias da IP Telecom. Nenhuma fonte encontrada liga os dois explicitamente."
+   ]
+  },
+  {
+   "facility_id": "fccn-se02-gp-porto",
+   "campos": {
+    "tipo_instalacao": {
+     "valor": "Site do Porto do IXP GigaPIX (FCT|FCCN), na FEUP – Faculdade de Engenharia da Universidade do Porto",
+     "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+     "citacao": "Para além desta localização, o GigaPIX está presente em mais duas salas técnicas em Lisboa, dentro do Campus do Laboratório Nacional de Engenharia Civil, e no Porto, na FEUP.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "ano_operacao": {
+     "valor": 2011,
+     "fonte_url": "https://gigapix.pt/en/about-us/",
+     "citacao": "On January 2011 the Oporto GigaPIX site is brought to life with 3 starting members – RCTS, NFSI and F-Root Server.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "presenca_gigapix_atual": {
+     "valor": "O Porto já não aparece na lista atual de sites GigaPIX (só Lisboa e Sines)",
+     "fonte_url": "https://gigapix.pt/en/index/",
+     "citacao": "GigaPIX is situated in five datacenters, four in Lisbon and one in Sines.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Indica que o site do Porto deixou de ser ponto de presença do GigaPIX. A data e o motivo não são indicados. Não confirma o encerramento da sala da FCCN/RCTS em si."
+    },
+    "endereco": {
+     "valor": "Rua Dr. Roberto Frias, Edifício CICA, Sala 102, 4200-465 Porto (campus da FEUP)",
+     "fonte_url": "https://inflect.com/building/rua-dr-roberto-frias-edificio-cica-sala-102-porto/fccn/datacenter/fccn-oporto",
+     "citacao": "FCCN Porto Rua Dr.Roberto Frias, Edificio Cica, Sala 102 Porto Porto District 4200-465 PRT Data Center Operated by FCCN",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "media",
+     "nota": "O resto do texto da página do diretório é boilerplate genérico; usar só a morada."
+    },
+    "controlador_final": {
+     "valor": "FCT – Fundação para a Ciência e a Tecnologia, I.P. (FCCN), alojado na Universidade do Porto (FEUP)",
+     "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+     "citacao": "O GigaPIX é o Ponto de Troca de Tráfego (Internet Exchange Point) promovido e operado pela FCT, através da sua Unidade FCCN.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal (instituto público; alojado em universidade pública)",
+     "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+     "citacao": "e no Porto, na FEUP.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "ligacao_academica": {
+     "valor": "Alojado na FEUP; a RCTS foi um dos membros fundadores do site do Porto",
+     "fonte_url": "https://gigapix.pt/en/about-us/",
+     "citacao": "On January 2011 the Oporto GigaPIX site is brought to life with 3 starting members – RCTS, NFSI and F-Root Server.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "uso_agua",
+    "area_m2",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "data de desativação como site GigaPIX"
+   ],
+   "conflitos": [
+    {
+     "campo": "status",
+     "valor_dataset": "operacional",
+     "fonte_dataset": "https://www.datacentermap.com/portugal/porto/fccn-se02-gp-porto/",
+     "valor_alternativo": "Não listado como site GigaPIX em 2026",
+     "fonte_alternativa": "https://gigapix.pt/en/index/",
+     "citacao_alternativa": "GigaPIX is situated in five datacenters, four in Lisbon and one in Sines.",
+     "nota": "O datacentermap não pôde ser lido (HTTP 429). Sugere-se status 'encerrado' só para a função de IXP, ou 'desconhecido', depois de validar à mão."
+    }
+   ],
+   "ambiguidades": [
+    "'SE02' não aparece em nenhuma fonte oficial encontrada. Não há registo do Porto no PeeringDB (API fac?name__contains=FCCN só devolve SE03, SE06 e itconic). Pode continuar a existir uma sala técnica da FCCN/RCTS na FEUP depois da saída do GigaPIX; não verificado."
+   ]
+  },
+  {
+   "facility_id": "dccom-porto-data-center-ip-telecom",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.iptelecom.pt",
+     "citacao": "3 Data Centers – Lisboa, Porto e Viseu – ligados e geridos de forma exclusiva e redundante, contando com disponibilidade mensal de 99,99%.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "funcao_rede_ferroviaria": {
+     "valor": "Datacenter da IP Telecom que suporta telecomunicações da exploração ferroviária, além do mercado empresarial",
+     "fonte_url": "https://infraestruturasdeportugal.pt/pt-pt/rede-telecomunicacoes",
+     "citacao": "Gere três Datacenters (Lisboa, Porto e Viseu), ligados entre si e geridos de forma única e redundante, de forma a garantir elevadas performances de disponibilidade, segurança e fiabilidade intrínsecos às telecomunicações de suporte à exploração ferroviária",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "operador_detido_por": {
+     "valor": "IP Telecom - Serviços de Telecomunicações, S.A., 100% detida pela Infraestruturas de Portugal, S.A.",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/empresa/sobre-nos",
+     "citacao": "A operar em Portugal desde o ano 2000, é detida a 100% pela Infraestruturas de Portugal, S.A..",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "Estado Português (acionista único da Infraestruturas de Portugal, S.A.)",
+     "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+     "citacao": "A IP, cujo único acionista é o Estado Português, está sujeita à tutela do Ministério das Infraestruturas e Habitação e do Ministério das Finanças.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal (setor público empresarial)",
+     "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+     "citacao": "A IP, cujo único acionista é o Estado Português, está sujeita à tutela do Ministério das Infraestruturas e Habitação e do Ministério das Finanças.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "certificacoes": {
+     "valor": [
+      "ISO/IEC 27001 (âmbito inclui os datacenters de Lisboa, Porto e Viseu)",
+      "ISO 9001 (empresa)",
+      "ISO/IEC 20000-1 (empresa)"
+     ],
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/empresa/sobre-nos/licenciamento-e-certificacoes",
+     "citacao": "O Sistema de Gestão da Segurança da Informação da IP Telecom encontra-se implementado nos processos operacionais e aplicacionais de suporte dos serviços de Cloud Solutions, Housing e Hosting que suportam os datacenters em Lisboa, Porto e Viseu",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "ISO 9001 e ISO 20000 são certificações da empresa; o âmbito específico por site só está explícito para a ISO/IEC 27001. Ver também https://www.iptelecom.pt/pt-pt/empresa/sobre-nos: 'A IP Telecom é uma empresa certificada ISO 9001, ISO 27001 e ISO 20000'."
+    },
+    "padrao_projeto_declarado": {
+     "valor": "Autodeclaração de cumprimento de requisitos do Uptime Institute (sem Tier nem certificação indicados)",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/servicos/ipt-cloud-datacenter",
+     "citacao": "Os Datacenters da IP Telecom cumprem os requisitos propostos pelo Uptime Institute, garantindo o seu elevado nível de desempenho, segurança e disponibilidade.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "Não é uma certificação Tier; não registar como certificação."
+    },
+    "argumento_soberania_dados": {
+     "valor": "Oferta comercial com garantia de permanência dos dados em Portugal",
+     "fonte_url": "https://www.iptelecom.pt/pt-pt/servicos/ipt-cloud-datacenter",
+     "citacao": "é garantido ao cliente a permanência dos seus dados em Portugal, com o compromisso de elevados níveis de serviço contratado (SLAs).",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado",
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "uso_agua",
+    "area_m2",
+    "ano_operacao (do site; a empresa opera desde 2000)",
+    "endereco_do_site (fontes oficiais não indicam morada do datacenter)",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [
+    {
+     "campo": "certificacoes",
+     "valor_dataset": "ISO 9001",
+     "valor_alternativo": "O operador declara que o âmbito da ISO/IEC 27001 cobre o datacenter do Porto; a ISO 9001 é da empresa",
+     "fonte_alternativa": "https://www.iptelecom.pt/pt-pt/empresa/sobre-nos/licenciamento-e-certificacoes",
+     "citacao_alternativa": "O Sistema de Gestão da Segurança da Informação da IP Telecom encontra-se implementado nos processos operacionais e aplicacionais de suporte dos serviços de Cloud Solutions, Housing e Hosting que suportam os datacenters em Lisboa, Porto e Viseu"
+    }
+   ],
+   "ambiguidades": [
+    "Não foi encontrada divulgação pública da IP Telecom ao abrigo do DL 84/2024 (relato de centros de dados da Diretiva (UE) 2023/1791), ao contrário da REN Telecom; não se sabe se algum dos 3 sites atinge o limiar de reporte. Não inferir potência.",
+    "Diretórios (datacenters.com) não puderam ser lidos (HTTP 429) para confirmar morada/certificações listadas no dataset.",
+    "Diretórios (DC Byte, via resultado de pesquisa não verificado) referem um datacenter 'Campanha' da IP Telecom no Porto. A morada não é confirmada por fonte oficial."
+   ]
+  },
+  {
+   "facility_id": "ermesinde",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.ren.pt/pt-pt/atividade/telecomunicacoes-e-it",
+     "citacao": "A REN Telecom é o principal prestador neutro de serviços de Datacenter nos seus centros de Lisboa, Sacavém, Ermesinde e Riba de Ave.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "operador": {
+     "valor": "REN Telecom (empresa de telecomunicações e IT do Grupo REN, operador desde 2002)",
+     "fonte_url": "https://www.ren.pt/pt-pt/atividade/telecomunicacoes-e-it",
+     "citacao": "A REN Telecom é a empresa de telecomunicações e IT do Grupo REN, sendo operadora de redes públicas de telecomunicações desde 1 de novembro de 2002.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "REN – Redes Energéticas Nacionais, SGPS (cotada); maior acionista: State Grid Corporation of China (25,0%)",
+     "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+     "citacao": "tan solo por detrás de State Grid Corporation of China (25,0%) y por delante de Lazard (7%).",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "nota": "Fonte de imprensa; confirmar na lista de participações qualificadas em ren.pt/CMVM."
+    },
+    "controlador_final_pais": {
+     "valor": "Misto: REN cotada; maior acionista chinês e estatal (State Grid, 25%); o Estado Português regressa com 13,7% via Parpública (acordo anunciado em set/2026)",
+     "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+     "citacao": "ha vendido el 13,7% de su participación en Redes Energéticas Nacionais (REN), el operador del sistema eléctrico portugués, al Estado de Portugal, en una operación confirmada por la agencia Europa Press",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "nota": "A notícia usa o futuro ('La transacción supondrá el paso de 91,7 millones de acciones a manos estatales'), por isso o fecho pode estar pendente em 2026-10-06."
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_planejado",
+    "mw_rede",
+    "pue",
+    "energia_renovavel",
+    "refrigeracao",
+    "uso_agua",
+    "area_m2",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "ligacao_academica"
+   ],
+   "conflitos": [],
+   "ambiguidades": [
+    "mw_operacional=0.5 no dataset vem do datacentermap, que não foi possível ler (HTTP 429). Sem confirmação pelo operador.",
+    "A página da REN com a divulgação ao abrigo do DL 84/2024 (Diretiva (UE) 2023/1791; o reporte obriga centros de dados com ≥500 kW de TI) lista só Riba de Ave (https://www.ren.pt/en-gb/activity/ren-data-centre). Ermesinde não aparece. Não inferir a potência a partir dessa ausência.",
+    "Ano de construção (2001) e morada (Rua das Agras Novas, 46) aparecem só em resumos de pesquisa de diretório não verificados."
+   ]
+  },
+  {
+   "facility_id": "ren-riba-de-ave",
+   "campos": {
+    "status": {
+     "valor": "operacional",
+     "fonte_url": "https://www.ren.pt/pt-pt/atividade/telecomunicacoes-e-it",
+     "citacao": "A REN Telecom é o principal prestador neutro de serviços de Datacenter nos seus centros de Lisboa, Sacavém, Ermesinde e Riba de Ave.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "ano_operacao": {
+     "valor": 2018,
+     "fonte_url": "https://www.ren.pt/en-gb/activity/ren-data-centre",
+     "citacao": "Name of the Datacenter Riba de Ave Datacenter Colocation Datacenter operator REN Telecom Location NUTIII Ave PT119 (Riba de Ave) Date of entry into operation February 2018",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "mw_ti_instalado": {
+     "valor": 1.085,
+     "unidade": "MW (1085 kW de TI instalados)",
+     "fonte_url": "https://www.ren.pt/en-gb/activity/ren-data-centre",
+     "citacao": "Installed power for IT equipment (kW) 1085",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Divulgação regulatória (DL 84/2024 / Diretiva (UE) 2023/1791)."
+    },
+    "area_m2": {
+     "valor": 1232,
+     "unidade": "m2 (sala de computadores, área construída)",
+     "fonte_url": "https://www.ren.pt/en-gb/activity/ren-data-centre",
+     "citacao": "Built area of the data centre's computer room (m2) 1232",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "area_total_m2": {
+     "valor": 5000,
+     "unidade": "m2 (aprox., área total do site)",
+     "fonte_url": "https://www.ren.pt/en-gb/media/news/ren-inaugurates-data-centre-in-riba-de-ave",
+     "citacao": "The data centre occupies an area of about 5,000 m2 and includes 1,200 m2 of technical rooms dedicated to the housing of the equipment",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "media"
+    },
+    "certificacoes": {
+     "valor": [
+      "Uptime Institute Tier III"
+     ],
+     "fonte_url": "https://www.ren.pt/en-gb/media/news/ren-inaugurates-data-centre-in-riba-de-ave",
+     "citacao": "having received the Tier III certification from the Uptime Institute, making it an infrastructure of reference and technological excellence in Portugal.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta",
+     "nota": "Fonte de 2018. Não indica se é Tier III de Design, Constructed Facility ou Operational Sustainability."
+    },
+    "clientes": {
+     "valor": [
+      "REN",
+      "grupo EDP",
+      "grupo NOS"
+     ],
+     "fonte_url": "https://www.ren.pt/en-gb/media/news/ren-inaugurates-data-centre-in-riba-de-ave",
+     "citacao": "the data centre will be used, in addition to REN, by the EDP group and the NOS group, clients of RENTELECOM, REN group's telecommunications network operator.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "localizacao_rede": {
+     "valor": "Na subestação elétrica da REN em Riba d'Ave",
+     "fonte_url": "https://www.peeringdb.com/api/fac/14366",
+     "citacao": "\"name\": \"REN Datacenter Riba de Ave\", \"address1\": \"Subestação de Riba d'Ave (REN)\"",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "diretorio",
+     "confianca": "media",
+     "nota": "Citação extraída dos campos JSON da API do PeeringDB."
+    },
+    "ligacao_academica": {
+     "valor": "Alojou o MACC/supercomputador 'Bob' da FCT (2019-2023), na área operada pela NOS",
+     "fonte_url": "https://www.ren.pt/en-gb/media/news/inauguration-of-the-macc-minho-advanced-computing-centre",
+     "citacao": "The MACC is installed at REN´s Datacenter, who´s operation is managed in a segregated way by REN and NOS.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "ligacao_academica_bob": {
+     "valor": "Bob: 600 nós / 9600 cores, alojado em Riba de Ave (descrito no passado, já desativado)",
+     "fonte_url": "https://macc.fccn.pt/content/macc/macc.fccn.pt/resources",
+     "citacao": "Bob was composed of 600 compute nodes and 9600 cores installed in a state-of-the-art datacenter facility located in Riba de Ave fully powered by sustainable energy sources.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "ligacao_academica_incd": {
+     "valor": "O nó INCD-B (Infraestrutura Nacional de Computação Distribuída) está na REN em Riba de Ave, em migração parcial para Lisboa e UTAD (2024)",
+     "fonte_url": "https://indico.fccn.pt/event/29/sessions/379/attachments/540/1039/20240416_JornadasFCCN2024-RNCA_vf.pdf",
+     "citacao": "INCD-B @ REN em Riba-de-Ave",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta",
+     "nota": "Diapositivo (FCCN, Jornadas 2024). O mesmo diapositivo diz '(migração parcial p/ LX e UTAD)', 'HPC / HTC', '640 CPU cores', '384 Terabytes'."
+    },
+    "energia_renovavel": {
+     "valor": "Intenção (2019) de abastecer a área do MACC sobretudo com energia renovável da EDP. Só a área MACC/NOS, não o datacenter inteiro",
+     "fonte_url": "https://www.ren.pt/en-gb/media/news/inauguration-of-the-macc-minho-advanced-computing-centre",
+     "citacao": "The systems are already installed in the area operated by NOS, and is intended to be fed mainly by renewable energy sources provided by EDP, namely solar, wind and hydroelectric power.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "baixa",
+     "nota": "mecanismo: nao_especificado; é uma intenção, não um valor medido."
+    },
+    "deucalion_alojado_aqui": {
+     "valor": false,
+     "fonte_url": "https://eurohpc-ju.europa.eu/deucalion-new-eurohpc-supercomputer-has-been-inaugurated-2023-09-06_en",
+     "citacao": "The supercomputer is hosted by the Minho Advanced Computing Centre (MACC) at the University of Minho, on the Azurém Campus in Guimarães, Portugal.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta",
+     "nota": "O Deucalion NÃO está em Riba de Ave. O 'MACC' é um centro operacional (marca) que esteve primeiro na REN Riba de Ave (Bob, 2019) e depois em Guimarães (Deucalion, 2023)."
+    },
+    "controlador_final": {
+     "valor": "REN – Redes Energéticas Nacionais, SGPS (cotada); maior acionista: State Grid Corporation of China (25,0%)",
+     "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+     "citacao": "tan solo por detrás de State Grid Corporation of China (25,0%) y por delante de Lazard (7%).",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "nota": "Fonte de imprensa; confirmar na lista de participações qualificadas em ren.pt/CMVM."
+    },
+    "controlador_final_pais": {
+     "valor": "Misto: REN cotada; maior acionista chinês e estatal (State Grid, 25%); o Estado Português regressa com 13,7% via Parpública (acordo anunciado em set/2026)",
+     "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+     "citacao": "ha vendido el 13,7% de su participación en Redes Energéticas Nacionais (REN), el operador del sistema eléctrico portugués, al Estado de Portugal, en una operación confirmada por la agencia Europa Press",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "nota": "A notícia usa o futuro ('La transacción supondrá el paso de 91,7 millones de acciones a manos estatales'), por isso o fecho pode estar pendente em 2026-10-06."
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_planejado",
+    "mw_rede (ligação à rede/subestação em MW)",
+    "pue",
+    "refrigeracao",
+    "uso_agua",
+    "clientes_ia_hyperscalers"
+   ],
+   "conflitos": [
+    {
+     "campo": "area_salas_tecnicas",
+     "valor_a": "cerca de 1200 m2 de salas técnicas (2018)",
+     "fonte_a": "https://www.ren.pt/en-gb/media/news/ren-inaugurates-data-centre-in-riba-de-ave",
+     "citacao_a": "includes 1,200 m2 of technical rooms",
+     "valor_b": "1232 m2 de área construída da sala de computadores (divulgação DL 84/2024)",
+     "fonte_b": "https://www.ren.pt/en-gb/activity/ren-data-centre",
+     "citacao_b": "Built area of the data centre's computer room (m2) 1232",
+     "nota": "Provavelmente valor arredondado vs. exato. Usar 1232 (fonte regulatória)."
+    },
+    {
+     "campo": "bob_numero_de_nos",
+     "valor_a": "80 nós (notícia REN 2019)",
+     "fonte_a": "https://www.ren.pt/en-gb/media/news/inauguration-of-the-macc-minho-advanced-computing-centre",
+     "citacao_a": "a total of 80 computing nods",
+     "valor_b": "600 nós / 9600 cores (MACC)",
+     "fonte_b": "https://macc.fccn.pt/content/macc/macc.fccn.pt/resources",
+     "citacao_b": "Bob was composed of 600 compute nodes and 9600 cores",
+     "nota": "A imprensa (UT Austin Portugal / Exame) também refere 800 nós. Para o artigo usar só o MACC (operador do sistema)."
+    }
+   ],
+   "ambiguidades": [
+    "Não se sabe se o INCD-B ainda está em Riba de Ave em 2026 (a fonte de 2024 refere migração parcial).",
+    "A atividade de datacenter da REN Telecom é pequena face à REN (operador da rede de transporte). A divulgação DL 84/2024 não publica PUE nem consumo anual nesta página."
+   ]
+  },
+  {
+   "facility_id": "rnca-guimares",
+   "campos": {
+    "identificacao": {
+     "valor": "Centro de Dados do Centro Nacional de Computação Avançada (CNCA), polo de Azurém da Universidade do Minho, Guimarães. É o 'novo centro de dados' da RNCA/CNCA previsto no PRR",
+     "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+     "citacao": "Localizada no polo universitário de Azurém (da Universidade do Minho), em Guimarães, o projeto “deverá estar concluído em setembro” deste ano.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "status": {
+     "valor": "em_construcao",
+     "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+     "citacao": "A infraestrutura, promovida pela FCT e a cargo da construtora dst, ficará no polo universitário de Azurém e deverá estar concluída em setembro.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "nota": "Previsto concluir em set/2026. Até 2026-10-06 não foi encontrada notícia de conclusão ou inauguração. Revalidar."
+    },
+    "ano_operacao_previsto": {
+     "valor": 2026,
+     "fonte_url": "https://edificioseenergia.pt/empresas/dst-constroi-novo-centro-nacional-de-computacao-avancada-num-investimento-de-51-milhoes-de-euros/",
+     "citacao": "O projeto, que representa um investimento global de 5,1 milhões de euros, deverá estar concluído em setembro de 2026",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media",
+     "nota": "Data prevista de conclusão da obra, não data de entrada em operação."
+    },
+    "investimento": {
+     "valor": 5.1,
+     "unidade": "milhões EUR",
+     "fonte_url": "https://edificioseenergia.pt/empresas/dst-constroi-novo-centro-nacional-de-computacao-avancada-num-investimento-de-51-milhoes-de-euros/",
+     "citacao": "O projeto, que representa um investimento global de 5,1 milhões de euros, deverá estar concluído em setembro de 2026",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "financiamento": {
+     "valor": "PRR – investimento 'Ciência Mais Digital'",
+     "fonte_url": "https://www.theportugalnews.com/pt/noticias/2026-05-09/portugal-vai-ter-um-novo-centro-de-dados/1019274",
+     "citacao": "Financiado pelo Plano de Recuperação e Resiliência (PRR), no âmbito do investimento Ciência Mais Digital",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "marco_prr": {
+     "valor": "Marco 5.38 do PRR: conclusão da infraestrutura de apoio e do centro de dados do CNCA",
+     "fonte_url": "https://rnca.fccn.pt/wp-content/uploads/2025/05/RelatoriodeAtividadesCA2024.pdf",
+     "citacao": "Conclusão da infraestrutura de apoio e do centro de dados do CNCA (Marco 5.38)",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "uso_previsto": {
+     "valor": "Sistemas da UMinho, supercomputadores europeus e nacionais, equipamento de telecomunicações e suporte da RCTS",
+     "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+     "citacao": "o novo centro de dados foi concebido para alojar equipamentos informáticos avançados ao serviço da ciência, tecnologia e inovação, incluindo sistemas da Universidade do Minho, supercomputadores europeus e nacionais",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "controlador_final": {
+     "valor": "FCT – Fundação para a Ciência e a Tecnologia, I.P. (promotor)",
+     "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+     "citacao": "“Promovido pela Fundação para a Ciência e a Tecnologia (FCT), o novo centro de dados",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "controlador_final_pais": {
+     "valor": "Portugal (Estado – instituto público)",
+     "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+     "citacao": "“Promovido pela Fundação para a Ciência e a Tecnologia (FCT), o novo centro de dados",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "construtor": {
+     "valor": "dst (DST Group)",
+     "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+     "citacao": "a Dst diz estar “a executar a empreitada de construção do Centro de Dados do Centro Nacional de Computação Avançada",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "alta"
+    },
+    "ligacao_academica": {
+     "valor": "No campus de Azurém da UMinho; aloja sistemas da UMinho e RCTS; o Deucalion já está no mesmo campus",
+     "fonte_url": "https://www.fpguimaraes.pt/guimaraes-prepara-hub-de-inteligencia-artificial-com-ajuda-do-deucalion/",
+     "citacao": "O Deucalion, já instalado no mesmo campus, será um ferramenta de investigação para se tornar também num motor de inovação e competitividade.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "media"
+    },
+    "relacao_ai_factory": {
+     "valor": "Sem hardware de AI Factory confirmado em Portugal. Portugal integra a 'BSC AI Factory' (Espanha/Portugal/Turquia/Roménia), cujo computador é o MareNostrum 5 em Barcelona; em Portugal fica uma estrutura de interface com recursos humanos",
+     "fonte_url": "https://www.fct.pt/portugal-participa-numa-das-primeiras-fabricas-de-inteligencia-artificial-na-europa/",
+     "citacao": "A candidatura em que Portugal participa vai operar uma Fábrica de IA associada ao supercomputador MareNostrum 5, localizado em Barcelona e adquirido numa parceria entre Portugal, Espanha e Turquia.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "relacao_ai_factory_local": {
+     "valor": "A imprensa local apresenta Azurém como futura casa da 'Fábrica de IA' (FCT, UMinho, Município)",
+     "fonte_url": "https://www.fpguimaraes.pt/guimaraes-prepara-hub-de-inteligencia-artificial-com-ajuda-do-deucalion/",
+     "citacao": "Azurém prepara-se para receber a futura Fábrica de IA promovida pela Fundação para a Ciência e Tecnologi (FCT), Universidade do Minho e Município de Guimarães. Equipamento físico será inaugurado em setembro.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "imprensa",
+     "confianca": "baixa",
+     "nota": "Imprensa local. A fonte oficial (FCT) descreve a componente portuguesa como estrutura de interface e não como computador de IA. Ver ambiguidades."
+    },
+    "deucalion_localizacao": {
+     "valor": "Campus de Azurém da UMinho, Guimarães (MACC)",
+     "fonte_url": "https://eurohpc-ju.europa.eu/deucalion-new-eurohpc-supercomputer-has-been-inaugurated-2023-09-06_en",
+     "citacao": "The supercomputer is hosted by the Minho Advanced Computing Centre (MACC) at the University of Minho, on the Azurém Campus in Guimarães, Portugal.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "deucalion_desempenho_pico": {
+     "valor": 10,
+     "unidade": "PFlop/s (pico, sistema inteiro)",
+     "fonte_url": "https://macc.fccn.pt/content/macc/macc.fccn.pt/resources",
+     "citacao": "Deucalion has a peak performance of 10 Petaflops thanks to its 2 clusters with three partitions.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "deucalion_arquitetura": {
+     "valor": "1632 nós ARM A64FX; 500 nós x86 AMD EPYC; 33 nós com GPU NVIDIA Ampere; 10,6 PB de armazenamento",
+     "fonte_url": "https://macc.fccn.pt/content/macc/macc.fccn.pt/resources",
+     "citacao": "The ARM cluster has 1632 nodes with Fujitsu ARM A64FX processors, and the X86 cluster 500 nodes with AMD EPYC processors plus, and an accelerated partition with 33 nodes, each with NVidia Ampere GPUs.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "deucalion_potencia_medida_particao_arm": {
+     "valor": 371.72,
+     "unidade": "kW (só a partição ARM A64FX durante o HPL; não é a potência da instalação)",
+     "fonte_url": "https://top500.org/system/180275",
+     "citacao": "Power Consumption Power: 371.72 kW Power Measurement Level: 2",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "relatorio_terceiro",
+     "confianca": "alta",
+     "nota": "Rmax 4,02 PFlop/s, Rpeak 5,01 PFlop/s, lista TOP500 de 06/2026, posição 352."
+    },
+    "deucalion_potencia_projetada_pico": {
+     "valor": ">1",
+     "unidade": "MW (projeção de 2021, não medida)",
+     "fonte_url": "https://bip.inesctec.pt/?p=14150",
+     "citacao": "leading to a significant power consumption – above 1MW when operating at peak performance.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "relatorio_terceiro",
+     "confianca": "baixa"
+    },
+    "deucalion_green500": {
+     "valor": "80.º lugar no Green500 (jun/2024)",
+     "fonte_url": "https://www.fct.pt/supercomputador-portugues-deucalion-integra-a-lista-do-top500-dos-supercomputadores-mais-eficientes-do-mundo/",
+     "citacao": "Nesta lista, graças à sua baixa pegada de carbono, o supercomputador português figura no 80.º lugar.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    },
+    "deucalion_energia_renovavel_meta": {
+     "valor": "Meta de operação 100% renovável (autoconsumo solar/eólico + armazenamento). É uma meta de projeto, não um valor verificado",
+     "fonte_url": "https://eurohpc-ju.europa.eu/deucalion-new-eurohpc-world-class-green-supercomputer-portugal-2021-02-05_en",
+     "citacao": "This supercomputer’s entire operation will be based on renewable energy sources, either by directly producing electricity from solar and wind technologies in a self-consumption logic, or by combining it with storage systems.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "baixa",
+     "nota": "mecanismo: nao_especificado (planeado: físico/autoconsumo)."
+    },
+    "deucalion_projeto_sustentabilidade": {
+     "valor": "Projeto Sustainable HPC: 7,3 M€ (FAI 3,2 M€ + Fundo de Eficiência Energética 4,1 M€) para gestão de energia, armazenamento e refrigeração",
+     "fonte_url": "https://macc.fccn.pt/content/macc/www.macc.fccn.pt/newseventsarchive/04",
+     "citacao": "The Sustainable HPC - Highly Sustainable Performance Computing project has a global budget of 7.3 million euros, financed by the Fundo de Apoio à Inovação (FAI) at 3.2 million euros, and the Fundo de Eficiência Energética (FEE) at 4.1 million euros.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "operador",
+     "confianca": "alta"
+    },
+    "deucalion_refrigeracao": {
+     "valor": "Solução de refrigeração inovadora em desenvolvimento (INEGI), com meta de reduzir o consumo elétrico em mais de 60% e explorar a recuperação de calor. Só metas",
+     "fonte_url": "https://bip.inesctec.pt/?p=14150",
+     "citacao": "an innovative cooling solution that may lead to a reduction of more than 60% in electricity consumption, namely when compared to other conventional solutions",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "relatorio_terceiro",
+     "confianca": "baixa"
+    },
+    "deucalion_financiamento": {
+     "valor": "20 M€ cofinanciados pela EuroHPC JU e pela FCT; o acesso é repartido na proporção dos investimentos (65% para projetos PT)",
+     "fonte_url": "https://indico.fccn.pt/event/29/sessions/379/attachments/540/1039/20240416_JornadasFCCN2024-RNCA_vf.pdf",
+     "citacao": "65% para projetos PT",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta",
+     "nota": "EuroHPC 2023: 'co-funded with a total budget of EUR 20 million from EuroHPC JU and FCT'."
+    },
+    "deucalion_inauguracao": {
+     "valor": "2023-09-06",
+     "fonte_url": "https://eurohpc-ju.europa.eu/deucalion-new-eurohpc-supercomputer-has-been-inaugurated-2023-09-06_en",
+     "citacao": "Today, Deucalion, the European High Performance Computing Joint Undertaking supercomputer located in Portugal, was inaugurated by the Portuguese Prime Minister Antonio Costa at the University of Minho in Guimarães.",
+     "data_acesso": "2026-10-06",
+     "tipo_fonte": "governo_regulador",
+     "confianca": "alta"
+    }
+   },
+   "nao_encontrado": [
+    "mw_ti_instalado (novo centro de dados)",
+    "mw_ti_planejado (novo centro de dados)",
+    "mw_rede",
+    "pue (novo centro de dados e Deucalion)",
+    "refrigeracao (novo centro de dados)",
+    "uso_agua",
+    "certificacoes",
+    "clientes_ia_hyperscalers",
+    "potência total da instalação do Deucalion (só existe a medição HPL da partição ARM)",
+    "data de conclusão/inauguração efetiva do novo centro de dados"
+   ],
+   "conflitos": [
+    {
+     "campo": "deucalion_localizacao",
+     "valor_a": "AvePark – Parque de Ciência e Tecnologia (Guimarães), planeado em 2021 por Resolução do Conselho de Ministros",
+     "fonte_a": "https://pplware.sapo.pt/?p=770018",
+     "citacao_a": "Segundo a publicação em Diário da República, a resolução do Conselho de Ministros determina a instalação no AvePark do supercomputador Deucalion.",
+     "fonte_a2": "https://www.engium.uminho.pt/en/new-project-to-make-supercomputer-operation-more-sustainable-kicked-off/",
+     "citacao_a2": "It will be operational in 2022 at the MACC in Avepark, Guimarães",
+     "valor_b": "Campus de Azurém da UMinho (instalação efetiva, 2023)",
+     "fonte_b": "https://eurohpc-ju.europa.eu/deucalion-new-eurohpc-supercomputer-has-been-inaugurated-2023-09-06_en",
+     "citacao_b": "The supercomputer is hosted by the Minho Advanced Computing Centre (MACC) at the University of Minho, on the Azurém Campus in Guimarães, Portugal.",
+     "nota": "As fontes de 2023 (EuroHPC, 4gnews/Ciência PT) e de 2026 (fpguimaraes: 'já instalado no mesmo campus') confirmam Azurém. O AvePark foi o plano de 2021. Usar Azurém. Em nenhum caso é a REN Riba de Ave."
+    }
+   ],
+   "ambiguidades": [
+    "Área de 500 m2 e densidade de ~0,3 bastidores/m2, prazo de 334 dias: aparecem em resumos de pesquisa do DCD (https://www.datacenterdynamics.com/en/news/group-dst-will-build-a-data-center-in-guimaraes-portugal-for-5-million-euros/), mas a página devolveu HTTP 403. O texto exato não foi verificado; não usar sem validação manual.",
+    "'Fábrica de IA' em Azurém: a imprensa local (fpguimaraes, jun/2026) fala de uma futura Fábrica de IA em Azurém com 'equipamento físico' a inaugurar em setembro. As fontes oficiais (FCT dez/2024; EuroHPC dez/2024) associam a AI Factory com participação portuguesa ao MareNostrum 5 em Barcelona, com 'estrutura de interface em território português'. Não foi encontrado nenhum computador de AI Factory da EuroHPC instalado em Portugal. Na seleção de 13 AI Factory Antennas (EuroHPC, 13/10/2025, https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en) Portugal não aparece no texto da página (verificado por pesquisa do termo 'Portug'; confirmar no visual da página).",
+    "Não se sabe se o Deucalion passa para o novo centro de dados ou se o novo edifício é para sistemas novos. Nenhuma fonte o diz.",
+    "O datacentermap lista o 'RNCA Guimarães' com status 'planejado'; não foi possível lê-lo (HTTP 429)."
+   ]
+  }
+ ],
+ "achados_para_o_artigo": [
+  {
+   "achado": "O computador da AI Factory europeia em que Portugal participa está em Barcelona, não em Portugal. A FCT descreve a componente portuguesa como uma estrutura de interface com recursos humanos, junto ao MareNostrum 5.",
+   "por_que_importa": "Mostra que, em 2024-2026, a 'capacidade de IA' académica pública portuguesa era sobretudo acesso a computação estrangeira (BSC), o que é central para discutir soberania e onde fica fisicamente a IA académica.",
+   "fonte_url": "https://www.fct.pt/portugal-participa-numa-das-primeiras-fabricas-de-inteligencia-artificial-na-europa/",
+   "citacao": "Esta candidatura contempla ainda uma estrutura de interface em território português com recursos humanos dedicados"
+  },
+  {
+   "achado": "Por resolução do Governo (abr/2026), o Deucalion recebe até 3,7 M€ (2026-2029) e a AI Factory MareNostrum 5 em Barcelona até 15,6 M€, cerca de 4 vezes mais para a computação de IA alojada fora do país.",
+   "por_que_importa": "É uma assimetria de investimento público entre a computação nacional (Deucalion) e a computação de IA no estrangeiro. Fonte de imprensa (Xinhua/DPL) que cita o Diário da República; validar na resolução original.",
+   "fonte_url": "https://dplnews.com/portugal-vai-investir-em-supercomputacao-estrategica-e-projetos-de-ia/",
+   "citacao": "a Fábrica de IA em Barcelona angariará até 15,6 milhões de euros (US$ 18,1 milhões) para atualizar o MareNostrum 5 em uma plataforma especializada em IA"
+  },
+  {
+   "achado": "Em jun/2026 o Conselho de Ministros aprovou a participação numa candidatura ibérica a AI Gigafactory da EuroHPC, com teto de 200 M€ portugueses para tempo de computação (até 400 M€ com a EuroHPC). O Governo apresenta-a como garantia de 'sovereign capabilities'.",
+   "por_que_importa": "Mostra a passagem de clusters académicos para uma escala de gigafábrica e o argumento da soberania. A localização física não é indicada.",
+   "fonte_url": "https://portugal.gov.pt/en/gc25/communication/news/ai-gigafactories-boost-technological-sovereignty-with-a-200-million-investment",
+   "citacao": "“This gigafactory guarantees that Portugal will have sovereign capabilities in producing artificial intelligence”, stated the Minister in the Cabinet of the Prime Minister and of State Reform Gonçalo Matias."
+  },
+  {
+   "achado": "O único valor público de potência do Deucalion é a medição TOP500/HPL da partição ARM (371,72 kW). Não há PUE publicado nem consumo anual da instalação. Em 2021 a projeção era de mais de 1 MW em pico, e a operação 100% renovável era meta de projeto.",
+   "por_que_importa": "Mostra a lacuna de transparência ambiental na principal infraestrutura pública de HPC/IA para o ensino superior, mesmo tendo um projeto de 7,3 M€ financiado por fundos ambientais (Sustainable HPC).",
+   "fonte_url": "https://top500.org/system/180275",
+   "citacao": "Power Consumption Power: 371.72 kW Power Measurement Level: 2"
+  },
+  {
+   "achado": "O primeiro supercomputador nacional (Bob/MACC, 2019) e o nó INCD-B ficaram num datacenter da REN, o operador da rede elétrica, construído numa subestação e cotado em bolsa (Riba de Ave, área operada pela NOS). O Deucalion não está lá: está no campus de Azurém da UMinho.",
+   "por_que_importa": "Corrige o mapeamento do diretório: a computação académica 'nacional' viveu em infraestrutura privada/utility antes de passar para o campus universitário. Mostra o modelo híbrido público-privado de alojamento.",
+   "fonte_url": "https://www.ren.pt/en-gb/media/news/inauguration-of-the-macc-minho-advanced-computing-centre",
+   "citacao": "The MACC is installed at REN´s Datacenter, who´s operation is managed in a segregated way by REN and NOS."
+  },
+  {
+   "achado": "A REN, dona dos datacenters de Riba de Ave e Ermesinde, tem a State Grid Corporation of China (empresa estatal chinesa) como maior acionista (25%). Em set/2026 o Estado Português anunciou o regresso ao capital (13,7% via Parpública).",
+   "por_que_importa": "Mostra uma propriedade estrangeira e estatal sobre infraestrutura que alojou computação académica nacional. É relevante para a soberania.",
+   "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+   "citacao": "La transacción supondrá el paso de 91,7 millones de acciones a manos estatales y la vuelta del capital público al operador eléctrico que no contaba con participación del Estado desde hace al menos una década."
+  },
+  {
+   "achado": "A REN Telecom publica dados regulatórios do DL 84/2024 / Diretiva (UE) 2023/1791 para Riba de Ave (1085 kW de TI, 1232 m2), mas sem PUE nem consumo nessa página. Não foi encontrada divulgação equivalente da IP Telecom (estatal), da FCT/FCCN ou do Deucalion.",
+   "por_que_importa": "É um bom exemplo de como o novo regime europeu de reporte de centros de dados cria transparência desigual: um operador privado/cotado publica mais do que as entidades públicas.",
+   "fonte_url": "https://www.ren.pt/en-gb/activity/ren-data-centre",
+   "citacao": "Public information on REN Telecom datacenters in accordance with Decree-Law No. 84/2024, based on Directive (EU) 2023/1791 and Delegated Regulation (EU) 2024/1364"
+  },
+  {
+   "achado": "O IXP público GigaPIX (FCT|FCCN) saiu do Porto (site na FEUP desde 2011) e expandiu-se para o campus hiperescala Start Campus SIN01 em Sines (nov/2025) e para o MEO-LDV (set/2026).",
+   "por_que_importa": "A interconexão pública passa a acompanhar os grandes datacenters comerciais (Sines) e concentra-se na Grande Lisboa, deixando de estar em campus universitários do Norte.",
+   "fonte_url": "https://gigapix.pt/en/about-us/",
+   "citacao": "On November 2025, a new GigaPIX location was activated in Sines, at the StartCampus SIN01 datacenter. In September 2026, a fourth location in Lisbon was activated at the MEO-LDV datacenter"
+  },
+  {
+   "achado": "O novo Centro de Dados do CNCA (5,1 M€, PRR, Azurém/UMinho) é a primeira infraestrutura física dedicada de raiz à computação científica nacional. Vai alojar supercomputadores europeus e nacionais e a RCTS; a conclusão estava prevista para set/2026.",
+   "por_que_importa": "A computação académica de IA/HPC passa a ter casa própria em campus universitário, financiada pelo PRR. A capacidade elétrica e a eficiência energética previstas não foram publicadas.",
+   "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+   "citacao": "o novo centro de dados foi concebido para alojar equipamentos informáticos avançados ao serviço da ciência, tecnologia e inovação, incluindo sistemas da Universidade do Minho, supercomputadores europeus e nacionais"
+  },
+  {
+   "achado": "Os 3 datacenters da IP Telecom (Lisboa, Porto, Viseu) são 100% do Estado (via Infraestruturas de Portugal) e servem a exploração ferroviária e clientes empresariais/públicos, com o argumento comercial de que os dados ficam em Portugal. Não foram encontrados dados de potência ou energia.",
+   "por_que_importa": "Mostra capacidade estatal não académica de datacenter vendida com argumento de soberania de dados, mas sem transparência ambiental.",
+   "fonte_url": "https://www.iptelecom.pt/pt-pt/servicos/ipt-cloud-datacenter",
+   "citacao": "é garantido ao cliente a permanência dos seus dados em Portugal, com o compromisso de elevados níveis de serviço contratado (SLAs)."
+  }
+ ]
+}

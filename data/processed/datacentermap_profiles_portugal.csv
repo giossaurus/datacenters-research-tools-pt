@@ -1,0 +1,543 @@
+﻿id,link,name,listingtype,capacitytype,status,stage,parent,address,address_details,postal,city,state,district,market,latitude,longitude,description,standards_pci,standards_soc1,standards_soc2,standards_iso9001,standards_iso14001,standards_iso22301,standards_iso27001,standards_iso45001,standards_iso50001,power_cooling_text,power_ups_redundancy,power_cooling_redundancy,power_standby_redundancy,security_cctv,security_guards,security_keycard,security_biometric,security_firesupression,security_firesupression_text,security_controlled_perimeter,amenities_parking_text,amenities_conferenceroom,building_floor_load,building_floor_type,building_construction,building_tenancy_text,stats_ixps,stats_clouds,stats_children,stats_networkpresence,stats_networkproviders,stats_serviceproviders,references_aliases,references_provider_id,references_peeringdb_id,capacity_whitespace_builtout,capacity_whitespace_referenced,company,parent_link,parent_name,parent_listingtype,n_children,children_links,owners,tenants,url,standards_tier_designed,power_billing,power_renewable,amenities_meetmeroom,building_rooftop_access,building_year_operational,power_pue,building_floors,capacity_mw_builtout,capacity_mw_pipeline,capacity_mw_referenced,amenities_officespace,power_kw_rack,amenities_wifi,power_totalmw,capacity_whitespace_pipeline,capacity_mw_underconstruction,security_staff,security_mantrap,amenities_breakroom,building_expandable,amenities_loadingbay,standards_tier_certified,capacity_buildingsize,building_area_whitespace
+1432,carrierhouse-lisbon,Equinix LS1,Facility,Colocation,1,2,0,Av. Severiano Falcão 14,,2685-378,Prior Velho,,,Lisbon,38.7879129,-9.1233207,"Previously known as Carrierhouse Lisbon and a part of Itconic, which was acquired by Equinix in 2017.
+
+-------------------------------------------------
+
+Itconic is the largest Carrier Neutral Datacenter services provider in Spain and Portugal, operating 5 top tier Datacenters located in Madrid (2), Barcelona, Seville and Lisbon. Our facilities offer unparalleled availability and no single point of failure and holds a Tier IV and M&O certification by Uptime Institute. 
+
+Founded as Carrierhouse, later Telvent Global Services, we were the pioneers in Carrier Neutral Facilities (CNF) in Iberia, being today the main CNF in every city we operate.
+
+Connectivity is the cornerstone of our business, leveraging our connectivity network, or a carrier of your choice, each facility provides unrivalled seamless access to all local and global Carriers, Network Service Providers, ISPs, CDNs, Content and Cloud Providers, and local main Public Peering Exchange Points: ESpanix, CATnix, Gigapix. Additionally, Our DC footprint sits on top of the main terrestrial and submarine optical fiber routes, granting the best access to connectivity to America, Europe, Africa and Asia.
+
+Headquartered in Madrid, Itconic support the most important large Spanish accounts in Telco & IT, Government, Digital Media, Finance and Services Industries in Iberia. 
+Itconic offer an unique combination of Colocation, Connectivity as well as a comprehensive portfolio of IT Operation Services with 24/7, ITIL based, single support and maintenance model, reporting and a uniform Service Level Agreement.
+
+Itconic Data Center is located in Prior Velho, an important industrial area of Lisbon at the northeast of metropolitan area. This facility is just 15 minutes from downtown, and 5 minutes from Lisbon airport.",2,2,2,1,1,1,1,1,1,Cooling towers + water-cooled chillers with free cooling,2N,N+1,N+1,1.0,"Yes, 24/7",1.0,1.0,1.0,Fully addressable multistage fire detection with gas suppression in technical rooms,1.0,Adjacent to building—street Parking,1.0,2000,Raised Floor,Retrofitted,Multi-tenant (data centers only),2,1,2,88,5,7,Carrierhouse Lisbon,LS1,126.0,1475,1475,Equinix,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/carrierhouse-lisbon/,,,,,,,,,,,,,,,,,,,,,,,,,
+3501,claranet-lisboa,Claranet Lisboa,Facility,Colocation,1,2,0,"Av. Severiano Falcao, 16",,1998-014,Lisboa,,,Lisbon,38.7824766,-9.1247742,"Lisbon Datacenter Overview
+
+Physical Security
+
+Physical access to the data centre is strictly controlled. Video surveillance systems are installed throughout the building. Anyone entering the building must be pre-authorised and identify themselves to the security desk. In addition, a biometric access control clearance is needed at multiple separate access points in order to reach the main Claranet server room.
+
+Fire Suppresion
+
+The data centre’s fire detection is provided by a GANT Very Early Smoke Detection Apparatus (VESDA) system that provides optical smoke and ionisation detectors located within rooms as well as overhead and under the floor. The system runs in a double knock configuration and fire suppression is achieved by an automated HFC-32 gas system that is harmless to all electronics. The automated system works in conjunction with the fire detection systems within defined zones.
+
+Environmental Controls
+
+The building includes an HVAC air conditioning system, to maintain an optimum operating environment for electronics. The N+1 system maintains a constant temperature of 21°C (± 5°C) and relative humidity of 30%-70%.
+
+Data Centre Space
+
+Claranet provides co-location space in the following increments:
+* Per U
+* 1/2 Rack
+* Full Rack
+
+Other data center services
+
+Claranet provides hosting and networks services, including:
+
+* Cloud hosting
+* Dedicated hosting
+* Managed services
+* Managed aplications
+* Storage
+* Backup
+* Business continuity and disaster recovery
+* Software licensing
+* Internet traffic and VPN (MPLS) services
+
+Racks
+
+Each rack is an industry standard server rack with the following minimum specification.
+* Height - 42U
+* Depth - 1000mm
+* Width - 600 or 800mm
+* Sides - Steel (key locked) and bayed (secured) to neighbouring racks
+* Doors - Perforated meshed steel front and rear to assist cooling
+* Load - Rated to 750Kg load
+* Locks - Key locks for 1/2 and full racks. Deliverable to clients except in shared racks.
+
+The rack is setup by default with the correct spacing for common rail mount kits. The mounting angles can be adjusted to other depths if required. Each rack is built to a standard specification for the layout of power strips, cable management and patch panels within the rack.
+
+Rack Power
+
+Each rack is serviced by dual redundant 32A rated single phase power feeds. The power feeds available are dependent on the facility data centre. Each feed is sourced from 2 different upstream Power Distribution Units (PDUs) with each one fed from either the A and B Un-interruptible Power Supplies (UPS). Each power feed to the rack is a single phase AC supply and is rated to 32A peak draw at 240V. The feeds have circuit breakers installed at the PDU. Current draw (continuous or spiked) exceeding the rated amperage will cause the circuit breaker to trip and the feed will shut down. Claranet recommends a maximum continuous current draw of no more than 26A on a 32A rated feed in order to prevent current spikes tripping any of the breakers.",,,,,,,1,,,,,,,,"Yes, 24/7",,,,,,,,,,,Multi-tenant (data centers only),0,0,0,0,0,1,,,,300,300,Claranet,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/claranet-lisboa/,3,kwh,Yes,1.0,1.0,2005,,,,,,,,,,,,,,,,,,,
+11755,edged-lisbon,Edged Lisbon Campus,Facility,Colocation,1,1,0,Azinhaga da Fruteira 2600,,2600-638,Castanheira do Ribatejo,,,Lisbon,38.99237096112157,-8.958946288596621,"The Lisbon data center, operated by Edged Spain, represents a significant advancement in sustainable and efficient data management. With a robust capacity of 100 MW, the campus is designed to meet the highest standards of power and cooling efficiency, boasting an impressive PUE of 1.15. Strategically located, the data center benefits from Lisbon's prime position where ten intercontinental submarine cables land or stop, ensuring exceptional connectivity and speed.
+
+Security and reliability are paramount at the Lisbon campus. The facility operates on a Tier III design, which is concurrently maintainable, providing an estimated ""six nines"" of availability. This is complemented by 24/7 access, multiple fiber providers, and three diverse points of entry, ensuring uninterrupted service and robust protection against potential disruptions.
+
+Innovation in cooling technology sets this data center apart. The ThermalWorks modular cooling system supports dense AI-driven loads without the use of water, significantly reducing the environmental impact. The system can support up to 70 kW per rack with air cooling and up to 200 kW with liquid cooling integration, catering to the most demanding computational needs.",,,,,,,,,,,N+1,N+1,N+1,1.0,,1.0,1.0,1.0,,1.0,,,,,Purpose-built,,0,0,5,0,0,0,,,,,,Edged Energy,,,,0,,"Merlin Properties Socimi, S.A.",,https://www.datacentermap.com/portugal/lisbon/edged-lisbon/,3,,,,,,1.15,3,180,180,180,,,,,,,,,,,,,,
+9713,atlasedge-lis001,AtlasEdge LIS001,Facility,Colocation,1,2,18147,Estrada Outurela 117a,,2790-072,Carnaxide,,,Lisbon,38.7225943,-9.2307339,"The AtlasEdge LIS001 data centre is a state-of-the-art facility located in Lisbon, Portugal, just 14 kilometers from the nearest major airport and 200 meters from the closest bus stop. This carrier-neutral data centre provides over 3,162 sq.m of secure and resilient technical space, designed to offer high reliability, resilience, and 24/7 security.
+
+With a total power capacity of 5.1MVA, LIS001 ensures scalability of energy supply as required. The power infrastructure includes a static N+N UPS system with dedicated, diverse-routed power distribution to each data hall, and N+N generators for the entire building. The facility features a heavy-duty raised ground floor, with slabs rated for 15kN/sq.m on the first and second floors.",,,,,,,,,,,2N,,2N,1.0,"Yes, 24/7",1.0,,1.0,Gas suppression system,,,,,Raised Floor,Purpose-built,,0,0,0,0,0,0,Colt Lisbon,LIS001,,3162,3162,AtlasEdge,atlasedge-lisbon-campus,AtlasEdge Lisbon Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/atlasedge-lis001/,,,,,,,,,5.1,,5.1,1.0,,,,,,,,,,,,,
+8926,oasix-lisbon,Templus Lisbon LIS01,Facility,Colocation,1,2,0,"Edifício Diogo Cão, Doca de Alcântara Norte",,1350-352,Lisbon,,,Lisbon,38.7028232,-9.1687294,"477 m2
+150 racks
+
+Payment of service fee: From a U rack to a cage or private room.
+AntiDDoS Mitigation System
+GDPR compliance
+Remote hands
+24/7 surveillance
+Access control
+
+We own more than 8 neutral centres in the following locations: Alicante, Madrid, Málaga, Valencia, Las Palmas, Toledo (Talavera de la Reina), Zaragoza and Lisbon.
+
+We are a TIER 2 connectivity carrier, due to our vast network connection to the main national and international traffic exchange points: AMS-IX, LINX, DE-CIX, EQUINIX and ESPANIX, thus directly interconnecting to more than 7,500 different networks at a global level, which allows us to offer optimal peering.",,,,,,,,,,,,,,1.0,"Yes, 24/7",,,,,,,1.0,,,Retrofitted,Multi-tenant (mixed use),0,1,0,0,1,3,Grupo Aire OASIX Lisbon || Ar Telecom - Lisboa,LIS01,,500,500,Templus,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/oasix-lisbon/,,,,,,2011,,2,1.5,,1.5,,15,1.0,,,,,,,,,,,
+12024,sines-dc-sin01,SINES DC SIN01,Facility,Colocation,1,2,12023,"Lote 1, Zona C1.1, ZILS",Building 1,7520-318,Sines,,,Lisbon,37.9348896,-8.8126393,"SINES DC SIN01 is a state-of-the-art data center located within the expansive SIN DC Campus. Boasting an impressive IT capacity of 1.2 GW, it stands as Europe's largest and most sustainable data center campus. The facility is designed with cutting-edge technology to ensure high efficiency and reliability, setting a new standard for data centers with its innovative approach to sustainability and energy use.",,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,4,0,0,,SIN01,14352.0,,,Start Campus,sines-dc-campus,SINES DC Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/sines-dc-sin01/,,,,,,2024,,,26,,26,,,,26,,,,,,,,,,
+15054,atlasedge-lis002,AtlasEdge LIS002,Facility,Colocation,1,0,18147,Estrada Outurela 117a,,2790-072,Carnaxide,,,Lisbon,38.7238374,-9.2307074,"AtlasEdge LIS002 is a planned high-performance data center located in Carnaxide, Lisbon, Portugal. Designed to deliver 24MVA of future power capacity, the facility will offer over 4,356 square meters of advanced data hall space and state-of-the-art infrastructure for AI, HPC, and hyperscale workloads.
+
+Strategically positioned near global subsea cable routes, LIS002 supports robust alternative carrier routing and 24/7 security, while remaining fully carrier-neutral for optimized connectivity. The site’s location at the crossroads of Europe, Africa, and the Atlantic makes it ideal for low-latency and resilient data exchange.
+
+Part of AtlasEdge’s multi-phase Lisbon campus, the center emphasizes sustainability through access to 100% renewable energy and low-cost power. It is being built to support scalable digital operations for enterprises seeking reliable and efficient infrastructure in Portugal’s growing tech ecosystem.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,LIS002,,4356,4356,AtlasEdge,atlasedge-lisbon-campus,AtlasEdge Lisbon Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/atlasedge-lis002/,,,,,,,,,16,16,16,,,,,4356,,,,,,,,,
+16661,voltekko-alcochete,VOLTEKKO Alcochete,Facility,Colocation,1,1,0,Zona Industrial do Passil,,2890-189,Alcochete,,,Lisbon,38.74450131320817,-8.932380191307344,"Voltekko Alcochete is a cutting-edge data center development located in Alcochete, Portugal, designed to advance the region's digital infrastructure. Founded by data center experts, Voltekko aims to bring clients closer to their digital assets with this facility.
+
+The data center will feature a Tier III+ certification, ensuring high availability and reliability. It boasts an IT surface area of 2,400 m² and a significant IT power capacity of 6.0 MW, supported by a robust 12,000 KVA electrical connection.
+
+Sustainability is a core focus, with the facility powered entirely by renewable energy sources. Voltekko targets a Power Usage Effectiveness (PUE) of less than 1.3, demonstrating high energy efficiency, and will implement waste heat utilization and water-efficient systems to minimize its environmental impact.
+
+EQUANS, a European leader in the data center sector, is the industrial partner responsible for the design, optimization, construction, and maintenance of the project. This initiative strengthens Portugal's role in the European data center market, offering enterprises eco-friendly, high-performance solutions.",,,,,,,,,,,,,,,,,,,,,,,,,Purpose-built,Sole-tenant,0,0,0,0,0,0,,,,2400,2400,VOLTEKKO,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/voltekko-alcochete/,,,,,,2026,1.3,,15,6,15,,,,,2400,6,,,,,,,,
+15844,meo-ldv,MEO LDV,Facility,Colocation,1,2,0," R. Marconi SN, 2795-242 Linda-a-Velha",,2795-242,Lisboa,Lisboa,,Lisbon,38.7193799,-9.2411447,"MEO LDV stands out for its strategic location in the Lisbon metropolitan area, 110 meters above sea level. Powered exclusively by renewable energy sources and secured with permanent physical protection, it operates as a neutral traffic exchange point between organizations, enabling seamless interconnection of submarine, terrestrial, and satellite communication systems.
+With direct access to key regional infrastructures — including submarine cable stations, teleport facilities, and datacenters — it offers long-distance connectivity to major European hubs such as Madrid, Paris, London, Marseille, Amsterdam, and Frankfurt. Surrounded by fiber networks from leading operators, it features a meet-me-room and three diversified entry points, ensuring high resilience and route diversity.
+This datacenter is a neutral, flexible, and robust option in Lisbon, providing customized co-location and connectivity services, proximity to content, satellite, and submarine cable players, and specialized support backed by deep expertise in internet network.",,,,1,1,,1,,,,,,,1.0,"Yes, 24/7",,1.0,1.0,,,Yes,1.0,,,Retrofitted,Multi-tenant (mixed use),0,0,0,0,0,0,Altice Portugal LDV,,,,,MEO,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/meo-ldv/,,,,1.0,,2023,,,,,,1.0,,1.0,,,,"Yes, 24/7",1.0,1.0,1.0,,,,
+8842,matinha,Oni Datacenter Lisbon,Facility,Colocation,1,2,0,Rua 3 da Matinha A,,1950-326,Lisbon,Portugal,,Lisbon,38.7472986,-9.0985808,"The ONI Datacenter is located approximately 160m from the Tagus River. However, this area of the river is very wide, also known as ""Mar da Palha"" (Sea of Straw), where the distance between margins is approximately 6km. The street where the datacenter is located is at a height of 11m about the average sea level.4.6 Km from Lisbon Airport (Approx. 10m by car), 2.9 Km from Gare do Oriente (Approx. 6m by car), 1.0 Km from Braço de Prata Station (Approx.2m by car).
+Housing / Hosting:
+
+Cage 
+
+Footprint for Racks (Standard 600x1070mm)
+
+Shared rack (with independent doors)
+
+Rack Units in Shared rack
+
+Dedicated and customized rooms for clients with several Workstations and meeting rooms
+
+LAN Network (active and Passive)
+
+2xN Electric circuits (supported by diferent generators and UPS)
+
+Air conditioning
+
+CCTV
+
+Physical surveillance with several daily rounds
+
+Automatic Fire Detection System
+
+Access Control
+
+Resident Teams:
+
+Engineering & Operations - Transmission Network (ORT)
+Engineering & Operations - Data Network (RMS)
+Engineering & Operations - Voice Network (ORV)
+Engineering & Operations - Access Network(ORA)
+Maneged Services/IT Team
+GTC (Customers Technical Managment)
+Field Services Team
+infrastructure Team
+Other Techical Teams.
+
+
+Electrical Circuits of 230/400V AC / -48V DC - 2N
+Redundant Cooling System (Cooled Water and Refrigerant Gas)
+Connections with Single Mode Fiber, OM3 Fiber, UTP Cat.6
+Exclusive Footprints for Telco operators
+Independent access and always accompanied by ONI technicians
+Optical connection with the bigger ONI POP and with the external MAN
+Interconnection with leading Telco operators operating in the Portuguese market
+
+2 Electric Generators of 800 kVA and 1250 kVA 
+Uninterruptible power supply(2xN)
+
+6 x Dry Coolers
+Cooling Capacity:
+6 x 270kW
+
+3 x Chillers
+Cooling Capacity:
+3 x 514kW
+
+NOTE:
+Currently in N+1 typology
+
+Datacenter with 2000m2, more than 500 rack cabinets, private cages, dedicated servers, footprints, virtual servers, MPLS lines, dedicated access, Cloud solutions",,,,,,,,,,,,,,,"Yes, 24/7",,,,,,,,,,,,1,0,0,10,1,0,,,6877.0,,,Onitelecom,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/matinha/,,,,,,,,,,,,,,,,,,,,,,,,,
+829,gigapix-lisbon,FCCN SE03/GigaPix II,Facility,Colocation,1,2,0,"Piso 1, Avenida do Brasil 101",,1700-066,Lisbon,,,Lisbon,38.75931650116951,-9.142325520515442,"RCTS Central Node
+""Rede Ciencia Tecnologia e Sociedade""
+Portuguese Research & Education Network
+
+This datacenter also holds one of GigaPix/Lisbon nodes
+
+About GigaPix
+
+FCCN since several years promotes a national neutral exchange point for IP traffic, named GigaPix, which was also a founding member of the european internet exchanges association, Euro-IX. 
+
+GigaPix main goals are to:
+Improve interconnection quality between IP networks operating in Portugal.
+Avoid international resources usage for transit of IP packets with source and destination in Portugal.
+At the physical layer, GigaPix makes available for every IUG an UTP port, with a RJ45 female connector.
+At the connection layer, GigaPix provices the following protocols: Ethernet, Fast Ethernet, Gigabit Ethernet and 10 Gigabit Ethernet.
+A 220V power socket is provided, supported by UPS and a diesel generator.
+Temperature surveillance and humidity control are performed.
+
+Space is provided on a 19 inch cabinet, to the maximum of 40 cm in height (around 8 rack units). This space should contain all IUG's equipment, including any units for termination of data transmission (Modem, DSU) and eventual elements for automatic recovery (backups).
+Contacts are made available to be used during working hours and remaining periods (7/24/365).
+
+A distribution e-mail list for all administrative and technical IUG contacts is provided.",,,,,,,,,,,,,,,"Yes, 24/7",,,,,,,,,,,,1,0,0,11,0,0,,,2860.0,,,FCT-FCCN,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/gigapix-lisbon/,,,,1.0,1.0,,,,,,,,,,,,,,,,,,,,
+14643,equinix-ls2,Equinix LS2,Facility,Colocation,1,2,0,Av. Severiano Falcão 14,,2685-378,Prior Velho,,,Lisbon,38.7886818,-9.1232662,"Equinix's LS2 data center is its second facility in Lisbon, Portugal, strategically located adjacent to LS1 in Prior Velho. This International Business Exchange (IBX) facility was officially launched in June 2024, following an initial investment of €50 million ($57.1M), with a total estimated investment of €100 million ($114.2M).
+
+The three-story facility offers 2,050 sqm (22,065 sq ft) of colocation space and initially supports 625 racks. It is powered by 100% renewable energy and serves as a critical interconnection hub, linking Europe, Africa, and the Americas through major subsea cables, including EllaLink, Equiano, 2Africa, Medusa, and Nuvem.
+
+Equinix's Lisbon campus, consisting of LS1 and LS2, provides over 2,000 interconnections, supporting 100+ enterprise customers, 45 networks, and 4 internet exchanges. The company has also announced plans for a third Lisbon data center by 2027, further expanding its presence in the region.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,LS2,,2050,2050,Equinix,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/equinix-ls2/,,,,,,2025,,,,,,,,,,,,,,,,,,,
+17804,edged-lisbon-lis01,Edged Lisbon LIS01,Facility,Colocation,1,1,11755,Azinhaga da Fruteira 2600,,2600-638,Castanheira do Ribatejo,,,Lisbon,38.9865269,-8.9648309,"Edged Lisbon LIS01, part of the Edged Lisbon campus in Portugal, is a state-of-the-art facility designed for AI research and high-speed computing. Located centrally in the Lisbon area, it boasts a total campus critical capacity of 180 MW.
+
+The data center prioritizes energy efficiency with a PUE of 1.15, significantly lower than the industry average. It features advanced waterless cooling technology to conserve local water resources. LIS01 supports high-density computing, offering AI-driven rack densities up to 70 kW/rack with air cooling and an impressive 200 kW/rack with plug-and-play liquid cooling integration.
+
+Construction is a new build, three-story concrete structure. The facility is OCP Ready™ and provides 24x7 access. Power infrastructure includes redundant utility feeds from E-REDES & REN, 35 MW of backup power, and N+1 redundancy for UPS and generators. Telecom connectivity is ensured through three diverse entry points and carrier-neutral access. Security measures include perimeter fencing, access gates, biometric readers, ID badges, CCTV, and 24/7 manned security.",,,,,,,,,,,N+1,N+1,N+1,1.0,"Yes, 24/7",1.0,1.0,1.0,,1.0,,,,,Purpose-built,,0,0,0,0,0,0,,LIS01,,,,Edged Energy,edged-lisbon,Edged Lisbon Campus,Facility,0,,,,https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis01/,,,,,,2027,1.15,3,,,,,200,,,,,,,,,1.0,,,
+17806,edged-lisbon-lis03,Edged Lisbon LIS03,Facility,Colocation,1,1,11755,Azinhaga da Fruteira 2600,,2600-638,Castanheira do Ribatejo,,,Lisbon,38.989992,-8.962424,"Edged Lisbon LIS03, part of the Edged Lisbon campus in Portugal, is a new build data center designed for AI research and high-speed computing. Located centrally in the Lisbon area, it offers global connectivity.
+
+The facility boasts industry-leading energy efficiency with a PUE of 1.15, significantly reducing overhead energy consumption. It features advanced waterless cooling technology to conserve local water resources and supports high rack densities up to 70 kW/rack with air cooling and 200 kW/rack with liquid cooling integration. Real-time monitoring and 24/7 onsite support ensure peak performance.
+
+The Lisbon campus has a total critical capacity of 180 MW. It is powered by 100% renewable energy with ultra-clean backup power systems. The data center is OCP Ready™ and designed for 100% uptime with Tier III reliability. Power infrastructure includes redundant utility feeds, N+1 UPS, and 35 MW of backup generators. Telecom connectivity is provided through three diverse entry points with carrier-neutral access.",,,,,,,,,,,N+1,N+1,N+1,1.0,"Yes, 24/7",1.0,1.0,1.0,,1.0,,,,,Purpose-built,,0,0,0,0,0,0,,LIS03,,,,Edged Energy,edged-lisbon,Edged Lisbon Campus,Facility,0,,,,https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis03/,,,,,,,1.15,3,,,,,200,,,,,,,,,1.0,,,
+17807,edged-lisbon-lis04,Edged Lisbon LIS04,Facility,Colocation,1,1,11755,Azinhaga da Fruteira 2600,,2600-638,Castanheira do Ribatejo,,,Lisbon,38.9863892,-8.9637341,"Edged Lisbon LIS04, part of the Edged Lisbon campus in Portugal, is a new build data center designed for AI research and high-speed computing. Located centrally in the Lisbon area, it offers global connectivity and is situated 20 minutes from Parque das Nações, near the Castanheira do Ribatejo rail station.
+
+The facility boasts industry-leading energy efficiency with a PUE of 1.15, 72% less overhead energy than the industry average, and is powered by 100% renewable energy with ultra-clean backup power systems. It features advanced waterless cooling technology to conserve local water resources and supports AI-driven rack densities up to 70 kW/rack with air cooling and 200 kW/rack with liquid cooling integration. The campus has a total critical capacity of 180 MW.
+
+Key features include 24x7 access, OCP Ready™ certification, N+1 redundancy for power and cooling systems, 35 MW of backup power, and three diverse telecom entry points with carrier-neutral access. Real-time monitoring and 24/7 onsite support ensure peak performance and reliability with a 100% uptime SLA (Tier III Design).",,,,,,,,,,,N+1,N+1,N+1,1.0,"Yes, 24/7",1.0,1.0,1.0,,1.0,,,,,Purpose-built,,0,0,0,0,0,0,,LIS04,,,,Edged Energy,edged-lisbon,Edged Lisbon Campus,Facility,0,,,,https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis04/,,,,,,,1.15,3,,,,,200,,,,,,,,,1.0,,,
+17808,edged-lisbon-lis05,Edged Lisbon LIS05,Facility,Colocation,1,1,11755,Azinhaga da Fruteira 2600,,2600-638,Castanheira do Ribatejo,,,Lisbon,38.9892047,-8.9614833,"Edged Lisbon LIS05, part of the Edged Lisbon campus in Portugal, is a new build data center designed for AI research and high-speed computing. Located centrally in the Lisbon area, it boasts industry-leading energy efficiency with a PUE of 1.15, 72% less overhead energy than the industry average. The facility utilizes advanced waterless cooling technology to conserve local water resources and supports AI-driven rack densities up to 70 kW/rack with air cooling and 200 kW/rack with plug-and-play liquid cooling integration. The 180 MW campus is powered by 100% renewable energy with ultra-clean backup power systems. Real-time monitoring and 24/7 onsite support ensure peak performance. The facility is OCP Ready™ and offers 100% uptime SLA with Tier III design. It features redundant power systems, including 35 MW of backup power, and multiple diverse telecom entry points with carrier-neutral access.",,,,,,,,,,,N+1,N+1,N+1,1.0,"Yes, 24/7",1.0,1.0,1.0,,1.0,,,,,Purpose-built,,0,0,0,0,0,0,,LIS05,,,,Edged Energy,edged-lisbon,Edged Lisbon Campus,Facility,0,,,,https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis05/,,,,,,,1.15,3,,,,,200,,,,,,,,,1.0,,,
+17805,edged-lisbon-lis02,Edged Lisbon LIS02,Facility,Colocation,1,1,11755,Azinhaga da Fruteira 2600,,2600-638,Castanheira do Ribatejo,,,Lisbon,38.9882441,-8.9636141,"Edged Lisbon LIS02, part of the Edged Lisbon campus in Portugal, is a state-of-the-art data center designed for AI research and high-speed computing. Located centrally in the Lisbon area, it boasts a total campus critical capacity of 180 MW.
+
+This facility leads in energy efficiency with a PUE of 1.15, significantly reducing overhead energy consumption. It features advanced waterless cooling technology to conserve local water resources and supports high rack densities up to 70 kW/rack with air cooling and 200 kW/rack with liquid cooling integration. Real-time monitoring and 24/7 onsite support ensure peak performance.
+
+The campus is powered by 100% renewable energy with ultra-clean backup power systems. It offers carrier-neutral connectivity with three diverse telecom entry points and multiple carrier access. Security is comprehensive, including perimeter fencing, access gates, biometric readers, ID badges, CCTV, and 24/7 manned security.",,,,,,,,,,,N+1,N+1,N+1,1.0,"Yes, 24/7",1.0,1.0,1.0,,1.0,,,,,Purpose-built,,0,0,0,0,0,0,,LIS02,,,,Edged Energy,edged-lisbon,Edged Lisbon Campus,Facility,0,,,,https://www.datacentermap.com/portugal/lisbon/edged-lisbon-lis02/,,,,,,,1.15,3,,,,,200,,,,,,,,,1.0,,,
+12027,sines-dc-sin04,SINES DC SIN04,Facility,Colocation,1,0,12023,"Lote 1, Zona C1.1, ZILS",Building 4,7520-318,Sines,,,Lisbon,37.9364704,-8.8045382,"SINES DC SIN02-06 is a state-of-the-art facility within the SIN DC Campus, poised to become operational from 2026. As part of Europe's largest and most sustainable data center campus, it will support up to 240 MW of IT capacity. The innovative design incorporates seawater cooling to minimize environmental impact and enhance efficiency, reflecting Start Campus's commitment to sustainable development and cutting-edge technology.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,SIN04,,,,Start Campus,sines-dc-campus,SINES DC Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/sines-dc-sin04/,,,,,,,,,220,220,220,,,,220,,,,,,,,,,
+12023,sines-dc-campus,SINES DC Campus,Campus,Colocation,1,2,0,"Lote 1, Zona C1.1, ZILS",,7520-318,Sines,,,Lisbon,37.9341908,-8.8137896,"SINES DC Campus, spearheaded by Start Campus, is set to become Europe's largest and most sustainable data center campus. With a groundbreaking IT capacity of 1.2 GW, it marks a significant milestone in the data center industry. The campus will utilize seawater cooling to minimize environmental impact and improve efficiency, showcasing a commitment to sustainability.
+
+The first building of the campus, SIN01, is expected to be operational by Q4 2024, with an initial 14 MW of IT capacity, which is being expanded to 26 MW. Subsequent buildings, SIN02-06, will each support up to 240 MW of IT capacity and will be developed sequentially, with the entire campus projected to be operational by 2030.
+
+This ambitious project not only advances the data center market with AI-ready and sustainable solutions but also supports the development of the Sines region, contributing to renewable energy developments in Portugal. With a total investment value of €8.5bn, SINES DC is poised to use 100% renewable energy and aims for an industry-leading PUE of 1.1.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,6,0,0,0,,,,,,Start Campus,,,,6,sines-dc-sin05; sines-dc-sin04; sines-dc-sin06; sines-dc-sin03; sines-dc-sin02; sines-dc-sin01,,,https://www.datacentermap.com/portugal/lisbon/sines-dc-campus/,,,,,,,,,,,,,,,,,,,,,,,,,
+12028,sines-dc-sin05,SINES DC SIN05,Facility,Colocation,1,0,12023,"Lote 1, Zona C1.1, ZILS",Building 5,7520-318,Sines,,,Lisbon,37.9369866,-8.8018775,"SINES DC SIN02-06 is a state-of-the-art facility within the SIN DC Campus, poised to become operational from 2026. As part of Europe's largest and most sustainable data center campus, it will support up to 240 MW of IT capacity. The innovative design incorporates seawater cooling to minimize environmental impact and enhance efficiency, reflecting Start Campus's commitment to sustainable development and cutting-edge technology.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,SIN05,,,,Start Campus,sines-dc-campus,SINES DC Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/sines-dc-sin05/,,,,,,,,,220,220,220,,,,220,,,,,,,,,,
+12029,sines-dc-sin06,SINES DC SIN06,Facility,Colocation,1,0,12023,"Lote 1, Zona C1.1, ZILS",Building 6,7520-318,Sines,,,Lisbon,37.9374689,-8.7997639,"SINES DC SIN02-06 is a state-of-the-art facility within the SIN DC Campus, poised to become operational from 2026. As part of Europe's largest and most sustainable data center campus, it will support up to 240 MW of IT capacity. The innovative design incorporates seawater cooling to minimize environmental impact and enhance efficiency, reflecting Start Campus's commitment to sustainable development and cutting-edge technology.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,SIN06,,,,Start Campus,sines-dc-campus,SINES DC Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/sines-dc-sin06/,,,,,,,,,220,220,220,,,,220,,,,,,,,,,
+12026,sines-dc-sin03,SINES DC SIN03,Facility,Colocation,1,0,12023,"Lote 1, Zona C1.1, ZILS",Building 3,7520-318,Sines,,,Lisbon,37.9359542,-8.8072312,"SINES DC SIN02-06 is a state-of-the-art facility within the SIN DC Campus, poised to become operational from 2026. As part of Europe's largest and most sustainable data center campus, it will support up to 240 MW of IT capacity. The innovative design incorporates seawater cooling to minimize environmental impact and enhance efficiency, reflecting Start Campus's commitment to sustainable development and cutting-edge technology.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,SIN03,,,,Start Campus,sines-dc-campus,SINES DC Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/sines-dc-sin03/,,,,,,,,,220,220,220,,,,220,,,,,,,,,,
+12025,sines-dc-sin02,SINES DC SIN02,Facility,Colocation,1,0,12023,"Lote 1, Zona C1.1, ZILS",Building 2,7520-318,Sines,,,Lisbon,37.9353788,-8.8089585,"SINES DC SIN02-06 is a state-of-the-art facility within the SIN DC Campus, poised to become operational from 2026. As part of Europe's largest and most sustainable data center campus, it will support up to 240 MW of IT capacity. The innovative design incorporates seawater cooling to minimize environmental impact and enhance efficiency, reflecting Start Campus's commitment to sustainable development and cutting-edge technology.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,SIN02,15522.0,,,Start Campus,sines-dc-campus,SINES DC Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/sines-dc-sin02/,,,,,,,,,180,180,180,,,,180,,,,,,,,,,
+4658,ptisp-lis1,PTisp Lisbon 1,Facility,Colocation,1,2,1432,Av. Severiano Falcão 14,,2685-378,Lisbon,,,Lisbon,38.7879129,-9.1233207,"PTisp was founded in 2001, and provides dedicated, cloud servers, housing and VPS servers. Two datacenters located in Portugal and one in Madrid with multi-homed connections.  We also provide remote hands and eyes, with 24/7 customer support. 
+
+Our datacenters are UNE-EN-ISO 9001:2000, EFQM, UNE-EN-ISO 14001:1996 and (ITIL, BS 7799 - BS 15000 certified.",,,,,,,,,,,,,,,,,,,,,,,,,Retrofitted,Multi-tenant (data centers only),0,0,0,0,0,0,,LX1,,,,PTisp,carrierhouse-lisbon,Equinix LS1,Facility,0,,,,https://www.datacentermap.com/portugal/lisbon/ptisp-lis1/,,,,,,,,,,,,,,,,,,"Yes, Biz-hours",,,,,,,
+683,pt-prime-carnide,MEO Carnide,Facility,Colocation,1,2,0,R. Maria Veleda 1,,1500-024,Carnide,,,Lisbon,38.7582336,-9.1857942,"Background:
+Where is the data center located? Carnide
+When was it established? 2000
+What size is it? 300m2
+Is there easy access to highways or other important methods of transport? Yes Easy access to parking? Yes
+
+Details:
+Is it based on raised floors or overhead cooling? Yes (raised floors)
+
+Features:
+[X] 24/7 access
+[ X] 24/7 staff on side
+[X ] 24/7 security guard(s)
+[X ] Remote hands available
+[ X] Automatic fire suppression
+[ X] Video surveillance
+[ X] Generator
+[X ] UPS
+[X ] Alarm system
+[X ] Aircondition
+
+Services:
+[ X] Rental of suites/rooms
+[ X] Rental of cages
+[ X] Rental of foot prints
+[ X] Rental of racks
+[X ] Hosting of individual servers
+[X ] Dedicated servers
+[X ] Virtual servers
+[ X] Office space
+
+The PT Group, the Portuguese entity with the widest national and international projection, the company with the largest stockholder value in Portugal, and the largest telecommunication and multimedia group, disposes of a diverse business portfolio where the quality, innovation and excellence are determinant aspects of its operation. 
+
+PT Prime, leader in the info-communication area ? convergence between advanced telecommunication services and information technologies for the Entrepreneurial universe - is responsible for the integration of the global offer of PT Group and its strategic partner services.
+
+PT Prime integrated and tailored offer, supported on the largest IP backbone of the country, is organized into areas, from the traditional public telephony service to the Outsourcing of communication systems and I.T.: Entrepreneurial voice services Data Services Internet and  Multimedia Services VPN.IP and Security Advanced Services Integrated and Communication Management Solutions Information Technology and System Solutions Outsourcing Solutions Satellite and VSAT Services Data Centre and Disaster Recovery, and specialized Consulting Services in any of the areas with the best team of experts allowing us to put their technological know-how at the service of its clients.
+
+PT Prime provides Data Center Services at four locations in Portugal (mainland and Açores).",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,PT Prime Carnide || Altice Portugal Carnide,,,,,MEO,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/pt-prime-carnide/,,,,,,,,,,,,,,,,,,,,,,,,,
+682,pt-prime-picoas,MEO Picoas,Facility,Colocation,1,2,0,Av. Fontes Pereira de Melo 38C,,1069-300,Picoas,,,Lisbon,38.7309114,-9.1458755,"Background:
+Where is the data center located? Picoas - Lisboa
+When was it established? 2006
+What size is it? 2000m2
+Is there easy access to highways or other important methods of transport? Yes Easy access to parking? Yes
+
+Details:
+What tier class is it? IV
+How much power is available? 230
+Is it based on raised floors or overhead cooling? Yes (raised floors)
+
+Features:
+[X] 24/7 access
+[X ] 24/7 staff on side
+[ X] 24/7 security guard(s)
+[ X] Remote hands available
+[ X] Automatic fire suppression
+[ X] Video surveillance
+[X ] Generator
+[X ] UPS
+[X ] Alarm system
+[X ] Aircondition
+
+Services:
+[ X] Rental of suites/rooms
+[X ] Rental of cages
+[X ] Rental of foot prints
+[ X] Rental of racks
+[ X] Hosting of individual servers
+[ X] Dedicated servers
+[ X] Virtual servers
+[ X] Office space
+
+The PT Group, the Portuguese entity with the widest national and international projection, the company with the largest stockholder value in Portugal, and the largest telecommunication and multimedia group, disposes of a diverse business portfolio where the quality, innovation and excellence are determinant aspects of its operation. 
+
+PT Prime, leader in the info-communication area ? convergence between advanced telecommunication services and information technologies for the Entrepreneurial universe - is responsible for the integration of the global offer of PT Group and its strategic partner services.
+
+PT Prime integrated and tailored offer, supported on the largest IP backbone of the country, is organized into areas, from the traditional public telephony service to the Outsourcing of communication systems and I.T.: Entrepreneurial voice services Data Services Internet and  Multimedia Services VPN.IP and Security Advanced Services Integrated and Communication Management Solutions Information Technology and System Solutions Outsourcing Solutions Satellite and VSAT Services Data Centre and Disaster Recovery, and specialized Consulting Services in any of the areas with the best team of experts allowing us to put their technological know-how at the service of its clients.
+
+PT Prime provides Data Center Services at four locations in Portugal (mainland and Açores).",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,PT Prime Picoas || Altice Portugal Picoas,,,,,MEO,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/pt-prime-picoas/,,,,,,,,,,,,,,,,,,,,,,,,,
+18147,atlasedge-lisbon-campus,AtlasEdge Lisbon Campus,Campus,Colocation,1,2,0,Estrada Outurela 117a,,2790-072,Carnaxide,,,Lisbon,38.72317201172314,-9.231038668552202,"The AtlasEdge Lisbon Campus, located in Carnaxide, Portugal, comprises three facilities designed to meet evolving data center demands. LIS001 is an operational facility providing over 3,162 m2 of space, state-of-the-art technology, 24/7 security, and alternative carrier routing, supported by 5.1MW of available power.
+
+LIS002, a planned facility at the same address, will expand the campus with over 4,356 m2 of space, offering similar advanced features and alternative carrier routing. It is designed with 16MW of future power availability to ensure scalability. LIS003 is also planned, with further details to be announced.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,0,0,0,,,,,,AtlasEdge,,,,3,atlasedge-lis003; atlasedge-lis001; atlasedge-lis002,,,https://www.datacentermap.com/portugal/lisbon/atlasedge-lisbon-campus/,,,,,,,,,,,,,,,,,,,,,,,,,
+18148,atlasedge-lis003,AtlasEdge LIS003,Facility,Colocation,1,0,18147,Estrada Outurela 117a,10 km west of downtown Lisbon,2790-072,Carnaxide,,,Lisbon,38.72343436109648,-9.229956646595554,"AtlasEdge LIS003 is a planned data center facility located in Carnaxide, Portugal, as part of the AtlasEdge Lisbon Campus. This campus is designed to address the growing demands for data center infrastructure. While specific details for LIS003 are yet to be announced, it forms part of a larger development that includes operational facility LIS001 and planned facility LIS002. The overall campus aims to provide advanced features, robust security, and flexible connectivity options to support diverse client needs.",,,,,,,,,,,,,,,,,,,,,,,,,Purpose-built,,0,0,0,0,0,0,,,,,,AtlasEdge,atlasedge-lisbon-campus,AtlasEdge Lisbon Campus,Campus,0,,,,https://www.datacentermap.com/portugal/lisbon/atlasedge-lis003/,,,,,,,,,,,,,,,,,,,,,,,,,
+11817,tata-communciations-seixal,Tata Communciations Seixal,Facility,Colocation,1,2,0,Av. Q.ta de Valadares,,2855-516,Corroios,,,Lisbon,38.60002751650162,-9.159848192203421,Please visit the website of Tata Communications for further details about Tata Communciations Seixal.,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,,,,,Tata Communications,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/tata-communciations-seixal/,,,,,,,,,,,,,,,,,,,,,,,,,
+3528,dotsi-lisbon,DOTSI - Lisbon,Facility,Colocation,1,2,0,R. 3 da Matinha,,1950-063,Lisbon,,,Lisbon,38.7473377,-9.098684,"Security
+
+    › Physical security with permanent access control and CCTV
+    › HVAC air conditioning system controlling relative humidity and temperature
+    › Redundant automatic fire supression system using HFC-23, ozone layer friendly gas with low toxity and no risks for electronic equipment
+
+Energy
+
+    › Multiple Redundant UPS batteries
+    › Redundant diesel generators
+    › 99.999% uptime
+    › 6A to 32A available per rack
+
+Network
+
+    › Multiple fiber entrances
+    › Multiple upstreams
+    › Presence in GigaPIX (Portuguese Internet Exchange) with redundant VLANs and peering with most Portuguese ISPs
+    › 10Mbps to 10000Mbps available
+
+In order to guarantee an high availability rate and an excelence service, we monitor permanentely our data center. Our expert team with high know-how makes sure any issue is promptly detected and fastly fixed. Remote hands service available.",,,,,,,,,,,,,,1.0,,,,1.0,Redundant automatic fire supression system using HFC-23,,,,,,,,0,0,0,0,0,0,,,,,,DOTSI,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/dotsi-lisbon/,,,,,,,,,,,,,,,,,,,,,,,,,
+1830,nfsi-lisbon1,nfsi Lisbon1,Facility,Colocation,1,2,0,,,1000,Lisbon,,,Lisbon,,,"NFSI Telecom Lisbon1 Datacentre - Suites, Cages, Footprints, Racks, Partial Racks available
+                                                                                                                        
+also, we provide dedicated servers, and offsite backup solutions from rackspot.com",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,1,,,,,,NFSI Internet Services,,,,0,,,,https://www.datacentermap.com/portugal/lisbon/nfsi-lisbon1/,,,,,,,,,,,,,,,,,,,,,,,,,
+5229,allbs-lda-lx,ALLBS Data Center,Facility,Colocation,1,2,0,Praceta Courela do Forno 18B AT1,,2620-248,Ramada,,,Lisbon,38.8059402,-9.2036384,"Located in Lisbon , the datacenter ALLBS benefits from a privileged location both in terms of road infrastructure as telecommunications access, being infraestructured with high-speed connections to the main national and international presence of almost all operators destinations .
+
+Part of a building , remodeled for this purpose , the datacenter has the best features for hosting all types of equipment , ensuring in all circumstances , without an environment suitable to the most demanding needs flaws :
+
+. Access control 24 hours a day, 7 days a week 
+. Safety ensured by constant surveillance
+. Video surveillance cameras 
+. Air conditioning with industrial fire pipelines 
+. Detector and humidity regulator 
+. False floor with mats for wiring 
+. Automatic detection and extinguishing system
+. Electricity AC / DC bailed out with UPS and diesel generator sets 
+. Structure of anti-seismic building 
+. Detection of gases and flooding 
+. Redundancy of the main techniques supporting infrastructure , including air conditioning , UPS and generator 
+. Line Technical Service 24 hours a day, 7 days a week",,,,,,,,,,,,,,1.0,"Yes, 24/7",,,,,,,,,,,,0,0,0,0,0,0,,,,,,"ALLBS, LDA",,,,0,,,,https://www.datacentermap.com/portugal/lisbon/allbs-lda-lx/,,,,,,,,,,,,,,,,,,,,,,,,,
+8149,webtuga-ls1,WebTuga LS2,Facility,Colocation,1,2,0,Rua nº3 da Matinha - Edifício Altejo,,1950-326,Lisboa,Lisboa,,Lisbon,38.74767811822276,-9.098789487697907,"WebTuga LS1 Datacenter is strategicaly located in Lisbon allowing us to get access to multiple upstreamers, IXP (Internet Exchange Points) and easy access to submarine cables.
+
+With 24x7 monitorization, permanent securiy guard, high redudancy energy and uplinks, we are able to provide you the best service you will find in Portugal, from shared webhosting to dedicated solutions (dedicated servers, virtual servers, cloud servers, housing/colocation, footprint, IP Transit and Remote Hand services).",,,,,,,1,,,,N+1,N+1,N+1,,"Yes, 24/7",,,1.0,,,,,,,,,0,0,0,0,0,0,,,,,,"Dream Fusion - IT Services, Lda",,,,0,,,,https://www.datacentermap.com/portugal/lisbon/webtuga-ls1/,,,,1.0,1.0,,,,,,,,,,,,,,,,,,,,
+8457,webtuga-ls11,WebTuga LS1,Facility,Colocation,1,2,1432,Av. Severiano Falcão 14,,2685-378,Lisboa,,,Lisbon,38.7879129,-9.1233207,"WebTuga LS1 Datacenter is strategicaly located in Lisbon allowing us to get access to multiple upstreamers, IXP (Internet Exchange Points) and easy access to submarine cables.
+
+With 24x7 monitorization, permanent securiy guard, high redudancy energy and uplinks, we are able to provide you the best service you will find in Portugal, from shared webhosting to dedicated solutions (dedicated servers, virtual servers, cloud servers, housing/colocation, footprint, IP Transit and Remote Hand services).",,,,,,,,,,,N+1,N+1,N+1,,"Yes, 24/7",,,1.0,,,,,,,Retrofitted,Multi-tenant (data centers only),0,0,0,0,0,0,,,,,,"Dream Fusion - IT Services, Lda",carrierhouse-lisbon,Equinix LS1,Facility,0,,,,https://www.datacentermap.com/portugal/lisbon/webtuga-ls11/,,,,,,,,,,,,,,,,,,,,,,,,,
+12640,ren-riba-de-ave,REN Riba de Ave,Facility,Colocation,1,2,0,R. Cruzeiro dos Chãos,,4765-341,Oliveira Santa Maria,,,Porto,41.4036977,-8.3915659,"The REN Riba de Ave Data Center, inaugurated by Redes Energéticas Nacionais (REN), is a state-of-the-art facility designed to enhance the security and efficiency of critical information and telecommunications systems in Portugal. Spanning approximately 5,000 square meters, this data center includes 1,200 square meters of technical rooms dedicated to housing a variety of essential systems.
+
+The facility is shared by REN, EDP, and NOS, with each company having separate and isolated technical spaces. The data center's design was reviewed by the Uptime Institute and has achieved Tier III certification, ensuring high resilience and energy efficiency. This makes the REN Riba de Ave Data Center a benchmark for technological excellence in the region.",,,,,,,,,,,,,,,,,,,,,,,,,Purpose-built,,0,0,0,3,0,0,,,14366.0,1200,1200,RENTELECOM,,,,0,,,,https://www.datacentermap.com/portugal/porto/ren-riba-de-ave/,3,,,,,2018,,,,,,,,,,,,,,,,,3,5000.0,
+3938,ermesinde,REN Ermesinde,Facility,Colocation,1,2,0,"Rua das Agras Novas, 46",,4445-283,Ermesinde,,,Porto,41.2042787,-8.553747,"
+Ermesinde Datacenter was built on purpose in 2001 offering the best technical conditions in the region for its customers.
+Being a neutral datacenter, all telecom operators may collocate and offer services. The REN group itself, as the single energy transport operator, uses the Datacenter for its own mission critical ICT infrastructures.
+",,,,,,,,,,,,,,,"Yes, 24/7",,,,,,,,,,Purpose-built,Sole-tenant,0,0,0,0,0,0,,,,1400,1400,RENTELECOM,,,,0,,,,https://www.datacentermap.com/portugal/porto/ermesinde/,3,,,1.0,1.0,2001,,,0.5,,0.5,,,,0.5,,,,,,,,,,1400.0
+12060,claranet-porto,Claranet Porto,Facility,Colocation,1,2,0,Rua das Agras Novas 46,,4445-283,Ermesinde,,,Porto,41.2040475,-8.5555511,"Porto Datacenter Overview
+
+Physical Security
+
+Physical access to the data centre is strictly controlled. Video surveillance systems are installed throughout the building. Anyone entering the building must be pre-authorised and identify themselves to the security desk. In addition, a biometric access control clearance is needed at multiple separate access points in order to reach the main Claranet server room.
+
+Fire Suppresion
+
+The data centre’s fire detection is provided by a GANT Very Early Smoke Detection Apparatus (VESDA) system that provides optical smoke and ionisation detectors located within rooms as well as overhead and under the floor. The system runs in a double knock configuration and fire suppression is achieved by an automated HFC-32 gas system that is harmless to all electronics. The automated system works in conjunction with the fire detection systems within defined zones.
+
+Environmental Controls
+
+The building includes an HVAC air conditioning system, to maintain an optimum operating environment for electronics. The N+1 system maintains a constant temperature of 21°C (± 5°C) and relative humidity of 30%-70%.
+
+Data Centre Space
+
+Claranet provides co-location space in the following increments:
+* Per U
+* 1/2 Rack
+* Full Rack
+
+Other data center services
+
+Claranet provides hosting and networks services, including:
+
+* Cloud hosting
+* Dedicated hosting
+* Managed services
+* Managed aplications
+* Storage
+* Backup
+* Business continuity and disaster recovery
+* Software licensing
+* Internet traffic and VPN (MPLS) services
+
+Racks
+
+Each rack is an industry standard server rack with the following minimum specification.
+* Height - 42U
+* Depth - 1000mm
+* Width - 600 or 800mm
+* Sides - Steel (key locked) and bayed (secured) to neighbouring racks
+* Doors - Perforated meshed steel front and rear to assist cooling
+* Load - Rated to 750Kg load
+* Locks - Key locks for 1/2 and full racks. Deliverable to clients except in shared racks.
+
+The rack is setup by default with the correct spacing for common rail mount kits. The mounting angles can be adjusted to other depths if required. Each rack is built to a standard specification for the layout of power strips, cable management and patch panels within the rack.
+
+Rack Power
+
+Each rack is serviced by dual redundant 32A rated single phase power feeds. The power feeds available are dependent on the facility data centre. Each feed is sourced from 2 different upstream Power Distribution Units (PDUs) with each one fed from either the A and B Un-interruptible Power Supplies (UPS). Each power feed to the rack is a single phase AC supply and is rated to 32A peak draw at 240V. The feeds have circuit breakers installed at the PDU. Current draw (continuous or spiked) exceeding the rated amperage will cause the circuit breaker to trip and the feed will shut down. Claranet recommends a maximum continuous current draw of no more than 26A on a 32A rated feed in order to prevent current spikes tripping any of the breakers.",,,,,,,,,,,N+2,N+2,N+1,,,,,,,,,,,,,,0,0,0,0,0,0,,,,,,Claranet,,,,0,,,,https://www.datacentermap.com/portugal/porto/claranet-porto/,,,,,,,,,1,,1,,7,,,,,,,,,,,,
+5742,fccn-se02-gp-porto,FCCN SE02/GigaPix Porto,Facility,Colocation,1,2,0,"FEUP, Sala 102, Edificio CICA, Rua Dr.Roberto Frias",,4200-465,Porto,,,Porto,41.17776166013363,-8.595001325011253,"RCTS Northern Central Node
+""Rede Ciencia Tecnologia e Sociedade""
+Portuguese Research & Education Network
+
+This datacenter also holds GigaPix/Porto
+
+About GigaPix
+
+FCCN since several years promotes a national neutral exchange point for IP traffic, named GigaPix, which was also a founding member of the european internet exchanges association, Euro-IX. 
+
+GigaPix main goals are to:
+Improve interconnection quality between IP networks operating in Portugal.
+Avoid international resources usage for transit of IP packets with source and destination in Portugal.
+At the physical layer, GigaPix makes available for every IUG an UTP port, with a RJ45 female connector.
+At the connection layer, GigaPix provices the following protocols: Ethernet, Fast Ethernet, Gigabit Ethernet and 10 Gigabit Ethernet.
+A 220V power socket is provided, supported by UPS and a diesel generator.
+Temperature surveillance and humidity control are performed.
+
+Space is provided on a 19 inch cabinet, to the maximum of 40 cm in height (around 8 rack units). This space should contain all IUG's equipment, including any units for termination of data transmission (Modem, DSU) and eventual elements for automatic recovery (backups).
+Contacts are made available to be used during working hours and remaining periods (7/24/365).
+
+A distribution e-mail list for all administrative and technical IUG contacts is provided.",,,,,,,,,,,,,,,"Yes, 24/7",,,,,,,,,,,,0,0,0,2,0,0,,,762.0,,,FCT-FCCN,,,,0,,,,https://www.datacentermap.com/portugal/porto/fccn-se02-gp-porto/,,,,1.0,,,,,,,,,,,,,,,,,,,,,
+15848,rnca-guimares,RNCA Guimarães,Facility,Enterprise,1,0,0,"Campus de Azurém, Av. da Universidade",,4800-058,Guimarães,,,Porto,41.4506978,-8.293487599999999,"The RNCA Guimarães data center, located at Campus de Azurém, Av. da Universidade in Guimarães, Portugal, is a new facility for the National Center for Advanced Computing (RNCA). The project, awarded to the DST group with an estimated value of €5 million, is financed by the Recovery and Resilience Plan (PRR) under the ""Ciência Mais Digital"" investment. Construction is expected to take 334 days, with completion anticipated in 2026.
+
+The data center will occupy a total area of 500 sqm (5,380 sq ft) and is designed for services without permanent staff. The structure will utilize reinforced concrete, resilient slabs, and prefabricated panels for external walls to minimize noise. Sound-absorbing false ceilings, rock wool cladding, and sound-attenuating ventilation grilles are incorporated to meet ambient noise limits. The University of Minho, which hosts the Deucalion supercomputer as part of the RNCA, will house this new facility.",,,,,,,,,,,,,,,,,,,,,,,,,Purpose-built,,0,0,0,0,0,0,,,,500,500,National Advanced Computing Network,,,,0,,,,https://www.datacentermap.com/portugal/porto/rnca-guimares/,,,,,,,,,,,,,,,,500,,,,,,,,,
+1992,nfsi-porto-1,nfsi Porto 1,Facility,Colocation,1,2,0,"R. Dr. Alfredo Magalhães, 46",,4000-061,Porto,,,Porto,41.1541554,-8.6095452,"NFSI Telecom Porto1 Datacentre - Suites, Cages, Footprints, Racks, Partial Racks available. Unescorted 24/7 access with card. CCTV on the building and 24/7 security; loading bay available. Fire suppression and redundant UPS and Generator. Connected to NFSI Telecom backbone at 10Gbps.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,0,,,,,,NFSI Internet Services,,,,0,,,,https://www.datacentermap.com/portugal/porto/nfsi-porto-1/,,,,,,,,,,,,,,,,,,,,,,,,,
+684,pt-prime-tenente-valadim,MEO Tenente Valadim,Facility,Colocation,1,2,0,R. de Joao de Deus 636,,4100-366,Tenente Valadim,,,Porto,41.163414,-8.6391101,"Background:
+Where is the data center located? Porto
+When was it established? 2004
+What size is it? 400m2
+Is there easy access to highways or other important methods of transport? Yes Easy access to parking? Yes
+
+Details:
+What tier class is it? III
+How much power is available? 230
+Is it based on raised floors or overhead cooling? Yes (raised floors)
+
+Features:
+[X] 24/7 access
+[ X] 24/7 staff on side
+[X ] 24/7 security guard(s)
+[X ] Remote hands available
+[X ] Automatic fire suppression
+[X ] Video surveillance
+[ X] Generator
+[ X] UPS
+[ X] Alarm system
+[X ] Aircondition
+
+Services:
+[X ] Rental of suites/rooms
+[ X] Rental of cages
+[X ] Rental of foot prints
+[X ] Rental of racks
+[X ] Hosting of individual servers
+[X ] Dedicated servers
+[X ] Virtual servers
+[X ] Office space
+
+The PT Group, the Portuguese entity with the widest national and international projection, the company with the largest stockholder value in Portugal, and the largest telecommunication and multimedia group, disposes of a diverse business portfolio where the quality, innovation and excellence are determinant aspects of its operation. 
+
+PT Prime, leader in the info-communication area ? convergence between advanced telecommunication services and information technologies for the Entrepreneurial universe - is responsible for the integration of the global offer of PT Group and its strategic partner services.
+
+PT Prime integrated and tailored offer, supported on the largest IP backbone of the country, is organized into areas, from the traditional public telephony service to the Outsourcing of communication systems and I.T.: Entrepreneurial voice services Data Services Internet and  Multimedia Services VPN.IP and Security Advanced Services Integrated and Communication Management Solutions Information Technology and System Solutions Outsourcing Solutions Satellite and VSAT Services Data Centre and Disaster Recovery, and specialized Consulting Services in any of the areas with the best team of experts allowing us to put their technological know-how at the service of its clients.
+
+PT Prime provides Data Center Services at four locations in Portugal (mainland and Açores).",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,PT Prime Tenente Valadim || Altice Portugal Tenente Valadim,,,,,MEO,,,,0,,,,https://www.datacentermap.com/portugal/porto/pt-prime-tenente-valadim/,,,,,,,,,,,,,,,,,,,,,,,,,
+8458,webtuga-opo,WebTuga OPO,Facility,Colocation,1,2,0,"Rua das Cardosas, Complexo Brisa",,4425-510,Maia,Porto,,Porto,41.23773284778918,-8.563929515623814,"WebTuga OPO Datacenter is located in Maia, near Oporto, and its connected with our two other Datacenters in Lisbon, allowing us to get access to multiple upstreamers and submarine cables.
+
+With 24x7 monitorization, permanent securiy surveilance, high redudancy energy and uplinks, we are able to provide you the best service you will find in Portugal.",,,,,,,,,,,N+1,N+1,N+1,,"Yes, 24/7",,,1.0,,,,,,,,,0,0,0,0,0,0,,,,,,"Dream Fusion - IT Services, Lda",,,,0,,,,https://www.datacentermap.com/portugal/porto/webtuga-opo/,,,,,,,,,,,,,,,,,,,,,,,,,
+2589,cgest-dc-porto,REGISTER Porto Data Center,Facility,Colocation,1,2,0,Rua Dr Dinis Jacinto,,4350-059,Porto,Porto,,Porto,41.1732789,-8.5742947,"COLOCATION (HOUSING) SERVICE
+
+If you're committed to keeping your servers fully operational and always available with around-the-clock service and support, then work with Cgest.
+
+Reap the rewards of a physical environment that is necessary to maintain your servers and keep them operable 24 hours a day, 7 days a week.
+
+This way your system is safe and secure in an area with N+1 redundant temperature control systems with separate cooling zones, and the latest invention systems for smoke detection, fire suppression, motion sensors, including video surveillance with security alarm features.
+
+Along with our solid infrastructure that's built with redundancy, security, and performance, all Lisbon, Portugal, and Oporto, Portugal, colocation centers are supported by veteran engineers and backed by industry-leading service level agreements.
+
+99,95% service level agreement
+
+We offer premier colocation service that pledge 99,95 percent customer satisfaction and 100 percent availability for power, bandwidth, and network components. Other benefits include:
+
+- The ability to quickly scale your solution and bandwidth as your business changes
+- Flexibility to use both colocation and managed hosting depending on your requirements
+- Reduction in capital expenditures
+- Equipment that is protected in a safe and highly-secure datacenters
+- 24x7x365 on-site support provided by Cgest engineers
+- Seven-day installation guarantee
+
+Exceptional support
+
+Our business colocation services include the environment, power, bandwidth and exceptional support.
+
+- Provisioning and installation management helps alleviate the process-intensive and often time consuming responsibilities with the installation process
+- Remote 24x7x365 support enables you to call upon skilled, on-site engineers to help with a wide range of projects, from simple server reboots to complex hardware configurations.",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,Cgest DC Porto || IBERWEB DC Porto,,,,,REGISTER S.p.A.,,,,0,,,,https://www.datacentermap.com/portugal/porto/cgest-dc-porto/,,,,,,,,,,,,,,,,,,,,,,,,,
+8844,oni-maia-datacenter,Oni Datacenter Maia,Facility,Colocation,1,2,0,Rua das Cardosas Nó c/ A3,,4425-318,Maia,,,Porto,41.237735,-8.5639819,"Area = 80m²
+. Useful height = 2.80m
+. Technical flooring = 45cm height
+. False boobs = 70cm height
+. Capacity for 30 racks 600*1070*2200mm
+. Footprints available for clients:
+. Standard 600x1070mm
+. Cela in split frame, with independent access
+. Rack Units in Split Rack
+. Circuits 230V/400V AC and -48V DC
+. Redundant air conditioning with UTAPs N+1
+. Interligation FO SM, FO MM OM3, UTP Cat.6
+
+
+MEET-ME-ROOM:
+. Circuits 230V/400V AC and -48V DC
+. Redundant air conditioning with UTAPs N+1
+. Interligation FO SM, FO MM OM3, UTP Cat.6
+. Footprints available for Telco operators
+. Independent access, and with obligatory accompaniment of ONI technicians
+. Optical interconnection with ONI network
+. Interligação with the main Telco operators to operate in the Portuguese Market
+NOTE: Interconnections between operators and clients of the Datacenter are always made by ONI.
+
+ONI CERTIFICATES
+NP EN ISO 9001:2015 - Quality Management System
+NP EN ISO 14001:2015 - Environmental Management System
+NP ISO 45001:2019 - Security Management System and
+Health at Work
+NP ISO/IEC 27001:2013 - Security Management System
+of Information
+NATO Certification
+",,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,,,,,,Onitelecom,,,,0,,,,https://www.datacentermap.com/portugal/porto/oni-maia-datacenter/,,,,,,,,,,,,,,,,,,,,,,,,,

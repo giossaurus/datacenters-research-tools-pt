@@ -1,0 +1,486 @@
+{
+ "data_validacao": "2026-10-09",
+ "validador": "Giovanni Della Dea",
+ "escopo": "valores da web aplicados ao dataset (facilities_enriched_portugal.csv); conferidos contra a fonte (URL + citação literal)",
+ "resumo": {
+  "aplicados": 74,
+  "usados_no_artigo": 54,
+  "conferidos_ok": 59,
+  "usados_no_artigo_conferidos_ok": 54,
+  "sem_marcacao": 15
+ },
+ "itens": [
+  {
+   "facility_id": "allbs-lda-lx",
+   "campo": "controlador_final",
+   "valor": "ALLBS, LDA",
+   "fonte_url": "https://www.allbs.pt/pt/contatos",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "allbs-lda-lx",
+   "campo": "controlador_pais",
+   "valor": "Portugal",
+   "fonte_url": "https://www.allbs.pt/pt/contatos",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ar-telecom-porto",
+   "campo": "controlador_final",
+   "valor": "Aire Networks (Grupo Aire), Espanha — adquiriu a Ar Telecom no início de 2021",
+   "fonte_url": "https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ar-telecom-porto",
+   "campo": "controlador_pais",
+   "valor": "Espanha (privado)",
+   "fonte_url": "https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ar-telecom-viseu",
+   "campo": "controlador_final",
+   "valor": "Aire Networks (Grupo Aire), Espanha — adquiriu a Ar Telecom no início de 2021",
+   "fonte_url": "https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ar-telecom-viseu",
+   "campo": "controlador_pais",
+   "valor": "Espanha (privado)",
+   "fonte_url": "https://www.sdxcentral.com/news/aire-networks-ar-telecom-acquires-land-in-lisbon-for-data-center/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "atlasedge-lisbon-campus",
+   "campo": "ano_operacao",
+   "valor": "2025",
+   "fonte_url": "https://atlasedge.com/atlasedge-secures-e253-million-in-green-financing-for-lisbon-campus-expansion/",
+   "usado_no_artigo": false,
+   "status": "ok"
+  },
+  {
+   "facility_id": "atlasedge-lisbon-campus",
+   "campo": "area_m2",
+   "valor": "3162",
+   "fonte_url": "https://atlasedge.com/data-centres/lisbon",
+   "usado_no_artigo": false,
+   "status": "ok"
+  },
+  {
+   "facility_id": "atlasedge-lisbon-campus",
+   "campo": "controlador_final",
+   "valor": "AtlasEdge (sede: Londres, Reino Unido) — JV Liberty Global (50% direitos de voto, 48,8% económico) + DigitalBridge (EUA; desde 30/09/2026 subsidiária controlada do SoftBank Group — Japão)",
+   "fonte_url": "https://www.sec.gov/Archives/edgar/data/0001570585/000157058526000109/lbtya-20260630.htm",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "atlasedge-lisbon-campus",
+   "campo": "mw_planejado_anunciado",
+   "valor": "30",
+   "fonte_url": "https://atlasedge.com/atlasedge-secures-e253-million-in-green-financing-for-lisbon-campus-expansion/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "carrierhouse-lisbon",
+   "campo": "ano_operacao",
+   "valor": "2000",
+   "fonte_url": "https://econews.pt/2025/03/05/american-equinix-plans-third-data-centre-in-lisbon/",
+   "usado_no_artigo": false,
+   "status": "ok"
+  },
+  {
+   "facility_id": "carrierhouse-lisbon",
+   "campo": "area_m2",
+   "valor": "1487",
+   "fonte_url": "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+   "usado_no_artigo": false,
+   "status": "ok"
+  },
+  {
+   "facility_id": "carrierhouse-lisbon",
+   "campo": "controlador_final",
+   "valor": "Equinix, Inc. — EUA",
+   "fonte_url": "https://www.essential-business.pt/2025/05/02/us-company-equinix-invests-e50-million-in-new-data-centre-in-portugal/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "cgest-dc-porto",
+   "campo": "controlador_final",
+   "valor": "Register S.p.A. → Combell NV → team.blue EquityCo S.à r.l.",
+   "fonte_url": "https://www.register.it/company/?lang=en",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "cgest-dc-porto",
+   "campo": "controlador_pais",
+   "valor": "Luxemburgo (holding team.blue EquityCo S.à r.l.); grupo sediado na Bélgica (team.blue, Gent); operadora Register S.p.A. em Itália",
+   "fonte_url": "https://www.register.it/company/?lang=en",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "claranet-lisboa",
+   "campo": "controlador_final",
+   "valor": "Claranet Group (Reino Unido, fundada em Londres em 1996 por Charles Nasser); minoritária da Tikehau Capital (França) desde 2017",
+   "fonte_url": "https://www.claranet.pt/sobre-nos/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "claranet-porto",
+   "campo": "controlador_final",
+   "valor": "Claranet Group (Reino Unido, fundada em Londres em 1996 por Charles Nasser); minoritária da Tikehau Capital (França) desde 2017",
+   "fonte_url": "https://www.claranet.pt/sobre-nos/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-lisbon-data-center-ip-telecom",
+   "campo": "controlador_final",
+   "valor": "Estado Português (acionista único da Infraestruturas de Portugal, S.A.)",
+   "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-lisbon-data-center-ip-telecom",
+   "campo": "controlador_pais",
+   "valor": "Portugal (setor público empresarial)",
+   "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-lisbon-data-center-leapswitch-networks-private-limited",
+   "campo": "controlador_final",
+   "valor": "Leapswitch Networks Pvt. Ltd.",
+   "fonte_url": "https://leapswitch.com/about-us.php",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-lisbon-data-center-leapswitch-networks-private-limited",
+   "campo": "controlador_pais",
+   "valor": "Índia",
+   "fonte_url": "https://leapswitch.com/about-us.php",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-lisbon-data-center-leapswitch-networks-private-limited",
+   "campo": "status",
+   "valor": "operacional",
+   "fonte_url": "https://leapswitch.com/lisbon-portugal/dedicated-servers/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-porto-data-center-ip-telecom",
+   "campo": "controlador_final",
+   "valor": "Estado Português (acionista único da Infraestruturas de Portugal, S.A.)",
+   "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-porto-data-center-ip-telecom",
+   "campo": "controlador_pais",
+   "valor": "Portugal (setor público empresarial)",
+   "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-portugal-data-center-kyndryl",
+   "campo": "controlador_final",
+   "valor": "Kyndryl Holdings, Inc. (NYSE: KD), spin-off da IBM em 2021",
+   "fonte_url": "https://www.kyndryl.com/br/pt/about-us/news/2023/03/cloud-services-for-asset-finance-company",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-portugal-telecom-covilha-altice-portugal",
+   "campo": "controlador_final",
+   "valor": "Asterion Industrial Partners (Espanha), via Mezan / Asterion Infrastructure Fund III — aquisição à Altice Portugal por 120 M€ anunciada em 28/11/2025; AdC decidiu não oposição em 15/01/2026. Fecho (previsto 1.º trim. 2026) não confirmado nas fontes consultadas; antes: Altice Portugal (grupo Altice, Luxemburgo/Patrick Drahi)",
+   "fonte_url": "https://eco.sapo.pt/2026/01/15/concorrencia-aprova-aquisicao-do-centro-de-dados-da-covilha-pela-mezan/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-portugal-telecom-covilha-altice-portugal",
+   "campo": "pue_declarado",
+   "valor": "1.25",
+   "fonte_url": "https://en.meo.pt/business/solutions/cloud-datacenter/data-centers/covilha",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-viseu-data-center-ip-telecom",
+   "campo": "controlador_final",
+   "valor": "Estado Português (acionista único da Infraestruturas de Portugal, S.A.)",
+   "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "dccom-viseu-data-center-ip-telecom",
+   "campo": "controlador_pais",
+   "valor": "Portugal (setor público empresarial)",
+   "fonte_url": "https://www.infraestruturasdeportugal.pt/pt-pt/sobre-nos/quem-somos",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "edged-lisbon",
+   "campo": "ano_operacao",
+   "valor": "2027",
+   "fonte_url": "https://www.jornaldenegocios.pt/empresas/tecnologias/detalhe/merlin-properties-e-edged-energy-arrancam-obras-de-campus-de-data-centers-de-ia-em-vila-franca-de-xira",
+   "usado_no_artigo": false,
+   "status": "ok"
+  },
+  {
+   "facility_id": "edged-lisbon",
+   "campo": "controlador_final",
+   "valor": "Merlin Properties SOCIMI — Espanha (propriedade imobiliária) + Edged (subsidiária da Endeavour) — operador em JV",
+   "fonte_url": "https://www.edged.es/company",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "edged-lisbon",
+   "campo": "mw_operacional",
+   "valor": "0",
+   "fonte_url": "https://ir.merlinproperties.com/en/new-opportunity-in-data-centers/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "edged-lisbon",
+   "campo": "mw_planejado_anunciado",
+   "valor": "180",
+   "fonte_url": "https://www.edged.es/lisbon",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "equinix-ls2",
+   "campo": "controlador_final",
+   "valor": "Equinix, Inc. — EUA",
+   "fonte_url": "https://www.essential-business.pt/2025/05/02/us-company-equinix-invests-e50-million-in-new-data-centre-in-portugal/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ermesinde",
+   "campo": "controlador_final",
+   "valor": "REN – Redes Energéticas Nacionais, SGPS (cotada); maior acionista: State Grid Corporation of China (25,0%)",
+   "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ermesinde",
+   "campo": "controlador_pais",
+   "valor": "Misto: REN cotada; maior acionista chinês e estatal (State Grid, 25%); o Estado Português regressa com 13,7% via Parpública (acordo anunciado em set/2026)",
+   "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "fccn-se02-gp-porto",
+   "campo": "controlador_final",
+   "valor": "FCT – Fundação para a Ciência e a Tecnologia, I.P. (FCCN), alojado na Universidade do Porto (FEUP)",
+   "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "fccn-se02-gp-porto",
+   "campo": "controlador_pais",
+   "valor": "Portugal (instituto público; alojado em universidade pública)",
+   "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "gigapix-lisbon",
+   "campo": "controlador_final",
+   "valor": "FCT – Fundação para a Ciência e a Tecnologia, I.P. (unidade FCCN), opera o IXP; o edifício fica no campus do LNEC",
+   "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "gigapix-lisbon",
+   "campo": "controlador_pais",
+   "valor": "Portugal (instituto público)",
+   "fonte_url": "https://arquivo.pt/wayback/20221230035526mp_/https://former.fct.pt/media/notasimprensa/docs/2017_10_09_Nota_Imprensa_GigaPIX_aumenta_qualidade_ligacoes_Web_CORRIGIDA.pdf",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "matinha",
+   "campo": "controlador_final",
+   "valor": "Gigas Hosting, S.A. (Espanha; cotada no BME Growth), dona da ONI desde nov/2020. Maior acionista a 31/12/2025: Grupo Inveready 31,77% (GAEA Inversión 31,23%)",
+   "fonte_url": "https://apiweb.bolsasymercados.es/Market/MTFDocuments/OtraInfRelevante/2026/02/05093_OtraInfRelev_20260227.pdf",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "meo-ldv",
+   "campo": "controlador_final",
+   "valor": "Altice Portugal / MEO, controlada pela Altice International (grupo Altice, sediado no Luxemburgo; fundador e acionista controlador Patrick Drahi, franco-israelita)",
+   "fonte_url": "https://econews.pt/2026/05/13/altice-converts-e2-5bn-of-meo-debt-into-equity/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "nfsi-lisbon1",
+   "campo": "controlador_final",
+   "valor": "nfsi telecom, lda (historicamente; marca rackspot)",
+   "fonte_url": "https://web.archive.org/web/20120103092006/http://nfsi.pt/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "nfsi-porto-1",
+   "campo": "controlador_final",
+   "valor": "nfsi telecom, lda (historicamente; marca rackspot)",
+   "fonte_url": "https://web.archive.org/web/20110122094008/http://rackspot.com/en/pages/datacenters/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "oasix-lisbon",
+   "campo": "controlador_final",
+   "valor": "Templus — plataforma de ICG (gestora de ativos alternativos) e Teras Capital",
+   "fonte_url": "https://www.sdxcentral.com/news/icg-and-teras-launch-data-center-platform-templus/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "oni-maia-datacenter",
+   "campo": "controlador_final",
+   "valor": "Gigas Hosting, S.A. (Espanha; cotada no BME Growth), dona da ONI desde nov/2020. Maior acionista a 31/12/2025: Grupo Inveready 31,77% (GAEA Inversión 31,23%)",
+   "fonte_url": "https://apiweb.bolsasymercados.es/Market/MTFDocuments/OtraInfRelevante/2026/02/05093_OtraInfRelev_20260227.pdf",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "pt-prime-carnide",
+   "campo": "controlador_final",
+   "valor": "Altice Portugal / MEO, controlada pela Altice International (grupo Altice, sediado no Luxemburgo; fundador e acionista controlador Patrick Drahi, franco-israelita)",
+   "fonte_url": "https://econews.pt/2026/05/13/altice-converts-e2-5bn-of-meo-debt-into-equity/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "pt-prime-picoas",
+   "campo": "controlador_final",
+   "valor": "Altice Portugal / MEO, controlada pela Altice International (grupo Altice, sediado no Luxemburgo; fundador e acionista controlador Patrick Drahi, franco-israelita)",
+   "fonte_url": "https://econews.pt/2026/05/13/altice-converts-e2-5bn-of-meo-debt-into-equity/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "pt-prime-tenente-valadim",
+   "campo": "controlador_final",
+   "valor": "Altice Portugal / MEO, controlada pela Altice International (grupo Altice, sediado no Luxemburgo; fundador e acionista controlador Patrick Drahi, franco-israelita)",
+   "fonte_url": "https://econews.pt/2026/05/13/altice-converts-e2-5bn-of-meo-debt-into-equity/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ren-riba-de-ave",
+   "campo": "controlador_final",
+   "valor": "REN – Redes Energéticas Nacionais, SGPS (cotada); maior acionista: State Grid Corporation of China (25,0%)",
+   "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ren-riba-de-ave",
+   "campo": "controlador_pais",
+   "valor": "Misto: REN cotada; maior acionista chinês e estatal (State Grid, 25%); o Estado Português regressa com 13,7% via Parpública (acordo anunciado em set/2026)",
+   "fonte_url": "https://www.energias-renovables.com/panorama/amancio-ortega-vende-al-estado-portugu-s-20260908",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "ren-riba-de-ave",
+   "campo": "mw_operacional",
+   "valor": "1.085",
+   "fonte_url": "https://www.ren.pt/en-gb/activity/ren-data-centre",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "rnca-guimares",
+   "campo": "controlador_final",
+   "valor": "FCT – Fundação para a Ciência e a Tecnologia, I.P. (promotor)",
+   "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "rnca-guimares",
+   "campo": "controlador_pais",
+   "valor": "Portugal (Estado – instituto público)",
+   "fonte_url": "https://observador.pt/2026/05/04/guimaraes-acolhe-novo-centro-de-dados-nacional-de-computacao-avancada-de-51-milhoes-de-euros/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "sines-dc-campus",
+   "campo": "controlador_final",
+   "valor": "Davidson Kempner Capital Management — EUA; Pioneer Point Partners — Reino Unido",
+   "fonte_url": "https://www.startcampus.pt/start-campus-inaugurates-sin01-data-center",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "sines-dc-campus",
+   "campo": "mw_planejado_anunciado",
+   "valor": "1200",
+   "fonte_url": "https://www.startcampus.pt/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "tata-communciations-seixal",
+   "campo": "controlador_final",
+   "valor": "Tata Communications Ltd (Índia), controlada pelo grupo Tata (Tata Sons, via Panatone Finvest); o Estado indiano saiu do capital em 2021",
+   "fonte_url": "https://web.archive.org/web/20250521121455/https://www.datacentermap.com/portugal/lisbon/tata-communciations-seixal/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "voltekko-alcochete",
+   "campo": "controlador_final",
+   "valor": "Voltekko SAS (Paris) — França; co-detida pela Ekovolt / Pont Digital Infrastructure (Paris); investidor/parceiro Reed (Groupe Société Générale)",
+   "fonte_url": "https://offshoresource.com/business-wire/ekovolt-welcomes-eric-scotto-co-founder-of-akuo-energy-as-a-shareholder-and-rebrands-as-pont-digital-infrastructure/",
+   "usado_no_artigo": true,
+   "status": "ok"
+  },
+  {
+   "facility_id": "voltekko-alcochete",
+   "campo": "mw_planejado_anunciado",
+   "valor": "6",
+   "fonte_url": "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal",
+   "usado_no_artigo": true,
+   "status": "ok"
+  }
+ ]
+}

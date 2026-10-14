@@ -1,0 +1,38 @@
+﻿id,name,provider,details_url,mw_valores_texto,mw_primeiro,mw_trecho,status_texto,certificacoes
+9184,LS1 Lisbon Data Center,Equinix,https://www.datacenters.com/equinix-ls1-lisbon,,,,,ISO 14001; ISO 27001; ISO 50001; ISO 9001
+10528,Lisbon Data Center,CenterServ,https://www.datacenters.com/centerserv-lisbon,,,,,
+10529,Porto Data Center,CenterServ,https://www.datacenters.com/centerserv-porto,,,,operational,ISO 27001; ISO 9001
+11527,LIS1 Lisbon Data Center,Zenlayer,https://www.datacenters.com/zenlayer-lis1-lisbon,,,,,ISO 27001
+11694,Lisbon Data Center,Merlin,https://www.datacenters.com/merlin-lisbon,,,,,
+12696,OASIX Lisbon Data Center,Grupo Aire,https://www.datacenters.com/grupo-aire-oasix-lisbon,1.5; 1.5; 1.5; 1.5,1.5," Alcântara, Rua da Cintura do Porto de Lisboa, Lisbon, Portugal 844-902-4100 View Grupo Aire 5059 sqft colocation space 1.5 MW total power 15.0 kW/rack power density 5.74 miles to neares",operational,
+13165,SIN01 Data Center,Start Campus,https://www.datacenters.com/start-campus-sin01,26; 26,26.0," 2 Images View 2 Images Start Campus - Sustainable Data Center Services, Sines, Portugal 833-476-4400 View Start Campus 26.0 MW total power 51.68 miles to nearest airport Contact Start Ca",,
+13166,SIN02 Data Center,Start Campus,https://www.datacenters.com/start-campus-sin02,180; 180,180.0," 2 Images View 2 Images Start Campus - Sustainable Data Center Services, Sines, Portugal 833-476-4400 View Start Campus 180.0 MW total power 51.68 miles to nearest airport Contact Start Ca",,
+13167,SIN03 Data Center,Start Campus,https://www.datacenters.com/start-campus-sin03,220; 220,220.0," 2 Images View 2 Images Start Campus - Sustainable Data Center Services, Sines, Portugal 833-476-4400 View Start Campus 220.0 MW total power 51.68 miles to nearest airport Contact Start Ca",,
+13168,SIN04 Data Center,Start Campus,https://www.datacenters.com/start-campus-sin04,220; 220,220.0," Data Center View Image Start Campus - Sustainable Data Center Services, Sines, Portugal 833-476-4400 View Start Campus 220.0 MW total power 51.68 miles to nearest airport Contact Start Ca",operational,
+13169,SIN05 Data Center,Start Campus,https://www.datacenters.com/start-campus-sin05,220; 220,220.0," 2 Images View 2 Images Start Campus - Sustainable Data Center Services, Sines, Portugal 833-476-4400 View Start Campus 220.0 MW total power 51.68 miles to nearest airport Contact Start Ca",,
+13170,SIN06 Data Center,Start Campus,https://www.datacenters.com/start-campus-sin06,220; 220,220.0," 2 Images View 2 Images Start Campus - Sustainable Data Center Services, Sines, Portugal 833-476-4400 View Start Campus 220.0 MW total power 51.68 miles to nearest airport Contact Start Ca",,
+13177,WebTuga LS2 Datacenter,Webtuga,https://www.datacenters.com/webtuga-webtuga-ls2,,,,operational,
+13178,WebTuga Porto,Webtuga,https://www.datacenters.com/webtuga-webtuga-porto,,,,operational,
+13179,WebTuga LS1 – Dream Fusion,Webtuga,https://www.datacenters.com/webtuga-webtuga-ls1-dream-fusion,,,,operational,
+14841,LIS01-05 Bilbao Data Center,Edged,https://www.datacenters.com/edged-lis01-05-bilbao,180; 180; 180,180.0,"w Image X2QP+8F9 Castanheira do Ribatejo, Portugal 833-471-7100 View Edged 23 sqft total space 23 sqft colocation space 180.0 MW total power 8.08 miles to nearest airport Contact Edged Com",operational,
+15102,Portugal Data Center,Kyndryl,https://www.datacenters.com/kyndryl-portugal,,,,,ISO 27001
+16143,LS1 Equinix,FDCservers.net,https://www.datacenters.com/fdcservers-net-ls1-equinix,,,,,ISO 27001; ISO 50001
+17314,LIS001 Lisboa Data Center,AtlasEdge Data Centers,https://www.datacenters.com/atlasedge-lis001-lisboa,10; 10; 8,10.0,"rela 117, Carnaxide, Lisbon, Portugal 866-358-1199 View AtlasEdge Data Centers Download Brochure 34035 sqft total space 10.0 MW total power 6.41 miles to nearest airport Contact AtlasEdge",,
+17315,LIS002 Lisbon Dat Center,AtlasEdge Data Centers,https://www.datacenters.com/atlasedge-lis002-lisbon-dat-center,20,20.0,"e LIS001—marking AtlasEdge’s entry into the Portuguese market, with both facilities intended to deliver more than&nbsp; 20 MW of IT load , powered entirely by renewable energy and capab",planned,
+18298,Azores CLS Data Center,Google,https://www.datacenters.com/google-azores-cls,10; 10,10.0,"ween Europe and North America. The facility is reported to cover approximately 15,000 m² and handle an IT load of about 10 MW in its initial phase, designed to house cable-landing infra",,ISO 27001; ISO 50001
+19770,ONI Colocation Center,ONI,https://www.datacenters.com/oni-oni-colocation-center,,,,,ISO 14001; ISO 27001; ISO 45001; ISO 9001
+19895,Templus Lisboa,Templus,https://www.datacenters.com/templus-templus-lisboa,,,,operational,
+20011,Lisboa-1,FCCN,https://www.datacenters.com/fccn-lisboa-1,,,,,ISO 14001; ISO 27001; ISO 9001
+20012,Portugal Telecom Lisboa,Altice Portugal,https://www.datacenters.com/altice-portugal-portugal-telecom-lisboa,,,,operational,ISO 14001; ISO 27001; ISO 9001
+20013,Portugal Telecom Porto,Altice Portugal,https://www.datacenters.com/altice-portugal-portugal-telecom-porto,,,,operational,ISO 14001; ISO 27001; ISO 9001
+20014,Portugal Telecom Covilha,Altice Portugal,https://www.datacenters.com/altice-portugal-portugal-telecom-covilh,6.8; 6.8; 75; 175,6.8,"erion Industrial Partners announced the acquisition of the Covilhã Data Center Campus from Altice Portugal , describing 6.8 MW of installed capacity and significant expansion potential; ",operational,ISO 14001; ISO 27001; ISO 9001
+20015,Altice LdV,Altice Portugal,https://www.datacenters.com/altice-portugal-altice-ldv,,,,,ISO 14001; ISO 27001; ISO 9001
+20016,Portugal Telecom Data Center,Altice Portugal,https://www.datacenters.com/altice-portugal-portugal-telecom,6.8; 6.8; 6.8; 6.8; 75; 175; 6.8,6.8,"” ( PT Data Center ) is identified by MEO (Altice Portugal) as a subsidiary that operates a data center in Covilhã with 6.8 MW installed capacity , referenced in MEO’s 3Q/9M 2025 results",,ISO 14001; ISO 27001; ISO 9001
+20039,Lisboa,Ar Telecom,https://www.datacenters.com/ar-telecom-lisboa,,,,,ISO 27001; ISO 9001
+20103,Voltekko — Alcochete,Voltekko,https://www.datacenters.com/voltekko-voltekko-alcochete,6,6.0,third-party statement). Capacity references in public reporting (third-party): A sector interview article references “a 6 MW facility in Alcochete” (third-party statement; operator con,planned,ISO 14001; ISO 27001; ISO 50001
+22165,Lisbon Data Center,LeapSwitch Networks Private Limited,https://www.datacenters.com/leapswitch-networks-private-limited-lisbon,,,,,
+22675,Lisbon Data Center,DataPacket,https://www.datacenters.com/datapacket-lisbon,,,,,ISO 14001; ISO 22301; ISO 23001; ISO 27001; ISO 45001; ISO 50001; ISO 9001
+23120,Lisbon Data Center,IP Telecom,https://www.datacenters.com/ip-telecom-lisbon,,,,operational,ISO 27001
+23121,Porto Data Center,IP Telecom,https://www.datacenters.com/ip-telecom-porto,,,,operational,ISO 9001
+23122,Viseu Data Center,IP Telecom,https://www.datacenters.com/ip-telecom-viseu,,,,Operational,ISO 27001
+24243,LIS003 Lisbon Data Center,AtlasEdge Data Centers,https://www.datacenters.com/atlasedge-lis003-lisbon,30; 30; 5.1; 16; 30; 21.1; 30,30.0,"Center AtlasEdge LIS003 Lisbon Data Center in Carnaxide, Lisbon, Portugal, is the planned third facility on AtlasEdge's 30 MW Lisbon campus. LIS003 will occupy a 10,000-square-meter plo",planned,

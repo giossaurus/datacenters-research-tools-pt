@@ -1,0 +1,61 @@
+country:
+  name: Portugal
+  slug: portugal
+  datacenters_com_slug: portugal
+cities:
+- name: Lisboa
+  slug: lisbon
+- name: Porto
+  slug: porto
+- name: Braga
+  slug: braga
+- name: Coimbra
+  slug: coimbra
+- name: Aveiro
+  slug: aveiro
+- name: Faro
+  slug: faro
+- name: Setúbal
+  slug: setubal
+- name: Leiria
+  slug: leiria
+- name: Viseu
+  slug: viseu
+- name: Évora
+  slug: evora
+- name: Santarém
+  slug: santarem
+- name: Castelo Branco
+  slug: castelo-branco
+- name: Bragança
+  slug: braganca
+- name: Vila Real
+  slug: vila-real
+- name: Viana do Castelo
+  slug: viana-do-castelo
+- name: Guarda
+  slug: guarda
+- name: Portalegre
+  slug: portalegre
+- name: Beja
+  slug: beja
+- name: Funchal
+  slug: funchal
+- name: Ponta Delgada
+  slug: ponta-delgada
+- name: Abrantes
+  slug: abrantes
+- name: Alentejo
+  slug: alentejo
+- name: Azores
+  slug: azores
+- name: Barreiro
+  slug: barreiro
+- name: Carnaxide
+  slug: carnaxide
+- name: Covilha
+  slug: covilha
+- name: Matosinhos
+  slug: matosinhos
+scraping:
+  auto_discover: true

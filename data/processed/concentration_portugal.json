@@ -1,0 +1,61 @@
+{
+  "n_sites": 33,
+  "n_operadores": 20,
+  "hhi_sites": 670.3397612488524,
+  "hhi_sites_operacional": 891.6323731138547,
+  "hhi_mw": 4277.50053187786,
+  "cr4_sites_pct": 36.36363636363637,
+  "n_sites_com_mw": 8,
+  "mw_operacional_total": 41.985,
+  "pct_sites_estrangeiro": 66.66666666666666,
+  "pct_mw_estrangeiro": 96.2248422055496,
+  "sites_por_categoria": {
+    "estrangeiro": 22,
+    "publico_pt": 6,
+    "privado_pt": 5
+  },
+  "sites_por_pais": {
+    "PT": 11,
+    "LU": 6,
+    "ES": 5,
+    "US": 4,
+    "GB": 4,
+    "IN": 2,
+    "FR": 1
+  },
+  "sensibilidade_sem_evidencia_fraca": {
+    "excluidos": [
+      "dccom-lisbon-data-center-leapswitch-networks-private-limited",
+      "nfsi-lisbon1",
+      "nfsi-porto-1"
+    ],
+    "pct_sites_grande_lisboa_norte": 80.0,
+    "concentracao": {
+      "n_sites": 30,
+      "n_operadores": 18,
+      "hhi_sites": 755.5555555555555,
+      "hhi_sites_operacional": 1041.6666666666665,
+      "hhi_mw": 4277.50053187786,
+      "cr4_sites_pct": 40.0,
+      "n_sites_com_mw": 8,
+      "mw_operacional_total": 41.98500000000001,
+      "pct_sites_estrangeiro": 70.0,
+      "pct_mw_estrangeiro": 96.22484220554959,
+      "sites_por_categoria": {
+        "estrangeiro": 21,
+        "publico_pt": 6,
+        "privado_pt": 3
+      },
+      "sites_por_pais": {
+        "PT": 9,
+        "LU": 6,
+        "ES": 5,
+        "US": 4,
+        "GB": 4,
+        "IN": 1,
+        "FR": 1
+      }
+    }
+  },
+  "pct_sites_grande_lisboa_norte": 81.81818181818181
+}

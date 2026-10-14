@@ -1,0 +1,21 @@
+operador,n_sites,n_operacional,mw_operacional,mw_planejado_anunciado,regioes,controlador_iso,controlador_categoria
+Altice Portugal (MEO),5,5,6.8,,Norte; Centro; Grande Lisboa,LU,estrangeiro
+IP Telecom,3,3,,,Norte; Centro; Grande Lisboa,PT,publico_pt
+REN Telecom,2,2,1.585,,Norte,PT,privado_pt
+Claranet,2,2,1.0,,Norte; Grande Lisboa,GB,estrangeiro
+Ar Telecom,2,0,,,Norte; Centro,ES,estrangeiro
+Equinix,2,2,,,Grande Lisboa,US,estrangeiro
+FCT-FCCN,2,2,,,Norte; Grande Lisboa,PT,publico_pt
+NFSI Internet Services,2,2,,,Norte; Grande Lisboa,PT,privado_pt
+ONI,2,2,,,Norte; Grande Lisboa,ES,estrangeiro
+Start Campus,1,1,26.0,1200.0,Alentejo,US,estrangeiro
+AtlasEdge,1,1,5.1,30.0,Grande Lisboa,GB,estrangeiro
+Templus (Grupo Aire),1,1,1.5,,Grande Lisboa,GB,estrangeiro
+Edged (Merlin Properties),1,0,0.0,180.0,Grande Lisboa,ES,estrangeiro
+"ALLBS, LDA",1,1,,,Grande Lisboa,PT,privado_pt
+Kyndryl,1,0,,,Grande Lisboa,US,estrangeiro
+LeapSwitch Networks Private Limited,1,1,,,Grande Lisboa,IN,estrangeiro
+REGISTER S.p.A.,1,1,,,Norte,LU,estrangeiro
+RNCA,1,0,,,Norte,PT,publico_pt
+Tata Communications,1,1,,,Península de Setúbal,IN,estrangeiro
+Voltekko,1,0,,6.0,Península de Setúbal,FR,estrangeiro

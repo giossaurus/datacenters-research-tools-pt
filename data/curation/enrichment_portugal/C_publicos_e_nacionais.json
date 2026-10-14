@@ -1,0 +1,169 @@
+[
+ {
+  "facility_id": "ar-telecom-viseu",
+  "nome": "Ar Telecom - Viseu",
+  "operador": "Ar Telecom",
+  "concelho": "Viseu",
+  "nuts2": "Centro",
+  "status": "desconhecido",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": []
+ },
+ {
+  "facility_id": "dccom-viseu-data-center-ip-telecom",
+  "nome": "Viseu Data Center",
+  "operador": "IP Telecom",
+  "concelho": "Viseu",
+  "nuts2": "Centro",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": "ISO 27001",
+  "urls_fonte": [
+   "https://www.datacenters.com/ip-telecom-viseu"
+  ]
+ },
+ {
+  "facility_id": "gigapix-lisbon",
+  "nome": "FCCN SE03/GigaPix II",
+  "operador": "FCT-FCCN",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/lisbon/gigapix-lisbon/",
+   "https://www.datacenters.com/fccn-lisboa-1"
+  ]
+ },
+ {
+  "facility_id": "dccom-lisbon-data-center-ip-telecom",
+  "nome": "Lisbon Data Center",
+  "operador": "IP Telecom",
+  "concelho": "Lisboa",
+  "nuts2": "Grande Lisboa",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": "ISO 27001",
+  "urls_fonte": [
+   "https://www.datacenters.com/ip-telecom-lisbon"
+  ]
+ },
+ {
+  "facility_id": "ar-telecom-porto",
+  "nome": "Ar Telecom - Porto",
+  "operador": "Ar Telecom",
+  "concelho": "Porto",
+  "nuts2": "Norte",
+  "status": "desconhecido",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": []
+ },
+ {
+  "facility_id": "fccn-se02-gp-porto",
+  "nome": "FCCN SE02/GigaPix Porto",
+  "operador": "FCT-FCCN",
+  "concelho": "Porto",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/fccn-se02-gp-porto/"
+  ]
+ },
+ {
+  "facility_id": "dccom-porto-data-center-ip-telecom",
+  "nome": "Porto Data Center",
+  "operador": "IP Telecom",
+  "concelho": "Porto",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": "ISO 9001",
+  "urls_fonte": [
+   "https://www.datacenters.com/ip-telecom-porto"
+  ]
+ },
+ {
+  "facility_id": "ermesinde",
+  "nome": "REN Ermesinde",
+  "operador": "REN Telecom",
+  "concelho": "Valongo",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": 0.5,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/ermesinde/"
+  ]
+ },
+ {
+  "facility_id": "ren-riba-de-ave",
+  "nome": "REN Riba de Ave",
+  "operador": "REN Telecom",
+  "concelho": "Vila Nova de Famalicão",
+  "nuts2": "Norte",
+  "status": "operacional",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/ren-riba-de-ave/"
+  ]
+ },
+ {
+  "facility_id": "rnca-guimares",
+  "nome": "RNCA Guimarães",
+  "operador": "RNCA",
+  "concelho": "Guimarães",
+  "nuts2": "Norte",
+  "status": "planejado",
+  "n_predios": 0,
+  "mw_operacional": null,
+  "mw_em_construcao": null,
+  "mw_planejado": null,
+  "pue_declarado": null,
+  "certificacoes": null,
+  "urls_fonte": [
+   "https://www.datacentermap.com/portugal/porto/rnca-guimares/"
+  ]
+ }
+]
